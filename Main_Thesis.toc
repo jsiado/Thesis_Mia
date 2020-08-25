@@ -17,9 +17,9 @@
 \contentsline {chapter}{\chapternumberline {6}Search for the particle}{6}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}More on the Analysis?}{7}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{7}{section.7.1}
-\contentsline {chapter}{\chapternumberline {8}Module Production for the Phase 1 CMS Pixel Detector Uupgrade}{8}{chapter.8}
-\contentsline {section}{\numberline {8.1}IV-Curve}{8}{section.8.1}
-\contentsline {section}{\numberline {8.2}visual inspections}{8}{section.8.2}
+\contentsline {chapter}{\chapternumberline {8}Module Production for the Phase 1 CMS Pixel Detector Upgrade}{8}{chapter.8}
+\contentsline {section}{\numberline {8.1}visual inspections}{8}{section.8.1}
+\contentsline {section}{\numberline {8.2}IV-Curve}{8}{section.8.2}
 \contentsline {section}{\numberline {8.3}Module assembly}{8}{section.8.3}
 \contentsline {section}{\numberline {8.4}Quality Control}{8}{section.8.4}
 \contentsline {chapter}{\chapternumberline {9}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{9}{chapter.9}
