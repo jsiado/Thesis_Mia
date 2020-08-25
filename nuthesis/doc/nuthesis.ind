@@ -1,0 +1,120 @@
+
+ \begin{theindex} 
+ \makeatletter\scan@allowedfalse
+{\bfseries\hfil A\hfil}\nopagebreak
+
+  \item {\ttfamily abstract} (environment)\pfill \usage{4}, \main{130}
+  \item {\ttfamily acknowledgments} (environment)\pfill \usage{4}, 
+		\main{130}
+  \item \verb*+\adviser+\pfill \usage{2}, \main{31}
+  \item \verb*+\adviserAbstract+\pfill \usage{2}, \main{31}
+  \item \verb*+\author+\pfill \usage{2}
+
+  \indexspace
+{\bfseries\hfil B\hfil}\nopagebreak
+
+  \item \verb*+\backmatter+\pfill 190, \main{190}
+
+  \indexspace
+{\bfseries\hfil C\hfil}\nopagebreak
+
+  \item \verb*+\city+\pfill \usage{3}, \main{16}
+  \item \verb*+\college+\pfill \usage{3}, \main{16}
+  \item {\ttfamily copyrightpage} (environment)\pfill \usage{4}, 
+		\main{130}
+
+  \indexspace
+{\bfseries\hfil D\hfil}\nopagebreak
+
+  \item {\ttfamily dedication} (environment)\pfill \usage{4}, 
+		\main{130}
+  \item \verb*+\degree+\pfill \usage{3}, \main{10}, 62, 68, 74, 80
+  \item \verb*+\degreeabbreviation+\pfill \usage{3}, \main{10}, 63, 69, 
+		75, 81
+  \item \verb*+\degreemonth+\pfill \usage{2}, \main{37}
+  \item \verb*+\degreeyear+\pfill \usage{2}, \main{37}
+  \item \verb*+\doctype+\pfill \usage{3}, \main{7}, 61, 67, 73, 79
+  \item \verb*+\double+\pfill \usage{1}, \main{46}
+  \item \verb*+\draft+\pfill \usage{2}
+
+  \indexspace
+{\bfseries\hfil E\hfil}\nopagebreak
+
+  \item \verb*+\edd+\pfill \usage{2}, \main{60}
+  \item \verb*+\electronic+\pfill \usage{1}, \main{53}
+  \item environments:\efill 
+ \subitem {\ttfamily abstract}\pfill \usage{4}, \main{130}
+    \subitem {\ttfamily acknowledgments}\pfill \usage{4}, \main{130}
+    \subitem {\ttfamily copyrightpage}\pfill \usage{4}, \main{130}
+    \subitem {\ttfamily dedication}\pfill \usage{4}, \main{130}
+    \subitem {\ttfamily grantinfo}\pfill \usage{4}, \main{130}
+
+  \indexspace
+{\bfseries\hfil G\hfil}\nopagebreak
+
+  \item {\ttfamily grantinfo} (environment)\pfill \usage{4}, \main{130}
+
+  \indexspace
+{\bfseries\hfil L\hfil}\nopagebreak
+
+  \item \verb*+\listoffigures+\pfill \usage{4}, \main{179}, 182, 183
+  \item \verb*+\listoftabels+\pfill \usage{4}
+  \item \verb*+\listoftables+\pfill \main{179}, 185, 186
+
+  \indexspace
+{\bfseries\hfil M\hfil}\nopagebreak
+
+  \item \verb*+\ma+\pfill \usage{2}, \main{60}
+  \item \verb*+\major+\pfill \usage{2}, \main{16}
+  \item \verb*+\maketitle+\pfill 111, \main{111}
+  \item \verb*+\ms+\pfill \usage{2}, \main{60}
+
+  \indexspace
+{\bfseries\hfil N\hfil}\nopagebreak
+
+  \item \verb*+\nu@adviser+\pfill 32, 35, 123
+  \item \verb*+\nu@adviserAbstract+\pfill 34, 36, 139
+  \item \verb*+\nu@city+\pfill 26, 27, 124
+  \item \verb*+\nu@college+\pfill 20, 21, 119
+  \item \verb*+\nu@degree+\pfill 11, 12, 121
+  \item \verb*+\nu@degreeabbreviation+\pfill 14, 15, 135
+  \item \verb*+\nu@doctype+\pfill 8, 9, 117
+  \item \verb*+\nu@LoF+\pfill 182, 183
+  \item \verb*+\nu@LoT+\pfill 185, 186
+  \item \verb*+\nu@major+\pfill 17, 18, 122
+  \item \verb*+\nu@month+\pfill 38, 39, 125
+  \item \verb*+\nu@pagestyle+\pfill \main{90}
+  \item \verb*+\nu@pagestyleDraft+\pfill \main{90}
+  \item \verb*+\nu@state+\pfill 29, 30, 124
+  \item \verb*+\nu@ToC+\pfill 179, 180
+  \item \verb*+\nu@university+\pfill 23, 24, 119, 136
+  \item \verb*+\nu@year+\pfill 41, 42, 125, 136, 146
+
+  \indexspace
+{\bfseries\hfil P\hfil}\nopagebreak
+
+  \item \verb*+\phd+\pfill \usage{2}, \main{60}
+  \item \verb*+\print+\pfill \usage{1}, \main{53}
+
+  \indexspace
+{\bfseries\hfil S\hfil}\nopagebreak
+
+  \item \verb*+\single+\pfill \usage{1}, \main{46}
+  \item \verb*+\state+\pfill \usage{3}, \main{16}
+
+  \indexspace
+{\bfseries\hfil T\hfil}\nopagebreak
+
+  \item \verb*+\tableofcontents+\pfill \usage{4}, 179, \main{179}, 180
+  \item \verb*+\testing+\pfill \usage{2}, \main{43}
+  \item \verb*+\theauthor+\pfill 116, 135, 146
+  \item \verb*+\thepage+\pfill 92, 94, 98, 100
+  \item \verb*+\thetitle+\pfill 113, 134
+  \item \verb*+\title+\pfill \usage{2}
+
+  \indexspace
+{\bfseries\hfil U\hfil}\nopagebreak
+
+  \item \verb*+\university+\pfill \usage{3}, \main{16}
+
+ \end{theindex}

@@ -1,0 +1,14 @@
+This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
+Scanning style file /usr/share/texlive/texmf-dist/makeindex/latex/gglo.ist........
+** Input style error (file = /usr/share/texlive/texmf-dist/makeindex/latex/gglo.ist, line = 76):
+   -- Unknown specifier lethead_prefix.
+** Input style error (file = /usr/share/texlive/texmf-dist/makeindex/latex/gglo.ist, line = 77):
+   -- Unknown specifier lethead_suffix.
+** Input style error (file = /usr/share/texlive/texmf-dist/makeindex/latex/gglo.ist, line = 78):
+   -- Unknown specifier lethead_flag.
+......done (14 attributes redefined, 3 ignored).
+Scanning input file nuthesis.glo....done (29 entries accepted, 0 rejected).
+Sorting entries....done (147 comparisons).
+Generating output file nuthesis.gls....done (50 lines written, 0 warnings).
+Output written in nuthesis.gls.
+Transcript written in nuthesis.ilg.

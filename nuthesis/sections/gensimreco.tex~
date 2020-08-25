@@ -1,0 +1,149 @@
+\chapter{Event generation, simulation and reconstruction}\label{ch:gensimreco}
+
+\noindent The process of analizing the data recorded by the CMS experiment involves several stages where the data are processed in order to interpret the information provided by all the detection systems; in those stages the particles produced after the pp collision are identified by reconstructing their trajectories and measuring their features. In addition, the SM provides a set of predictions that have to be compared with the experimental results; however, in most of the cases, theoretical predictions are not directly comparable to experimentral results due to the diverse source of uncertainties introduced by the experimental setup and theoretical approximations among others.\\
+
+\noindent The strategy to face these conditions consist in using statistical methods implemented in computational algorithms to produce numerical results that can be contrasted with the experimental results. These computational algorithms are commonly known as Monte Carlo methods and, in the case of particle physics, they are designed to apply the SM rules and produce predictions about the physical observables measured in the experiments. Since particle physics is governed by quamtum mechanics principles, predictions are not allowed for single events; therefore, a high number of events are ``generated'' and predictions are produced in the form of statistical distributions for the observables. Effects of the detector presence are included in the predictions by introducing simulations of the detector itself.\\     
+
+\noindent This chapter presents a description of the event generation strategy and the tools used to perform the detector simulation and physics objects reconstruction.  
+
+\section{Event generation}
+
+\noindent The event generation is intended to create events that mimic the behavior of actual events produced in the collisions; the obvey a secuence of steps from the particles collision hard process to the decay process into the final state particles. Figure \ref{fig:gen} shows an schematic view of the event generation process. 
+
+\noindent In the first step the hard scattering process, where partons from the incoming particles interact, is simulated by taking into account the PDFs of the incoming particles. Event generators offer the option to use several PDF sets depending on the particular features of the process under simulation. 
+
+
+
+
+The evolution of the PDFs cannot be calculated entirely perturbatively and thus the DGLAP QCD evolution equation [66–68] is employed.
+
+
+
+
+
+
+ Further input for the PDFs is provided by many deep-inelastic scattering experiments, partly
+already long shut down, such as HERA at DESY or the Tevatron at Fermilab. Sets of PDFs are
+provided by several groups, the most famous and widely used are the sets of the CTEQ [69], the
+MSTW [70] and the NNPDF [71] collaborations. The most important sets of PDFs are combined
+in the LHAPDF package [72]. An exemplary PDF set can be seen in Figure 3.2.
+
+By utilizing quantum field theory the matrix element (ME) and thus the cross section of a
+certain process can be calculated by considering all possible Feynman diagrams which con-
+tribute to the process. As these interactions are usually high-energetic and hence the strong
+coupling constant α s is small, perturbation theory can be applied. The ME calculation takes
+possible interference effects between diagrams with same initial and final state particles into
+account and covers the decay of particles carrying spin information. These calculations are
+performed by matrix element generators, which are described later in this chapter.
+The accurate calculation of the production cross section for a given processes requires the
+consideration of radiation corrections. Due to the relative size of α s over the electromagnetic
+coupling, QCD radiations play the dominant role.
+
+
+The generation of physics processes at leading order (LO) does not include additional radiations.
+
+Cross sections at LO are usually a good reference point, but do not reproduce the actual physics.
+The simulation of next-to-leading-order (NLO) processes which contain one hard emission or
+one loop in the Feynman diagrams can be directly done in the event generators, but at the cost
+of increased computing time due to the increased number of Feynman graphs that need to be considered.
+The direct generation of events with a given number of radiations, might seem like a solution
+for this problem, but creates problems that are addressed in the next section.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The final parton content of the hard interaction is then subjected to the parton shower which adds radiations from accelerated particles carrying color charges to the event. Due to confinement, particles with a net color charge are not physical and are recombined in the hadronization step.
+
+The decay of unstable particles is also simulated in the same stage.
+
+An overview of all processes involved in the event generation can be seen in Figure 3.1. Each of these parts is explained in detail in the following section.
+
+
+Overview of the event generation process. The diagram shows the different steps of the event generation that can be done sequentially due to the factorization. The parton distribution functions provide the probabilities to colliding partons with a certain fraction of the proton momentum. The hard subprocess describes the actual particle interactions that are the subject of study. During the generation of the hard subprocess the matrix element and therefore the production cross section is calculated. The parton shower is responsible for the generation of gluon radiation. In the hadronization step, all color-charged particles are recombined to form neutral bound states, which subsequently decay in other particles. As last step, the influence of pileup is modeled by overlaying the events with collisions, based on minimum bias collisions. For clarity the underlying event, the influence of the proton remnants, is not depicted in this diagram. Adapted from [64].
+
+
+
+\section{Hard scattering  }
+\section{parton shower }
+\section{hadronization and decays }
+\section{underlying events and pileup }
+\section{ MC - MadEvent, MadGraph and madgraph\@NLO, powheg, pythia, tauola}
+\section{ detector simulation}
+
+Monte Carlo Event samples will be generated to simulate the underlying physics collision.
+
+The resulting particles will be tracked through the CMS detector and the electronics and trigger
+responses will be simulated.
+
+Both full and parametrized (fast) simulations will be required.
+
+We anticipate using the full simulation package, OSCAR [4, 5], for most of these events.
+
+Fully
+simulated refers to detailed detector simulation based on GEANT4 [6], as opposed to faster
+parametrized simulations. CMS has developed a fast simulation package, FAMOS [7], that may
+be used where much larger statistics are required.
+
+Fully simulated Monte Carlo samples of approximately the same total size as the raw data sample (1.5×109 events per year) must be generated, fully simulated, reconstructed and passed through HLT selection code. The simulated pp event size is approximately 2 MByte/event.
+
+
+We currently estimate that we will require the same order of magnitude of simulated events as actual data. If the Monte Carlo requirements greatly exceed this rough real data-sample equality, then more recourse to FAMOS will be necessary. Clearly there are very large uncertainties on the total amount of full and fast Monte Carlo which is required, so ultimately the reality of available resources will constrain the upper limit.
+
+
+
+
+\section{event reconstruction- particle flow algorithm, vertexing , muon reco, electron reco, photon and hadron reco, jets reco, anti-kt algoritm, jet energy corrections, btagging, MET  }
+
+
+CMS requires an offline first-pass full reconstruction of express line and all
+online streams in quasi-realtime, which produces new reconstructed objects
+called RECO data.
+
+
+The Tier-0 offline reconstruction step processes all RAW events from the online system following
+an adjustable set of priorities (the express-line, by definition has very high priority). This step
+creates new higher-level physics objects such as tracks, vertices, and jets. These may improve or
+extend the set produced in the HLT processing step. It must run with minimal delay compared
+to the online in order to provide rapid feedback to the online operations, for example, identifying
+detector or trigger problems which can then be rectified dynamically during the same LHC fill.
+The offline reconstruction will normally perform the same reconstruction steps for each stream,
+with the possible exception of specialised calibration streams. In this way we ensure that they
+are all useful in principle for all analysis groups. We apply this same rule to later re-processings
+of the data, 2-3 times per year we expect to bring all datasets into consistent status as to applied
+calibrations and algorithms, as described below.
+
+
+
+
+
+\section{ MVA methods, NN, BDT, boosting, overtraining, variable ranking  }
+\section{statistical inference, likelihood parametrization}
+\section{ nuisance paraeters}
+\section{exclusion limits }
+\section{asymptotic limits }
+
+
+
+
+
+
+
+
+
+
+
+

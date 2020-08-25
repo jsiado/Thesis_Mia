@@ -1,0 +1,50 @@
+
+ \begin{theglossary} 
+
+    \makeatletter\scan@allowedfalse
+
+  \item v0.1\efill 
+ \subitem General:\ Initial version\pfill 1
+  \item v0.2\efill 
+ \subitem General:\ \cs  {subsubsections} now numbered. Thanks to Dave Miller.\pfill 1
+      \subsubitem Added draft option.\pfill 1
+      \subsubitem Clean-up.\pfill 1
+      \subsubitem Fixed a missing pagestyle alias. Thanks to Dave Miller.\pfill 
+		1
+      \subsubitem Rewrote a bunch of code to make things cleaner.\pfill 
+		1
+  \item v0.3\efill 
+ \subitem General:\ Addition the of signature page.\pfill 1
+      \subsubitem Clean-up.\pfill 1
+      \subsubitem Fixed headers to work for twoside option.\pfill 1
+      \subsubitem Included a skeleton file.\pfill 1
+      \subsubitem Place single/double code in \cs  {AtBeginDocument}.\pfill 
+		1
+  \item v0.4\efill 
+ \subitem General:\ \cs  {MakeUppercase} to \cs  {textsc} changed in title page.\pfill 1
+  \item v0.4a\efill 
+ \subitem General:\ Changed \cs  {textsc} back to \cs  {MakeUppercase}.\pfill 1
+      \subsubitem Cleaned up optional includes.\pfill 1
+      \subsubitem Fix signature page to use \cs  {nu@doctype}.\pfill 1
+      \subsubitem Fixed change log to use \cs  {cs}.\pfill 1
+      \subsubitem Fixed missing entries in changelog.\pfill 1
+      \subsubitem Included the bibliogrpahy.\pfill 1
+      \subsubitem Incorporated thesis-test into dtx file.\pfill 1
+      \subsubitem Lots of minor things fixed/cleaned up.\pfill 1
+      \subsubitem Rewrote documentation. Made changelog.\pfill 1
+  \item v0.5\efill 
+ \subitem General:\ DocStrip code wasn't being striped out.\pfill 5
+      \subsubitem Fixed typos in the documentation.\pfill 1
+  \item v0.6\efill 
+ \subitem General:\ Changed documentation to match.\pfill 1
+      \subsubitem Removed signature page.\pfill 1
+  \item v0.6.1\efill 
+ \subitem General:\ Changed options for skeleton file, removed ``single''\pfill 2
+  \item v0.7\efill 
+ \subitem General:\ Added \cs  {adviserAbstract} documentation.\pfill 2
+    \subitem \verb*+\adviserAbstract+:\ Added to allow for differences in advisers on title and abstract pages.\pfill 
+		7
+    \subitem \verb*+abstract+:\ Changed environment to use \cs  {adviserAbstract} instead of \cs  {adviser}\pfill 
+		11
+
+ \end{theglossary}

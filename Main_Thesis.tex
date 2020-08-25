@@ -1,0 +1,529 @@
+%% This is file `skeleton.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% nuthesis.dtx  (with options: `skeleton')
+%% For common degrees, you can use the class options:
+%% phd, edd, ms, ma
+%% phd is the default
+
+
+\documentclass[print]{nuthesis}
+%\usepackage{mathptmx} % times new roman
+\usepackage{graphicx}
+\graphicspath{ {nuthesis/images/} }
+\usepackage{times}
+\usepackage{epstopdf}
+\usepackage{amsmath}
+%\usepackage{program}
+%\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+
+
+%%% My packages
+
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{latexsym}
+\usepackage{float}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{epsfig}
+%\usepackage{subfigure} % subfiguras
+\usepackage{hyperref}
+\usepackage{amssymb}
+%\usepackage[pdftex]{color,graphicx}
+\usepackage{color} %Paquete para escribir letras en color
+%\usepackage[pdftex]{hyperref}
+%\usepackage[dvips]{graphicx}
+%\usepackage{setspace}
+%\singlespacing
+%\usepackage{fancyhdr}
+\usepackage[hang]{footmisc}
+\usepackage[font=small,labelfont=bf]{caption}
+%\usepackage{biblatex}
+%\usepackage{cite}
+%\usepackage[noadjust]{cite}
+\usepackage{pifont}
+\usepackage{multirow}
+
+\usepackage{xspace}
+
+\usepackage{lmodern}
+\usepackage{cite}
+\usepackage{lineno}
+\usepackage{arydshln} %for dashed lines
+\usepackage{slashed}
+\usepackage{bm}
+\usepackage[normalem]{ulem}
+\usepackage{pdflscape}
+
+
+
+
+\newcommand{\tHq}{\ensuremath{tHq}\xspace}
+\newcommand{\tHW}{\ensuremath{tHW}\xspace}
+\newcommand{\tH}{\ensuremath{tH}\xspace}
+\newcommand{\ttH}{\ensuremath{t\bar{t}H}\xspace}
+\newcommand{\ttZ}{\ensuremath{t\bar{t}Z}\xspace}
+\newcommand{\ttW}{\ensuremath{t\bar{t}W}\xspace}
+\newcommand{\ttV}{\ensuremath{t\bar{t}\mathrm{V}}}
+\newcommand{\WW}{\ensuremath{WW}\xspace}
+\newcommand{\HWW}{\ensuremath{HWW}\xspace}
+\newcommand{\WZ}{\ensuremath{WZ}\xspace}
+\newcommand{\ZZ}{\ensuremath{ZZ}\xspace}
+\newcommand{\tZW}{\ensuremath{tZW}}
+\newcommand{\tZq}{\ensuremath{tZq}}
+\newcommand{\tautau}{\ensuremath{\tau\tau}\xspace}
+\newcommand{\Zll}{\ensuremath{\mathrm{Z}\to\ell^+\ell^-}\xspace}
+\newcommand{\Ztt}{\ensuremath{\mathrm{Z}\to\tau^+\tau^-}\xspace}
+\newcommand{\tXq}{\ensuremath{tX_0q}\xspace}
+\newcommand{\reliso}{\ensuremath{I_\mathrm{rel}}\xspace}
+\newcommand{\sip}{\ensuremath{S_\mathrm{IP3D}}\xspace}
+\newcommand{\Pgth}{\ensuremath{\Pgt_{\rm h}}\xspace}
+\newcommand{\ptRatio}{\ensuremath{\pt^\text{ratio}}\xspace}
+\newcommand{\ptRel}{\ensuremath{\pt^\text{rel}}\xspace}
+\newcommand{\relIso}{\ensuremath{I_\text{rel}}\xspace}
+\newcommand{\miniIso}{\ensuremath{I_\text{mini}}\xspace}
+\newcommand{\CV}{\ensuremath{\kappa_\text{V}}\xspace}
+\newcommand{\Ct}{\ensuremath{\kappa_t}\xspace}
+\newcommand{\ft}{\ensuremath{f_t}\xspace}
+\newcommand{\mumu}{\ensuremath{\mu^\pm\mu^\pm}\xspace}
+\newcommand{\emu}{\ensuremath{\e^\pm\mu^\pm}\xspace}
+\newcommand{\ee}{\ensuremath{\e^\pm \e^\pm}\xspace}
+\newcommand{\threel}{\ensuremath{\ell\ell\ell}\xspace}
+\newcommand{\fbinv}{fb\ensuremath{^{-1}}\xspace}
+\newcommand{\ttbar}{\ensuremath{t\bar{t}}\xspace}
+\newcommand{\bbbar}{\ensuremath{b\bar{b}}\xspace}
+\newcommand{\pt}{\ensuremath{p_T}\xspace}
+\newcommand{\Et}{\ensuremath{E_T}\xspace}
+\newcommand{\bjet}{\ensuremath{b}-jet\xspace}
+\newcommand{\bjets}{\ensuremath{b}-jets\xspace}
+\newcommand{\ie}{i.e.\xspace}
+\newcommand{\wpm}{\ensuremath{W^\pm}\xspace}
+%\newcommand{\z0}{\ensuremath{z^0}\xspace}
+\newcommand{\Lagr}{\mathcal{L}}
+\newcommand{\beqn}{\begin{equation}}
+\newcommand{\eeqn}{\end{equation}}
+\newcommand{\bit}{\begin{itemize}}
+\newcommand{\eit}{\end{itemize}}
+\newcommand{\pp}{\ensuremath{pp}\xspace}
+\newcommand{\etac}{\ensuremath{\eta}\xspace} %\etac=\eta coord
+\newcommand{\phic}{\ensuremath{\phi}\xspace}
+\newcommand{\dt}{\ensuremath{\mathcal{DT}}\xspace}
+\newcommand{\ti}{\textit}
+\newcommand{\MET}{\ensuremath{E_T^{miss}}\xspace}
+\newcommand{\e}{\textrm{e}}
+\newcommand{\tbf}{\textbf}
+
+\setcounter{secnumdepth}{4}
+
+%\renewcommand*{\chapnumfont}{\normalfont\Large\bfseries\rmfamily}
+%\renewcommand*{\chaptitlefont}{\normalfont\Large\scshape\bfseries\rmfamily}
+
+
+%%%%%%%%%%%   chapter styles %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapterstyle{bianchi}
+\renewcommand*{\chapnamefont}{\normalfont\large\rmfamily\scshape}
+\renewcommand*{\chapnumfont}{\normalfont\large}
+\renewcommand*{\chaptitlefont}{\normalfont\large\rmfamily}
+
+%\chapterstyle{crosshead}
+%\chapterstyle{dowding}
+%\chapterstyle{ntglike}
+
+
+%%%%%%%% chapterstyle VZ21%%%%%%%%%%%%%%%%%%%%%%
+%% \usepackage{calc,fourier}
+%% \usepackage[T1]{fontenc}
+%% \makeatletter
+%% \setlength\midchapskip{7pt}
+%% \makechapterstyle{VZ21}{
+%%   \renewcommand\chapnamefont{\Large\scshape}
+%%   \renewcommand\chapnumfont{\Large\scshape\centering}
+%%   \renewcommand\chaptitlefont{\huge\bfseries\centering}
+%%   \renewcommand\printchaptertitle[1]{%
+%%     \setlength\tabcolsep{7pt}% used as indentation on both sides
+%%     \settowidth\@tempdimc{\chaptitlefont ##1}%
+%%     \setlength\@tempdimc{\textwidth-\@tempdimc-2\tabcolsep}%
+%%     \chaptitlefont
+%%     \ifdim\@tempdimc > 0pt\relax% one line
+%%     \begin{tabular}{c}
+%%         ##1\\ 
+%%     \end{tabular}
+%%     \else% two+ lines
+%%     \begin{tabular}{%
+%%         >{\chaptitlefont\arraybackslash}p{\textwidth-2\tabcolsep}}
+%%        ##1\\ 
+%%     \end{tabular}
+%%     \fi
+%%   }
+%% }
+%% \makeatother
+%% \chapterstyle{VZ21}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {Table of Contents}%
+}
+
+\begin{document}
+
+%\linenumbers
+
+\renewcommand\bibname{References}
+%% Start formatting the first few special pages
+%% frontmatter is needed to set the page numbering correctly
+\frontmatter
+
+\title{Search for production of que  a Higgs boson and a single top quark in multilepton final states in \MakeLowercase{pp} collisions at ${\sqrt{\MakeLowercase{s}}=\textrm{13 T\MakeLowercase{e}V}}$}
+\author{Joaquin Emilio Siado Casta{\~n}eda}
+\adviser{Professor Daniel Claes}
+\adviserAbstract{Dan Claes and Aaron Dominguez}
+\major{Physics and Astronomy}
+\degreemonth{July}
+\degreeyear{2020}
+
+%% For most people the following can be changed with a class
+%% option. To manually set these, just uncomment the following and
+%% make the needed changes.
+\doctype{Dissertation}
+\degree{Doctor of Philosophy}
+\degreeabbreviation{Ph.D.}
+%%
+%% Now that we know everything we need, we can generate the title page
+%% itself.
+%%
+\maketitle
+%%
+%% You have a maximum of 350 words for your abstract, which includes
+%% your title, name, etc.
+%%
+%% Required
+\begin{abstract}
+ \input{nuthesis/sections/Abstract.tex}
+\end{abstract}
+
+%% Optional
+%% \begin{copyrightpage}
+%% \end{copyrightpage}
+
+%% Optional
+\begin{dedication}
+%  \vspace{0.3\textheight}
+  % \centering
+  {\huge \textit{``... Josefa.}}\\ \ \\
+  {\huge \textit{``...laca.''}}\\ {\footnotesize yo y tu.}\\ \ \\
+  {\huge \textit{``...come lady come.''}}\\ {\footnotesize pa darte.}\\
+  \vspace{4cm}
+  {\Huge $ \mathfrak{ to \ Nenas \ and \  nenita}$}
+\end{dedication}
+
+%% Optional
+\begin{acknowledgments}
+
+%\input{nuthesis/sections/Introduction.tex}
+
+\end{acknowledgments}
+
+%% Optional
+%% \begin{grantinfo}
+%% \end{grantinfo}
+%% The ToC is required
+%% Uncomment these if need be
+
+%% The ToC is required
+\tableofcontents*
+
+%% Uncomment these if need be
+\listoffigures
+\listoftables
+%%
+%% ``Real'' beginning of the document. %% mainmatter is needed to set the page numbering correctly
+%%   mainmatter is needed after the ToC, (LoF, and LoT) to set the %%   page numbering correctly for the main body
+\mainmatter
+%% Thesis goes here
+%%\chapter{My Thesis}
+%%\1. Introduction
+%%\2. Related Work
+%%\3. 3D reconstruction
+%%\4. Hyperspectra data cube mining
+
+%\input{nuthesis/sections/Ch0-Read-Notes.tex}
+\input{nuthesis/sections/Ch1-Introduction.tex}
+\input{nuthesis/sections/Ch2-LHCandCMS.tex}
+\input{nuthesis/sections/Ch3-SMandBSM.tex}
+\input{nuthesis/sections/Ch4-Ana-I.tex}
+\input{nuthesis/sections/Ch5-Ana-II.tex}
+\input{nuthesis/sections/Ch6-Ana-III.tex}
+\input{nuthesis/sections/Ch7-Phase-I.tex}
+\input{nuthesis/sections/Ch8-TestBeam.tex}
+\input{nuthesis/sections/Ch9-Conclusions.tex}
+
+%%\input{nuthesis/sections/Future.tex}
+
+\backmatter
+
+%% Start the correct formatting for the appendices
+\appendix
+%\input{nuthesis/sections/datasets.tex}
+%\input{nuthesis/sections/bdt_plots_apendix.tex}
+%\input{nuthesis/sections/ad_binning.tex}
+%\input{nuthesis/sections/bdtctcv_apendix.tex}
+%\input{nuthesis/sections/overlap.tex}
+%\input{nuthesis/sections/forward_jet_model.tex}
+%\input{nuthesis/sections/xsbrscalings.tex}
+
+%% Appendices go here (if you have them)
+
+%% Bibliography goes here (You better have one)
+%% BibTeX is your friend
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{abbrv}
+%use following if all content of bibtex file should be shown
+\nocite{*}
+\begin{thebibliography}{300}
+\bibitem{pix_tdr} A. Dominguez et. al. ``CMS Technical Design Report for the Pixel Detector Upgrade'', CERN-LHCC-2012-016. CMS-TDR-11.
+
+\bibitem{pixel_performance} CMS Tracker Group. ``The Performance plots for Phase 1 Pixel Detector 2017'' \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/PixelOfflinePlotsAugust2017#Alignment_of_the_forward_pixels}, last accessed on 01.05.2018
+
+
+
+
+
+
+
+
+
+
+
+%\bibitem{maxwell} J.C. Maxwell. ``A dynamical theory of the electromagnetic field''. Philosophical Transactions of the Royal Society of London. 155: 459–512.(1865) doi:10.1098/rstl.1865.0008
+%\bibitem{planck} M. Planck. ``Über das Gesetz der Energieverteilung im Normalspektrum''. Annalen der Physik. 4 (3): 553.(1901).
+%\bibitem{photoeffect} A. Einstein ``Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt''. Annalen der Physik. 17 (6): 132–148, (1905).
+%\bibitem{brownian} A. Einstein. ``Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen''. Annalen der Physik. 17 (8): 549–560, (1905).
+%\bibitem{relativity} A. Einstein. ``Zur Elektrodynamik bewegter Körper''. Annalen der Physik. 17 (10): 891–921, (1905).
+%\bibitem{energy} A. Einstein, ``Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?''. Annalen der Physik. 18 (13): 639–641, (1905).   
+%\bibitem{ligo} B. P. Abbott et al. ``Observation of Gravitational Waves from a Binary Black Hole Merger''. PRL 116, 061102 (2016).
+%\bibitem{schwinger} J. Schwinger. ``Quantum Electrodynamics. I. A Covariant Formulation''. Physical Review. 74 (10): 1439-61, (1948). \url{https://doi.org/10.1103/PhysRev.74.1439} 
+%\bibitem{feynman} R. P. Feynman. ``Space-Time Approach to Quantum Electrodynamics''. Physical Review. 76 (6): 769-89, (1949). \url{https://doi.org/10.1103/PhysRev.76.769}
+%\bibitem{tomonaga} S. Tomonaga. ``On a Relativistically Invariant Formulation of the Quantum Theory of Wave Fields''. Progress of Theoretical Physics. 1 (2): 27-42, (1946). \url{https://doi.org/10.1143/PTP.1.27}
+%\bibitem{griffiths} D.J. Griffiths, ``Introduction to electrodynamics''. 4th ed. Pearson, (2013).
+%\bibitem{mandl} F. Mandl, G. Shaw. ``Quantum field theory.'' Chichester, Wiley (2009).
+%\bibitem{halzen} F. Halzen, and A.D. Martin, ``Quarks and leptons: An introductory course in modern particle physics''. New York: Wiley, (1984) .
+%\bibitem{smpicture} File: Standard\_Model\_of\_Elementary\_Particle\_dark.svg. (2017, June 12) Wikimedia Commons, the free media repository. Retrieved November 27, 2017 from \url{https://www.collegiate-advanced-electricity.com/single-post/2017/04/10/The-Standard-Model-of-Particle-Physics}.
+%\bibitem{noether}  E. Noether, ``Invariante Variationsprobleme'', Nachrichten von der Gesellschaft der Wissenschaften zu G\"ottingen, mathematisch-physikalische Klasse, vol. 1918, pp. 235-257, (1918).
+%\bibitem{pdg} C. Patrignani et al. (Particle Data Group), Chin. Phys. C, 40, 100001 (2016) and 2017 update.  
+%\bibitem{goldhaber} M. Goldhaber, L. Grodzins, A.W. Sunyar ``Helicity of Neutrinos'', Phys. Rev. 109, 1015 (1958).
+%\bibitem{nu_mass} Palanque-Delabrouille N et al. ``Neutrino masses and cosmology with Lyman-alpha forest power spectrum'', JCAP 11 011 (2015).
+%\bibitem{gellman} M. Gell-Mann. ``A Schematic Model of Baryons and Mesons''. Physics Letters. 8 (3): 214-215 (1964).
+%\bibitem{zweig} G. Zweig. ``An SU(3) Model for Strong Interaction Symmetry and its Breaking'' (PDF). CERN Report No.8182/TH.401 (1964).
+%\bibitem{zweig2} G. Zweig. ``An SU(3) Model for Strong Interaction Symmetry and its Breaking: II'' (PDF). CERN Report No.8419/TH.412(1964).
+%\bibitem{gell_ni} M. Gell-Mann. ``The Interpretation of the New Particles as Displaced Charged Multiplets''. Il Nuovo Cimento 4: 848. (1956).
+%\bibitem{gell_ni2} T. Nakano, K, Nishijima. ``Charge Independence for V-particles''. Progress of Theoretical Physics 10 (5): 581-582. (1953).  
+%\bibitem{C} N. Cabibbo, ``Unitary symmetry and leptonic decays'' Physical Review Letters, vol. 10, no. 12, p. 531, (1963).
+%\bibitem{KM} M.Kobayashi, T.Maskawa, ``CP-violation in the renormalizable theory of weak interaction,'' Progress of Theoretical Physics, vol. 49, no. 2, pp. 652-657, (1973).
+%\bibitem{ckm} File: Weak Decay (flipped).svg. (2017, June 12). Wikimedia Commons, the free media repository. Retrieved November 27, 2017 from \url{https://commons.wikimedia.org/w/index.php?title=File:Weak\_Decay\_(flipped)\\.svg\&oldid=247498592}.
+%\bibitem{hyperphys} Georgia Tech University. Coupling Constants for the Fundamental Forces(2005). Retrieved January 10, 2018, from \url{http://hyperphysics.phy-astr.gsu.edu/hbase/Forces/couple.html\#c2}
+%\bibitem{matt} M. Strassler. (May 31, 2013).The Strengths of the Known Forces. Retrieved January 10, 2018, from \url{https://profmattstrassler.com/articles-and-posts/particle-physics-basics/the-known-forces-of-nature/the-strength-of-the-known-forces/}
+%\bibitem{glashow} S.L. Glashow. ``Partial symmetries of weak interactions'', Nucl. Phys. 22 579-588, (1961).
+%\bibitem{salam} A. Salam, J.C. Ward. ``Electromagnetic and weak interactions'', Physics Letters 13 168-171, (1964).
+%\bibitem{weinberg} S. Weinberg, ``A model of leptons'', Physical Review Letters, vol. 19, no. 21, p. 1264, (1967).
+%\bibitem{peskin} M. Peskin, D. Schroeder, ``An introduction to quantum field theory''. Perseus Books Publishing L.L.C., (1995).  
+%\bibitem{pich} A. Pich. ``The Standard Model of Electroweak Interactions'' \url{https://arxiv.org/abs/1201.0537}
+%\bibitem{wmass1}G. Arnison et al. (UA1 Collaboration), Phys. Lett. B 122, 103 (1983).
+%\bibitem{wmass2} M. Banner et al. (UA2 Collaboration), Phys. Lett. B 122, 476 (1983).
+%\bibitem{zmass1}G. Arnison et al. (UA1 Collaboration), Phys. Lett. B 126, 398 (1983).
+%\bibitem{zmass2}P. Bagnaia et al. (UA2 Collaboration), Phys. Lett. B 129, 130 (1983).
+%\bibitem{broken_symmetry} F.Bellaiche. (2012, 2 September). ``What's this Higgs boson anyway?''. Retrieved from: \url{https://www.quantum-bits.org/?p=233} 
+%\bibitem{endres} M. Endres et al. Nature 487, 454-458 (2012) doi:10.1038/nature11255
+%\bibitem{englert} F. Englert, R. Brout. ``Broken Symmetry and the Mass of Gauge Vector Mesons''. Physical Review Letters. 13 (9): 321-23.(1964) doi:10.1103/PhysRevLett.13.321
+%\bibitem{higgs} P.Higgs. ``Broken Symmetries and the Masses of Gauge Bosons''. Physical Review Letters. 13 (16): 508-509,(1964). doi:10.1103/PhysRevLett.13.508.
+%\bibitem{ghk} G.Guralnik, C.R. Hagen  and T.W.B. Kibble. ``Global Conservation Laws and Massless Particles''. Physical Review Letters. 13 (20): 585-587, (1964). doi:10.1103/PhysRevLett.13.585.
+%\bibitem{hcms} CMS collaboration. ``Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC''. Physics Letters B. 716 (1): 30-61 (2012). arXiv:1207.7235. doi:10.1016/j.physletb.2012.08.021
+%\bibitem{hatlas} ATLAS collaboration. ``Observation of a New Particle in the Search for the Standard Model Higgs Boson with the ATLAS Detector at the LHC''. Physics Letters B. 716 (1): 1-29 (2012). arXiv:1207.7214.  doi:10.1016/j.physletb.2012.08.020.
+%\bibitem{hmass} ATLAS collaboration; CMS collaboration (26 March 2015). ``Combined Measurement of the Higgs Boson Mass in pp Collisions at $\sqrt{s}=7$ and 8 TeV with the ATLAS and CMS Experiments''. Physical Review Letters. 114 (19): 191803. arXiv:1503.07589. doi:10.1103/PhysRevLett.114.191803.
+%\bibitem{pp_coll} LHC\@ InternationalMasterclasses``When protons collide''. Retrieved from \url{http://atlas.physicsmasterclasses.org/en/zpath\_protoncollisions.htm}
+%\bibitem{hcswg} CMS Collaboration, ``SM Higgs Branching Ratios and Total Decay Widths (up-date in CERN Report4 2016)''. \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR} , last accessed on 17.12.2017.
+%\bibitem{riley} R.Grant V. ``Determination of Higgs branching ratios in $H\to W^+W^-\to l\nu jj$ and $H\to ZZ \to l^+l^-jj$ channels''. Physics Department, University of Tennessee (Dated: October 31, 2012). Retrieved from \url{http://aesop.phys.utk.edu/ph611/2012/projects/Riley.pdf}
+%\bibitem{denner} LHC Higgs Cross Section Working Group, Denner, A., Heinemeyer, S. et al. ``Standard model Higgs-boson branching ratios with uncertainties''. Eur. Phys. J. C (2011) 71: 1753. \url{https://doi.org/10.1140/epjc/s10052-011-1753-8}
+%\bibitem{florian} D. de Florian et al., LHC Higgs Cross Section Working Group, CERN-2017-002-M, arXiv:1610.07922[hep-ph] (2016).
+%\bibitem{comb_ht_couplings} ATLAS and CMS Collaborations, ``Measurements of the Higgs boson production and decay rates and constraints on its couplings from a combined ATLAS and CMS analysis of the LHC pp collision data at $\sqrt{s}$ = 7 and 8 TeV,'' (2016). CERN-EP-2016-100, ATLAS-HIGG-2015-07, CMS-HIG-15-002.  
+%\bibitem{lhiggs} J. A. Aguilar-Saavedra, R. Benbrik, S. Heinemeyer, and M. Perez-Victoria, ``Handbook of vector-like quarks: Mixing and single production'', Phys. Rev. D 88 (2013) 094010, doi:10.1103/PhysRevD.88.094010, arXiv:1306.0572.
+%\bibitem{greljo}A. Greljo, J. F. Kamenik, and J. Kopp, ``Disentangling flavor violation in the top-Higgs sector at the LHC'', JHEP 07 (2014) 046, doi:10.1007/JHEP07(2014)046, arXiv:1404.1278.
+%\bibitem{maltoni2} F. Demartin, F. Maltoni, K. Mawatari, and M. Zaro, ``Higgs production in association with a single top quark at the LHC,'' European Physical Journal C, vol. 75, p. 267, (2015). doi:10.1140/epj
+%c/s10052-015-3475-9, arXiv:1504.00611.
+%\bibitem{demartin} F. Demartin, B. Maier, F. Maltoni, K. Mawatari, and M. Zaro, ``tWH associated production at the LHC'', European Physical Journal C, vol. 77, p. 34, (2017). arXiv:1607.05862
+%\bibitem{maltoni1} F. Maltoni, K. Paul, T. Stelzer, and S. Willenbrock, ``Associated production of Higgs and single top at hadron colliders'', Phys.Rev. D64 (2001) 094023, [hep-ph/0106293].
+%\bibitem{biswas} S. Biswas, E. Gabrielli, F. Margaroli, and B. Mele, ``Direct constraints on the top-Higgs coupling from the 8 TeV LHC data,'' Journal of High Energy Physics, vol. 07, p. 073, (2013).
+%\bibitem{farina} M. Farina, C. Grojean, F. Maltoni, E. Salvioni, and A. Thamm, ``Lifting degeneracies in Higgs couplings using single top production in association with a Higgs boson,'' Journal of High Energy Physics, vol. 05, p. 022, (2013).
+%\bibitem{tait} T.M. Tait and C.-P. Yuan, ``Single top quark production as a window to physics beyond the standard model'', Phys. Rev. D 63 (2000) 014018 [hep-ph/0007298].
+
+%\bibitem{thqw_xsec} CMS Collaboration, ``Modelling of the single top-quark production in association with the Higgs boson at 13 TeV.'' \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/SingleTopHiggsGeneration13TeV}, last accessed on 16.01.2018.
+%\bibitem{thb_xsec} CMS Collaboration, ``SM Higgs production cross sections at $\sqrt{s} = 13$ TeV.'' \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt13TeV}, last accessed on 16.01.2018.
+%\bibitem{dawson} S. Dawson, The effective W approximation, Nucl. Phys. B 249 (1985) 42.
+%\bibitem{biswas2} S. Biswas, E. Gabrielli and B. Mele, JHEP 1301 (2013) 088 [arXiv:1211.0499 [hep-ph]].
+
+%\bibitem{yellow} LHC Higgs Cross Section Working Group, ``Handbook of LHC Higgs Cross Sections: 4.Deciphering the Nature of the Higgs Sector'', arXiv:1610.07922.
+%\bibitem{ellis} J. Ellis, D. S. Hwang, K. Sakurai, and M. Takeuchi.``Disentangling Higgs-Top Couplings in Associated Production'', JHEP 1404 (2014) 004, [arXiv:1312.5736].
+%\bibitem{cms_ht_couplings} CMS Collaboration, V. Khachatryan et al., ``Precise determination of the mass of the Higgs boson and tests of compatibility of its couplings with the standard model predictions using proton collisions at 7 and 8 TeV,'' arXiv:1412.8662.
+%\bibitem{atlas_ht_couplings} ATLAS Collaboration, G. Aad et al., ``Updated coupling measurements of the Higgs boson with the ATLAS detector using up to 25 fb$^-1$ of proton-proton collision data'', ATLAS-CONF-2014-009.
+
+
+%%   %%%%%%%%%% references  CMS chapter%%%%%%%%%%%%
+
+%\bibitem{cern} File:Cern-accelerator-complex.svg. Wikimedia Commons, the free media repository. Retrieved January, 2018 from \url{https://commons.wikimedia.org/wiki/File:Cern-accelerator-complex.svg}
+%\bibitem{lep} J.L. Caron , ``Layout of the LEP tunnel including future LHC infrastructures.'', (Nov, 1993). A C Collection. Legacy of AC. Pictures from 1992 to 2002. Retrieved from \url{https://cds.cern.ch/record/841542}
+%\bibitem{rfq} M. Vretenar, ``The radio-frequency quadrupole''. CERN Yellow Report CERN-2013-001, pp.207-223 DOI:10.5170/CERN-2013-001.207. arXiv:1303.6762
+%\bibitem{lyndon} L.Evans. P. Bryant (editors). ``LHC Machine''. JINST 3 S08001 (2008).
+%\bibitem{rfq2} CERN Photographic Service.``Radio-frequency quadrupole, RFQ-1'', March 1983, CERN-AC-8303511. Retrieved from \url{https://cds.cern.ch/record/615852}.
+%\bibitem{video} CERN Photographic Service ``Animation of CERN's accelerator network'', 14 October 2013. DOI: 10.17181/cds.1610170 Retrieved from \url{https://videos.cern.ch/record/1610170}
+%\bibitem{linac} C.Sutton. ``Particle accelerator''.Encyclopedia Britannica. July 17, 2013. Retrieved from \url{https://www.britannica.com/technology/particle-accelerator}.
+%\bibitem{lhc_rfc} L.Guiraud. ``Installation of LHC cavity in vacuum tank.''. July 27 2000. CERN-AC-0007016. Retrieved from \url{https://cds.cern.ch/record/41567}.
+%\bibitem{dipole_field} J.L. Caron, ``Magnetic field induced by the LHC dipole's superconducting coils''. March 1998. AC Collection. Legacy of AC. Pictures from 1992 to 2002. LHC-PHO-1998-325. Retrieved from \url{https://cds.cern.ch/record/841511}.
+%\bibitem{lhc_dipole} AC Team. ``Diagram of an LHC dipole magnet''. June 1999. CERN-DI-9906025 retrieved from \url{https://cds.cern.ch/record/40524}. 
+%\bibitem{lumi} CMS Collaboration ``Public CMS Luminosity Information''. \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults\#2016\\\_proton\_proton\_13\_TeV\_collis}, last accessed 24.01.2018
+%\bibitem{lhc_layout} J.L Caron. ``LHC Layout'' AC Collection. Legacy of AC. Pictures from 1992 to 2002. September 1997, LHC-PHO-1997-060. Retrieved from \url{https://cds.cern.ch/record/841573}.
+%\bibitem{pu}J.A. Coarasa. ``The CMS Online Cluster:Setup, Operation and Maintenance of an Evolving Cluster''. ISGC 2012, 26 February - 2 March 2012, Academia Sinica, Taipei, Taiwan.
+%\bibitem{cms} CMS Collaboration. ``The CMS experiment at the CERN LHC'' JINST 3 S08004 (2008).
+%\bibitem{cms_drawing} CMS Collaboration. ``CMS detector drawings 2012'' CMS-PHO-GEN-2012-002. Retrieved from \url{http://cds.cern.ch/record/1433717}.
+%\bibitem{cms_slice} Davis, Siona Ruth. ``Interactive Slice of the CMS detector'', Aug. 2016, CMS-OUTREACH-2016-027, retrieved from \url{https://cds.cern.ch/record/2205172}  
+%\bibitem{yoke1} M. Brice ``CMS central barrel yoke''. October 2002, CERN-EX-0210014. Retrieved from  \url{https://cds.cern.ch/record/43475
+%\bibitem{yoke2} R. Breedon. ``View through the CMS detector during the cooldown of the solenoid on February 2006. CMS Collection'', February 2006, CMS-PHO-OREACH-2005-004, Retrieved from \url{https://cds.cern.ch/record/930094}.
+%\bibitem{tracker} Halyo, V. and LeGresley, P. and Lujan, P. ``Massively Parallel Computing and the Search for Jets and Black Holes at the LHC'', Nucl.Instrum.Meth. A744 (2014) 54-60, DOI: 10.1016/j.nima.2014.01.038''
+%\bibitem{pix_tdr} A. Dominguez et. al. ``CMS Technical Design Report for the Pixel Detector Upgrade'', CERN-LHCC-2012-016. CMS-TDR-11.
+%\bibitem{sst} CMS Collaboration. ``Description and performance of track and primary-vertex reconstruction with the CMS tracker,'' Journal of Instrumentation, vol. 9, no. 10, p. P10009,(2014).
+%\bibitem{tib} CMS Collaboration and M. Brice. ``Images of the CMS Tracker Inner Barrel'', November 2008, CMS-PHO-TRACKER-2008-002. Retrieved from \url{https://cds.cern.ch/record/1431467}.
+%\bibitem{tec} M. Weber. ``The CMS tracker''. 6th international conference on hyperons, charm and beauty hadrons Chicago, June 28-July 3 2004.
+%\bibitem{hcal} CMS Collaboration. ``Projected Performance of an Upgraded CMS Detector at the LHC and HL-LHC: Contribution to the Snowmass Process''. Jul 26, 2013. arXiv:1307.7135
+%\bibitem{hb} L. Veillet. ``End assembly of HB with EB rails and rotation inside SX '',January 2002. CMS-PHO-HCAL-2002-002. Retrieved from \url{https://cds.cern.ch/record/42594}.
+%\bibitem{muon} J. Puerta-Pelayo.``First DT+RPC chambers installation round in the UX5 cavern.''. January 2007, CMS-PHO-OREACH-2007-001. Retrieved from \url{https://cds.cern.ch/record/1019185}
+%\bibitem{l1} X. Cid Vidal and R. Cid Manzano. ``CMS Global Muon Trigger'' web site: Taking a closer look at LHC. Retrieved from \url{https://www.lhc-closer.es/taking\_a\_closer\_look\_at\_lhc/0.lhc\_trigger}
+%\bibitem{wlcg} WLCG Project Office, ``Documents \& Reference - Tiers - Structure,'' (2014). \url{http://wlcg.web.cern.ch/documents-reference} , last accessed on 30.01.2018.
+%\bibitem{cmssw}CMS Collaboration. ``CMSSW Application Framework'', \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookCMSSWFramework}, last accesses 06.02.2018 
+
+
+  %%%%%%%%%%%%%%%%%%%%%%%references for gen sim reco charper%%%%%%%%%%%%%%%
+
+
+%\bibitem{gen} A. Buckleya, J. Butterworthb, S. Giesekec, et. al. ``General-purpose event generators for LHC physics''. arXiv:1101.2599v1 [hep-ph] 13 Jan 2011
+%\bibitem{gen_scheme} A. Quadt. ``Top Quark Physics at Hadron Colliders''. Advances in the Physics of Particles and Nuclei. Springer-Verlag Berlin Heidelberg. DOI: 10.1007/978-3-540-71060-8 (2007)
+%\bibitem{pdfplot} DurhamHep Data Project, ``The Durham HepData Project - PDF Plotter.'' \url{http://hepdata.cedar.ac.uk/pdf/pdf3.html} , last accessed on 02.02.2018.
+%\bibitem{dglap1} G. Altarelli and G. Parisi. ``ASYMPTOTIC FREEDOM IN PARTON LANGUAGE'', Nucl.Phys. B126:298 (1977).
+%\bibitem{dglap2} Yu.L. Dokshitzer. Sov.Phys. JETP 46:641 (1977)
+%\bibitem{dglap3} V.N. Gribov, L.N. Lipatov. ``Deep inelastic e p scattering in perturbation theory'', Sov.J.Nucl.Phys. 15:438 (1972)
+%\bibitem{schemes}F. Maltoni, G. Ridolfi, and M. Ubiali, ``b-initiated processes at the LHC: a reappraisal,'' Journal of High Energy Physics, vol. 07, p. 022, (2012).
+%\bibitem{lund}B. Andersson, G. Gustafson, G.Ingelman and T. Sjostrand, ``Parton fragmentation and string dynamics'', Physics Reports, Vol. 97, No. 2-3, pp. 31-145, 1983.
+%\bibitem{tune}CMS Collaboration, ``Event generator tunes obtained from underlying event and multiparton scattering measurements;'' European Physical Journal C, vol. 76, no. 3, p. 155, (2016).
+%\bibitem{madgraph} J. Alwall et. al., ``The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations,'' Journal of High Energy Physics, vol. 07, p. 079, (2014).
+%\bibitem{pt_order} T. Sjöstrand and P. Z. Skands, ``Transverse-momentum-ordered showers and interleaved multiple interactions,'' European Physical Journal C, vol. 39, pp. 129–154, (2005).
+%\bibitem{powheg}S. Frixione, P. Nason, and C. Oleari, ``Matching NLO QCD computations with Parton Shower simulations: the POWHEG method,'' Journal of High Energy Physics, vol. 11, p. 070, (2007).
+%\bibitem{geant} S. Agostinelli et al., ``GEANT4: A Simulation toolkit,'' Nuclear Instruments and Methods in Physics, vol. A506, pp. 250–303, (2003).
+%\bibitem{geant2} J.Allison et.al.,``Recent developments in Geant4'', Nuclear Instruments and Methods in Physics Research A 835 (2016) 186-225.  
+%\bibitem{cmssim} CMS Collaboration ``Full Simulation Offline Guide'', \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideSimulation}, last accessed 04.02.2018
+%\bibitem{fastsim} A. Giammanco. ``The Fast Simulation of the CMS Experiment'' J. Phys.: Conf. Ser. 513 022012 (2014) 
+%\bibitem{particle_flow} A.M. Sirunyan et. al. ``Particle-flow reconstruction and global event description with the CMS detector'', JINST 12 P10003 (2017) \url{https://doi.org/10.1088/1748-0221/12/10/P10003}.
+%\bibitem{particle_flow2} CMS Collaboration. `` Description and performance of track and primary vertex reconstruction with the CMS tracker''. JINST 9 P10009 (2014). doi:10.1088/1748-0221/9/10/P10009
+%\bibitem{pfdiag} J. Incandela. ``Status of the CMS SM Higgs Search'' July 4, 2012. Pdf slides. Retrieved from \url{https://indico.cern.ch/event/197461/contributions/1478917/attachments/290954/406673/CMS_4July2012_Final.pdf}
+%\bibitem{ctf} P. Billoir and S. Qian, ``Simultaneous pattern recognition and track fitting by the Kalman filtering method'', Nucl. Instrum. Meth. A 294 219. (1990).
+%\bibitem{gsf} W. Adam, R. Fruhwirth, A. Strandlie and T. Todorov, ``Reconstruction of electrons with the Gaussian sum filter in the CMS tracker at LHC'', eConf C 0303241 (2003) TULT009 [physics/0306087].
+%\bibitem{da} K. Rose,  ``Deterministic Annealing for Clustering, Compression, Classification, Regression and related Optimisation Problems'', Proc. IEEE 86 (1998) 2210.
+%\bibitem{avf} R. Fruhwirth, W. Waltenberger and P. Vanlaer, `` Adaptive Vertex Fitting'', CMS Note 2007-008 (2007).
+%\bibitem{muon_req} CMS collaboration, ``Performance of CMS muon reconstruction in pp collision events at $\sqrt{s}= 7$ TeV '', JINST 7 P10002 2012, [arXiv:1206.4071].
+%\bibitem{coco} Coco, Victor and Delsart, Pierre-Antoine and Rojo-Chacon, Juan and Soyez, Gregory and Sander, Christian, ``Jets and jet algorithms'', Proceedings, HERA and the LHC Workshop Series on the implications of HERA for LHC physics: 2006-2008, pag. 182-204. \url{http://inspirehep.net/record/866539/files/access.pdf}, (2009), doi:10.3204/DESY-PROC-2009-02/54
+%\bibitem{antikt} M. Cacciari, G. P. Salam, and G. Soyez, ``The anti-$k_t$ jet clustering algorithm,'' Journal of High Energy Physics, vol. 04, p. 063, (2008).
+%\bibitem{kt} S. Catani, Y. L. Dokshitzer, M. H. Seymour, and B. R. Webber, ``Longitudinally invariant $K_t$ clustering algorithms for hadron hadron collisions'', Nuclear Physics B, vol. 406, pp. 187–224, (1993).
+%\bibitem{ac} Y.L. Dokshitzer, G.D. Leder, S.Moretti, and B.R. Webber, ``Better jet clustering algorithms,'' Journal of High Energy Physics, vol. 08, p. 001, (1997).
+%\bibitem{jetconeview} B. Dorney. ``Anatomy of a Jet in CMS''. Quantum Diaries. June 1st, 2011.  Retrieved from \url{https://www.quantumdiaries.org/2011/06/01/anatomy-of-a-jet-in-cms/}
+%\bibitem{jetreco} CMS Collaboration.``Event Displays from the high-energy collisions at 7 TeV'', May 2010, CMS-PHO-EVENTS-2010-007, Retrieved from \url{https://cds.cern.ch/record/1429614}.
+%\bibitem{jec} CMS collaboration. ``Determination of jet energy calibration and transverse momentum resolution in CMS''. JINST 6 P11002 (2011). \url{http://dx.doi.org/10.1088/1748-0221/6/11/P11002}
+%\bibitem{jec2} CMS Collaboration, ``Introduction to Jet Energy Corrections at CMS.''. \url{https://twiki.cern.ch/twiki/bin/view/CMS/IntroToJEC}, last accessed 10.02.2018. 
+%\bibitem{btag}CMS Collaboration Collaboration. ``Identification of b quark jets at the CMS Experiment in the LHC Run 2''. Tech. rep. CMS-PAS-BTV-15-001. Geneva: CERN, (2016). \url{https://cds.cern.ch/record/2138504}.
+%\bibitem{metcorr}CMS Collaboration Collaboration. ``Performance of missing energy reconstruction in 13 TeV pp collision data using the CMS detector''. Tech. rep. CMS-PAS-JME16-004. Geneva: CERN, 2016. \url{https://cds.cern.ch/record/2205284}.
+%\bibitem{hig13}CMS Collaboration, ``New CMS results at Moriond (Electroweak) 2013'', Retrieved from \url{http://cms.web.cern.ch/sites/cms.web.cern.ch/files/styles/large/public/field/image/HIG13004\_Event01\_0.png?itok=LAwZzPHR}
+%\bibitem{top12035} CMS Collaboration, ``New CMS results at Moriond (Electroweak) 2013'', Retrieved from \url{http://cms.web.cern.ch/sites/cms.web.cern.ch/files/styles/large/public/field/image/TOP12035\_Event01.png?itok=uMdnSqzC}
+%\bibitem{cmsshow} CMS Collaboration. ``Physics Analysis Oriented Event Display ( Fireworks / cmsShow )'', \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookFireworks}, last accessed 10.02.2018.
+
+%% %%%%%%%%%%%%%%%%%%%%references for statistics chapter %%%%%%%%%%%%%%%%%%%%%%  
+
+%\bibitem{mva} G. Cowan. ``Topics in statistical data analysis for high-energy physics''. arXiv:1012.3589v1
+%\bibitem{tmva}  A. Hoecker et al., ``TMVA-Toolkit for multivariate data analysis'' \href{https://arxiv.org/pdf/physics/0703039.pdf}{arXiv:physics/0703039v5 (2009)} 
+%\bibitem{luca} L. Lista. ``Statistical Methods for Data Analysis in Particle Physics'', 2nd ed. Springer International Publishing. (2017) \url{https://dx.doi.org/10.1007/978-3-319-62840-0}
+%\bibitem{root} I. Antcheva et al., ``ROOT-A C++ framework for petabyte data storage, statistical analysis and visualization ,'' Computer Physics Communications, vol. 182, no. 6, pp. 1384–1385, (2011).
+%\bibitem{coadou} Y. Coadou. ``Boosted decision trees'', ESIPAP, Archamps, 9 February 2016. Lecture. Retrieved from \url{https://indico.cern.ch/event/472305/contributions/1982360/attachments/1224979/1792797/ESIPAP_MVA160208-BDT.pdf}
+%\bibitem{friedman} J.H. Friedman. ``Greedy function approximation: A gradient boosting machine''. Ann. Statist. Volume 29, Number 5 (2001), 1189-1232. \url{https://projecteuclid.org/download/pdf_1/euclid.aos/1013203451}.
+%\bibitem{roofit} W. Verkerke and D. Kirkby, ``The RooFit toolkit for data modeling,'' arXiv preprint physics, (2003).
+%\bibitem{combine} CMS Collaboration, ``Documentation of the RooStats-based statistics tools for Higgs PAG''. \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHiggsAnalysisCombinedLimit}, last accessed on 08.04.2018.
+%\bibitem{minuit}  F. James, M. Roos, ``MINUIT: Function minimization and error analysis''. Cern Computer Centre Program Library, Geneve Long Write-up No. D506, 1989
+%\bibitem{npl} J. Neyman and E. S. Pearson, ``On the problem of the most efficient tests of statistical hypotheses''. Springer-Verlag, (1992).
+
+%\bibitem{read} A.L. Read. ``Modified frequentist analysis of search results (the $CL_s$ method),'' (2000). CERN-OPEN-2000-205.
+%\bibitem{hgg} C. Palmer. ``Searches for a Light Higgs with CMS'', CMS-CR-2012-215. \url{https://cds.cern.ch/record/1560435}.
+%\bibitem{wald}A. Wald, ``Tests of statistical hypotheses concerning several parameters when the number of observations is large'', Transactions of the American Mathematical society, vol. 54, no. 3, pp. 426–482, (1943).
+%\bibitem{asymptotic} G. Cowan, K. Cranmer, E. Gross, and O. Vitells, ``Asymptotic formulae for likelihood-based tests of new physics'', European Physical Journal C, vol. 71, p. 1554, (2011).
+%\bibitem{wilks} S. S. Wilks, ``The Large-Sample Distribution of the Likelihood Ratio for Testing Composite Hypotheses'', Annals of Mathematical Statistics, vol. 9, pp. 60-62, (03, 1938).
+
+  
+  %%   %%%%%%%%%%%%%%%%%%%%references for Anlysis chapter %%%%%%%%%%%%%%%%%%%%%%
+  
+  
+%\bibitem{h_mass} G. Aad et al. (ATLAS Collaboration, CMS Collaboration). ``Combined Measurement of the Higgs Boson Mass in pp Collisions at $\sqrt{s}=7$ and 8 TeV with the ATLAS and CMS Experiments''.  Phys. Rev. Lett. 114, 191803. \url{https://arxiv.org/pdf/1503.07589.pdf}.
+%\bibitem{hespel} B. Hespel, F. Maltoni, and E. Vryonidou, ``Higgs and Z boson associated production via gluon fusion in the SM and the 2HDM'', JHEP 06 (2015) 065, \url{https://dx.doi:10.1007/JHEP06(2015)065}, arXiv:1503.01656.
+%\bibitem{diboson} ATLAS Collaboration, ``Measurements of Higgs boson production and couplings in diboson final states with the ATLAS detector at the LHC'', Phys. Lett. B726 (2013) 88-119, doi:10.1016/j.physletb.2014.05.011,10.1016/j.physletb.2013.08.010, arXiv:1307.1427. [Erratum: Phys. Lett.B734,406(2014)].
+%\bibitem{Khachatryan_2015}CMS Collaboration, ``Search for the associated production of a Higgs boson with a single top quark in proton-proton collisions at  $\sqrt{s}=8 $ TeV'', JHEP 06 (2016) 177,doi:10.1007/JHEP06(2016)177, arXiv:1509.08159.
+%\bibitem{CMS_AN_2014-140}B. Stieger, C. Jorda Lope et al., ``Search for Associated Production of a Single Top Quark and a Higgs Boson in Leptonic Channels'', CMS Analysis Note CMS AN-14-140, 2014.
+%\bibitem{CMS_AN_2016-211}M. Peruzzi, C. Mueller, B. Stieger et al., ``Search for ttH in multilepton final states at $\sqrt{s}=13$ TeV'', CMS Analysis Note CMS AN-16-211, 2016.
+%\bibitem{CMS_PAS_HIG_16-019}CMS Collaboration, ``Search for H to bbar in association with a single top quark as a test of Higgs boson couplings at $\sqrt{s}=13$ TeV'', CMS Physics Analysis Summary CMS-PAS-HIG-16-019, 2016.
+%\bibitem{CMS_PAS_HIG_17-005}CMS Collaboration, ``Search for production of a Higgs boson and a single top quark in multilepton final states in proton collisions at $\sqrt{s}=13$ TeV'', CMS Physics Analysis Summary CMS-PAS-HIG-17-005, 2016.
+%\bibitem{dqm} CMS Collaboration. ``The CMS data quality monitoring software: experience and future prospects'', J. Phys.: Conf. Ser. 513 (2014) 032024
+
+  
+%\bibitem{json} CMS Collaboration, ``PdmV2016Analysis,'' (2016). \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/PdmV2016Analysis#DATA}, last accessed 11.04.2016.
+%\bibitem{CMS_AN_2017-029} M. Peruzzi, F. Romeo, B. Stieger et al., ``Search for ttH in multilepton final states at $\sqrt{s}=13$ TeV'', CMS Analysis Note CMS AN-17-029, 2017.
+%\bibitem{THQProdTwiki} B. Maier, ``SingleTopHiggProduction13TeV'', February, 2016. \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/SingleTopHiggsGeneration13TeV}.
+%\bibitem{btag_corr} B. WG, ``BtagRecommendation80XReReco'', February, 2017. \url{https://twiki.cern.ch/twiki/bin/view/CMS/BtagRecommendation80XReReco}.
+%\bibitem{btag_points} CMS Collaboration, ``Identification of b quark jets at the CMS Experiment in the LHC Run 2'', CMS Physics Analysis Summary CMS-PAS-BTV-15-001, 2016.
+%\bibitem{muid} CMS Collaboration, ``Baseline muon selections for Run-II.'' \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideMuonIdRun2}, last accessed on 24.02.2018.
+%\bibitem{medium_muon} G. Petrucciani and C. Botta, ``Two step prompt muon identification'', January, 2015. \url{https://indico.cern.ch/event/368007/contribution/2/material/slides/0.pdf}.
+%\bibitem{mva_eid1} CMS Collaboration, ``Performance of electron reconstruction and selection with the CMS detector in proton-proton collisions at $\sqrt{s} = 8$ TeV''. JINST 10 P06005, 2015. \url{https://doi.org/10.1088/1748-0221/10/06/P06005}
+%\bibitem{mva_eid} H. Brun and C. Ochando, ``Updated Results on MVA eID with 13 TeV samples'', October, 2014. \url{https://indico.cern.ch/event/298249/contribution/3/material/slides/0.pdf}.
+%\bibitem{i_mini} K. Rehermann and B. Tweedie, ``Efficient Identification of Boosted Semileptonic Top Quarks at the LHC'', JHEP 03 (2011) 059, \url{https://dx.doi:10.1007/JHEP03(2011)059}, arXiv:1007.2221.
+%\bibitem{tnp} CMS Collaboration. ``Tag and Probe'', \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/TagAndProbe}, last accessed on 02.03.2018. 
+%\bibitem{kcouplings} CMS Collaboration. ``$\kappa$ coupling modifiers'', \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG2KAPPA#t_ch_qbtHq},last accessed on 27.04.2018.
+%\bibitem{lumi} CMS Collaboration, ``CMS Luminosity Measurement for the 2016 Data Taking Period,'' (2017). CMS-PAS-LUM-17-001.
+%\bibitem{CMS_AN_2016-378} J. Monroy, P.Das, B. Stieger et al., ``Search for tHq in multilepton final states at $\sqrt{s}=13$ TeV'', CMS Analysis Note CMS AN-16-378, 2016.
+%\bibitem{fink} T. Chwalek 1 , N. Faltermann 1 , S. Fink 1 , et. al., ``Investigating the top-Yukawa coupling with the production of a Higgs boson in association with a single top quark in the $H \to b\bar{b}$ decay channel. CMS Analysis Note CMS AN-16-065, Version 4, 2017.
+
+
+  
+  %%% references for pixels chapter
+
+
+%\bibitem{pixel_performance} CMS Tracker Group. ``The Performance plots for Phase 1 Pixel Detector 2017'' \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/PixelOfflinePlotsAugust2017#Alignment_of_the_forward_pixels}, last accessed on 01.05.2018
+%\bibitem{unl_sop} UNL Silicon pixel group ``Pixel Phase-I activities at University of Nebraska-Lincoln (UNL)''\url{https://twiki.cern.ch/twiki/bin/view/CMS/UNLPixelPhaseI}, last accessed on 01.05.2018.
+%\bibitem{aerotech} Aerotech (n.d.). ``AGS15000 Series'', retrieved from \url{https://www.aerotech.com/product-catalog/gantry-system/ags15000.aspx?p=\%2fproduct-catalog\%2fgantry-system.aspx\%3f}
+%\bibitem{pr_algorithm} C. Fangmeier. ``Fiducial recognition'', 2016. Github repository,\url{https://github.com/cfangmeier/Small/blob/master/JupyterNotebooks/Fiducial_Recognition.ipynb}
+%\bibitem{sop_103} F. Meier and J. Monroy `` SOP 103 - Module assembly: Gluing of HDI to BBM'', retrieved from \url{https://twiki.cern.ch/twiki/pub/CMS/UNLPixelPhaseI/UNL-PxPhI-SOP-103-v0.pdf}, last accessed on 05.30.2018.
+%\bibitem{gluing_frank} F. Meier `` Forward Pixel Module Glueing at UNL'' YouTube, Sep. 15, 2014, retrieved from \url{https://www.youtube.com/watch?v=ofdntTIwKY4}.  
+%\bibitem{jmonroy_channel} J. Monroy (n.d). Home [YouTube Channel]. Retrieved from \url{https://www.youtube.com/channel/UCi7S7vhYpieLOy2KJ0SS0eg}.
+%\bibitem{sop_105} F. Meier and J. Monroy `` SOP 105 - Module assembly: Encapsulation of wirebonds'', retrieved from \url{https://twiki.cern.ch/twiki/pub/CMS/UNLPixelPhaseI/UNL-PxPhI-SOP-103-v0.pdf}, last accessed on 05.30.2018.
+%\bibitem{fpix_module_testing_guide} J. Antonelli. ``FPix Module Testing Reference Guide'', Sep. 2015, retrieved from \url{https://cms-docdb.cern.ch/cgi-bin/DocDB/RetrieveFile?docid=12690&filename=fpix-module-testing-reference-guide.pdf&version=5} 
+  
+\end{thebibliography}
+  
+%\bibliographystyle{abbrv}
+%use following if all content of bibtex file should be shown
+%\nocite{*}
+%\bibliography{../sections/tf}
+%% Index go here (if you have one)
+\end{document}
+
+\endinput
+%%
+%% End of file `skeleton.tex'.

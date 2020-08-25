@@ -1,0 +1,1608 @@
+% \iffalse meta-comment
+%
+% Copyright (C) 2008 by Ned W. Hummel nhummel@gmail.com
+%
+% This file may be distributed and/or modified under the conditions of
+% the LaTeX Project Public License, either version 1.3c of this license
+% or (at your option) any later version.  The latest version of this
+% license is in:
+% 
+%    http://www.latex-project.org/lppl.txt
+% 
+% and version 1.3c or later is part of all distributions of LaTeX version
+% 2006/05/20 or later.
+% \fi
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{nuthesis.dtx}
+%</driver>
+%<class>\NeedsTeXFormat{LaTeX2e} 
+%<class>\ProvidesClass{nuthesis}
+%<*class>
+    [2013/05/23 v0.7.1 University of Nebraska Thesis class]
+%</class>
+%<*driver>
+\documentclass{ltxdoc}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{fancyvrb}
+\EnableCrossrefs         
+\CodelineIndex
+\RecordChanges
+% ^^A Some formatting macros for the docs
+\newcommand{\pkg}[1]{\textsf{#1}}
+\setlength{\parskip}{.5\baselineskip}
+\newlength{\codeSkip} \setlength{\codeSkip}{2ex}
+%
+\begin{document}
+  \DocInput{nuthesis.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \CheckSum{313}
+% 
+% \iffalse
+%<*class>
+%% \CharacterTable
+%% {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%%  Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%%  Digits        \0\1\2\3\4\5\6\7\8\9
+%%  Exclamation   \!     Double quote  \"     Hash (number) \#
+%%  Dollar        \$     Percent       \%     Ampersand     \&
+%%  Acute accent  \'     Left paren    \(     Right paren   \)
+%%  Asterisk      \*     Plus          \+     Comma         \,
+%%  Minus         \-     Point         \.     Solidus       \/
+%%  Colon         \:     Semicolon     \;     Less than     \<
+%%  Equals        \=     Greater than  \>     Question mark \?
+%%  Commercial at \@     Left bracket  \[     Backslash     \\
+%%  Right bracket \]     Circumflex    \^     Underscore    \_
+%%  Grave accent  \`     Left brace    \{     Vertical bar  \|
+%%  Right brace   \}     Tilde         \~}
+%</class>
+% \fi
+%
+% \changes{v0.6}{2008/02/22}{Removed signature page.}
+% \changes{v0.6}{2008/02/22}{Changed documentation to match.}
+% \changes{v0.5}{2008/01/29}{Fixed typos in the documentation.}
+% \changes{v0.4a}{2007/12/15}{Cleaned up optional includes.}
+% \changes{v0.4a}{2007/12/15}{Fixed change log to use \cs{cs}.}
+% \changes{v0.4a}{2007/12/15}{Incorporated thesis-test into dtx file.}
+% \changes{v0.4a}{2007/12/15}{Fixed missing entries in changelog.}
+% \changes{v0.4a}{2007/12/14}{Changed \cs{textsc} back to
+%   \cs{MakeUppercase}.}
+% \changes{v0.4a}{2007/12/14}{Rewrote documentation. Made changelog.}
+% \changes{v0.4a}{2007/12/13}{Lots of minor things fixed/cleaned up.}
+% \changes{v0.4a}{2007/12/13}{Fix signature page to use
+%   \cs{nu@doctype}.}
+% \changes{v0.4a}{2007/12/13}{Included the bibliogrpahy.}
+% \changes{v0.4}{2007/12/12}{\cs{MakeUppercase} to \cs{textsc} changed
+%   in title page.}
+% \changes{v0.3}{2007/12/06}{Addition the of signature page.}
+% \changes{v0.3}{2007/12/06}{Place single/double code in
+%   \cs{AtBeginDocument}.}  
+% \changes{v0.3}{2007/12/06}{Included a skeleton file.}
+% \changes{v0.3}{2007/12/06}{Clean-up.}
+% \changes{v0.3}{2007/12/06}{Fixed headers to work for twoside
+%   option.}
+% \changes{v0.2}{2007/12/06}{Added draft option.}
+% \changes{v0.2}{2007/12/05}{Clean-up.}
+% \changes{v0.2}{2007/12/04}{\cs{subsubsections} now numbered. Thanks
+%   to Dave Miller.}
+% \changes{v0.2}{2007/12/04}{Fixed a missing pagestyle alias. Thanks
+%   to Dave Miller.}
+% \changes{v0.2}{2007/12/04}{Rewrote a bunch of code to make things
+%   cleaner.}
+% \changes{v0.1}{2007/12/03}{Initial version}
+%
+%
+% \GetFileInfo{nuthesis.dtx}
+%
+% \DoNotIndex{%
+% \gdef,\let,\newcommand,\renewcommand,\newenvironment,\renewenvironment,\begin,\end,%
+% \LoadClass,\RequirePackage,%
+% \PassOptionsToPackage,\PassOptionsToClass,\DeclareOption,%
+% \CurrentOption,\ProcessOptions,\ExecuteOptions,%
+% \AtBeginDocument,\AtEndDocument,%
+% \setboolean,\newboolean,\boolean,%
+% \define@key,\setkeys,%
+% \ifthenelse,\fi,\else,\ifdraftdoc,%
+% \LaTeX,\copyright,%
+% \normalfont,\itshape,\textsc,\MakeUppercase,\footnotesize,%
+% \par,\relax,\,,\\,\rule,\makebox,%
+% \hspace,\vfill,\textwidth,%
+% \includegraphics,%
+% \baselineskip,\cleardoublepage,%
+% \setsecnumdepth,\maxsecnumdepth,\maxtocdepth,%
+% \singlespacing,\doublespacing,%
+% \thispagestyle,\pagestyle,%
+% \makepagestyle,\aliaspagestyle,\makeevenhead,\makeoddhead,%
+% \today,\thistime,\thepage%
+% }
+%
+% \title{The \pkg{nuthesis} class\thanks{This document
+%   corresponds to \pkg{nuthesis}~\fileversion, dated \filedate.}}
+%
+% \author{Ned W. Hummel\thanks{Prof. Allan Donsig and the author wrote
+%     the original \pkg{unlthesis}, on which this class is loosely based.}\\
+%   \url{nhummel@gmail.com}}
+%
+% \maketitle
+%
+% \begin{abstract}
+%   The \pkg{nuthesis} class is designed to make following the
+%   guidelines in the \emph{University of Nebraska--Lincoln Guidebook
+%     For Preparing a Thesis or
+%     Dissertation}~\cite{unl-thesis-guidebook,unl-thesis-electronic}
+%   straightforward. As the rules should be nearly identical on the
+%   other NU\footnote{Hence the name of the class.} campus (Kearney,
+%   the Medical Center, and Omaha) an effort has been made to allow
+%   the class file to be used on those campus.
+%\end{abstract}
+%
+% \section{Usage}\label{sec:usage}
+%
+% Please note that \pkg{nuthesis} requires \pkg{memoir},
+% \pkg{setspace}, \pkg{geometry} and \pkg{scrtime} from
+% \pkg{KOMA-script}.
+% 
+% \subsection{Class options}\label{subsec:classopts}
+%
+% The \pkg{nuthesis} is designed to be a ``drop in'' replacement for
+% the \pkg{report} document class. As with any \LaTeX{} class, there
+% are a number of optional arguments that are available to the class.
+%
+% \framebox{The default options for this class are |double|,
+%   |electronic| and |phd|.}
+% 
+% \DescribeMacro{single}
+% \DescribeMacro{double} 
+% The options |single| and |double| control the spacing in most of the
+% document. For example, the abstract \emph{must} be double spaced and
+% the option |single| does not affect it.
+%
+% \DescribeMacro{print}
+% \DescribeMacro{electronic} 
+% With the move towards electronic submissions, we have an
+% |electronic| option that sets up the thesis for this. Currently, the
+% difference between |electronic| and |print|, is |print| adds extra
+% spacing to the margins to allow for binding.
+% 
+% \DescribeMacro{phd}
+% \DescribeMacro{edd}
+% \DescribeMacro{ms}
+% \DescribeMacro{ma}
+% For the most common degrees that will be using this class, we have
+% options that allow several title page elements to be set as a group.
+% A listing of what is set by each option is shown in
+% Table~\ref{tab:autoFilledTitlePage}. The description of the lower
+% level commands that do the real work, is found in
+% \S\ref{subsubsec:degreetypes}.
+% \begin{table}[h]
+%   \centering
+%   \caption{Pre-defined options for the title page.}
+%   \label{tab:autoFilledTitlePage}
+% \begin{tabular}{llll}\toprule
+% Option & Document type & Degree & Degree Abbreviation\\ \midrule
+% |phd| & Dissertation & Doctor of Philosophy & Ph.D.\\
+% |edd| & Dissertation & Doctor of Education & Ed.D.\\
+% |ms| & Thesis & Master of Science & M.S.\\
+% |ma| & Thesis & Master of Art & M.A.\\ \bottomrule
+% \end{tabular}
+% \end{table}
+% 
+% \DescribeMacro{draft}
+% As you will no doubt be printing multiple copies of your thesis, a
+% |draft| option has been provided, similar to that
+% of~\cite{uiucthesis}. The purpose of this option is to print in the
+% header the date and time that the file was \LaTeX{}ed. 
+
+% \DescribeMacro{testing}
+% The |testing| option is used to print out a frame showing the margin
+% and header placement on the first page of the document.
+%
+%^^A  This following construct is used to get parts of skeleton|thesis-test to
+%^^A  be used as an example in the docs, but we don't want the comments that
+%^^A  are intended for the just the skeleton.tex file to show up in the
+%^^A  documentation. The idea for this came from the uiucthesis, but they
+%^^A  put the comments in both the thesis-test file and the documentation.
+% One gets started, like any other \LaTeX{} document:
+% \iffalse
+%<*skeleton>
+% \fi
+%^^A  This bit will only show up in skeleton as a comment.
+% \iffalse
+%%
+%% For common degrees, you can use the class options:
+%% phd, edd, ms, ma
+%% phd is the default
+% \fi
+%^^A  This bit will show up in skeleton as code.
+% \begin{Verbatim}[frame=lines,framesep=\codeSkip,label={[Start of code]End of Code}]
+\documentclass[print]{nuthesis}
+% \end{Verbatim}
+% \iffalse
+%</skeleton>
+% \fi 
+% The above example will set up formatting for a double spaced, print
+% ready dissertation for a Ph.D. (|phd|, |double| are default options, not
+% overridden here).
+% \changes{v0.6.1}{2008/03/07}{Changed options for skeleton file,
+%   removed ``single''}
+%
+%^^A  Begin preamble for thesis-test
+%^^A  We don't want one for skeleton
+% \iffalse
+%<*thesis-test>
+\documentclass[ms,testing]{nuthesis}
+%% Needed to typset the math in this sample
+\usepackage{amsmath}
+\usepackage{amsfonts}
+%% Let's use a different font
+\usepackage[sc,osf]{mathpazo}
+
+%% Makes things look better
+\usepackage{microtype}
+
+%% Makes things look better
+\usepackage{booktabs}
+
+%% Gives us extra list environments
+\usepackage{paralist}
+
+%% Be able to include graphicsx
+\usepackage{graphicx}
+
+%% I like darker colors
+\usepackage{color}
+\definecolor{dark-red}{rgb}{0.6,0,0}
+\definecolor{dark-green}{rgb}{0,0.6,0}
+\definecolor{dark-blue}{rgb}{0,0,0.6}
+
+%% If you use hyperref, you need to load memhfixc *after* it.  
+%% See the memoir docs for details.
+\usepackage[%
+pdfauthor={Ned W. Hummel},
+pdftitle={Test Thesis},
+pdfsubject={Thesis},
+pdfkeywords={LaTeX, Thesis, University of Nebrska, Test},
+linkcolor=dark-blue,
+pagecolor=dark-green,
+citecolor=dark-blue,
+urlcolor=dark-red,
+colorlinks=true,
+backref,
+plainpages=false,% This helps to fix the issue with hyperref with page numbering
+pdfpagelabels% This helps to fix the issue with hyperref with page numbering
+]{hyperref}
+
+%% Needed by memoir to fix things with hyperref
+\usepackage{memhfixc}
+%</thesis-test>
+% \fi
+%^^A End preamble for thesis-test
+% \subsection{Title page}\label{subsec:titlepage}
+%
+% \DescribeMacro{\title}
+% \DescribeMacro{\author}
+% \DescribeMacro{\adviser}
+% \DescribeMacro{\adviserAbstract}
+% \changes{v0.7}{2008/04/14}{Added \cs{adviserAbstract} documentation.}
+% \DescribeMacro{\major}
+% \DescribeMacro{\degreemonth}
+% \DescribeMacro{\degreeyear}
+% The usage of this group of commands should be self-explanatory from
+% usage of |title| and |author| in the standard \LaTeX{} classes. The
+% extra ones are part of the collection of macros needed to typeset
+% the title and abstract pages.
+%
+% \cs{adviserAbstract} is to typest your adviser(s) names without
+% titles, i.e., ``Professor'' for the abstract.
+%
+% Note: |title| and |doctype| are automatically made uppercase, this
+% can not be overridden, as it's required by guidebook.
+% 
+% After the preamble you should have:
+%^^A  Start of skeleton title page
+% \iffalse
+%<*skeleton>
+% \fi
+% \begin{Verbatim}[frame=lines,framesep=\codeSkip,label={[Start of code]End of Code}]
+\begin{document}
+%% Start formatting the first few special pages
+%% frontmatter is needed to set the page numbering correctly
+\frontmatter
+
+\title{A Very Good Thesis}
+\author{You}
+\adviser{Professor Someone}
+\adviserAbstract{Someone}
+\major{Something}
+\degreemonth{Month}
+\degreeyear{Year}
+% \end{Verbatim}
+% \iffalse
+%</skeleton>
+% \fi
+%^^A  End of skeleton title page
+%^^A  Start of thesis-test title page
+% \iffalse
+%<*thesis-test>
+\begin{document}
+%% Start formating the first few special pages
+%% frontmatter is needed to set the page numbering correctly
+\frontmatter
+
+\title{Test}
+\author{Ned W. Hummel}
+\adviser{Professor Someone}
+\adviserAbstract{Someone}
+\major{\LaTeX}
+\degreemonth{December}
+\degreeyear{2007}
+%</thesis-test>
+% \fi
+%^^A  End of thesis-test title page
+%
+% Note: |\adviser| and |\adviserAbstract| are a ``dumb'' macros in that they have only one
+% argument. If you happen to have Co-advisers, you need to enter both
+% names here, just as you (or Grad Studies) want them to appear. For example:
+%
+%^^A  We only want this in the documentation and no where else.
+% \begin{Verbatim}[frame=lines,framesep=\codeSkip,label={[Start of code]End of Code}]
+% \adviser{Professor Donald~E. Knuth and Professor Leslie Lamport}
+% \adviserAbstract{Donald~E. Knuth and Leslie Lamport}
+% \end{Verbatim}
+%
+% \DescribeMacro{\college}
+% \DescribeMacro{\university}
+% \DescribeMacro{\city}
+% \DescribeMacro{\state}
+% This group is part of the collection of macros that allow the user
+% to enter information needed to typeset the title and abstract pages.
+%
+% For what |\college| should be set to depends on the college you will
+% be graduating from. For graduate students: ``Graduate College'' for
+% undergraduates: ``College of Arts \& Sciences'', \ldots
+%
+% Note: |\college|, |\university|, |\campus|, |\city|, and |\state|
+% are pre-set to ``Graduate College'', ``University of Nebraska'',
+% ``Lincoln'', and ``Nebraska'' respectively. Each of these can be
+% easily overridden, by uncommenting the commands in the following
+% example and specifying what they should be.
+%
+% \iffalse
+%<*skeleton|thesis-test>
+% \fi
+% \iffalse
+%%
+%% For most people the defaults will be correct, so they are commented
+%% out. To manually set these, just uncomment and make the needed
+%% changes.
+% \fi
+% \begin{Verbatim}[frame=lines,framesep=\codeSkip,label={[Start of code]End of Code}]
+%% \college{Your college}
+%% \city{Your City}
+% \end{Verbatim}
+% \iffalse
+%</skeleton|thesis-test>
+% \fi
+%
+% \subsubsection{Degree information}\label{subsubsec:degreetypes}
+% \DescribeMacro{\doctype}
+% \DescribeMacro{\degree}
+% \DescribeMacro{\degreeabbreviation}
+% This is the final group of the collection of macros that allow the
+% user to enter information needed to typeset the title and abstract.
+% 
+% As these can be set all at once for the most common degrees with an
+% option to the \pkg{nuthesis}, see
+% Table~\ref{tab:autoFilledTitlePage}.  If you have a different degree
+% uncomment the following commands and specify the correct information
+%
+% |\doctype| is used to set the type of document we are working with
+% (typically a thesis or a dissertation).
+%
+% \iffalse
+%<*skeleton|thesis-test>
+% \fi
+% \iffalse
+%%
+%% For most people the following can be changed with a class
+%% option. To manually set these, just uncomment the following and
+%% make the needed changes.
+% \fi
+% \begin{Verbatim}[frame=lines,framesep=\codeSkip,label={[Start of code]End of Code}]
+%% \doctype{Thesis or Dissertation}
+%% \degree{Your degree}
+%% \degreeabbreviation{Your degree abbr.}
+% \end{Verbatim}
+% \iffalse
+%</skeleton|thesis-test>
+% \fi
+%
+% \iffalse
+%<*skeleton|thesis-test>
+%%
+%% Now that we know everything we need, we can generate the title page
+%% itself.
+%%
+\maketitle
+%</skeleton|thesis-test>
+% \fi
+%
+% \subsection{Other front matter}\label{subsec:frontmatter}
+%
+% \DescribeEnv{abstract}% \DescribeEnv{copyrightpage}
+% \DescribeEnv{dedication}
+% \DescribeEnv{acknowledgments}
+% \DescribeEnv{grantinfo}
+% Here is the collection on environments that can be used to typeset a
+% number of common elements typically found in a thesis. The
+% |abstract| is the only required one. 
+% 
+% \iffalse
+%<*skeleton>
+% \fi
+% \iffalse
+%%
+%% You have a maximum of 350 words for your abstract, which includes
+%% your title, name, etc.
+%%
+% \fi
+% \begin{Verbatim}[frame=lines,framesep=\codeSkip,label={[Start of code]End of Code}]
+%% Required
+\begin{abstract}
+ Abstract goes here.
+\end{abstract}
+
+%% Optional
+%% \begin{copyrightpage} 
+%% \end{copyrightpage}
+
+%% Optional
+%% \begin{dedication}
+%% \end{dedication}
+
+%% Optional
+%% \begin{acknowledgments}
+%% \end{acknowledgments}
+
+%% Optional
+%% \begin{grantinfo}
+%% \end{grantinfo}
+% \end{Verbatim}
+% \iffalse
+%</skeleton>
+% \fi
+%
+%^^A Start of thesis-test front matter
+% \iffalse
+%<*thesis-test>
+%% You have a maximum of 350, which includes your title, name, etc.
+\begin{abstract}
+  A simple test of using \textsf{nuthesis}, which demonstrates most
+  of the options the class has.
+\end{abstract}
+
+%% Optional
+\begin{copyrightpage} 
+This file may be distributed and/or modified under the conditions of
+the \LaTeX{} Project Public License, either version 1.3c of this license
+or (at your option) any later version.  The latest version of this
+license is in:
+\begin{center}
+   \url{http://www.latex-project.org/lppl.txt}
+\end{center}
+and version 1.3c or later is part of all distributions of \LaTeX version
+2006/05/20 or later.
+\end{copyrightpage}
+
+%% Optional
+\begin{dedication}
+  Arma virumque cano, Troiae qui primus ab oris Italiam, fato
+  profugus, Laviniaque venit litora, multum ille et terris iactatus et
+  alto vi superum saevae memorem Iunonis ob iram; multa quoque et
+  bello passus, dum conderet urbem, inferretque deos Latio, genus unde
+  Latinum, Albanique patres, atque altae moenia Romae.
+\end{dedication}
+
+%% Optional
+\begin{acknowledgments}
+  Arma virumque cano, Troiae qui primus ab oris Italiam, fato
+  profugus, Laviniaque venit litora, multum ille et terris iactatus et
+  alto vi superum saevae memorem Iunonis ob iram; multa quoque et
+  bello passus, dum conderet urbem, inferretque deos Latio, genus unde
+  Latinum, Albanique patres, atque altae moenia Romae.
+\end{acknowledgments}
+
+%% Optional
+\begin{grantinfo}
+  I'm not funded by any grants.
+\end{grantinfo}
+%</thesis-test>
+% \fi
+%
+% \DescribeMacro{\tableofcontents}
+% \DescribeMacro{\listoffigures}
+% \DescribeMacro{\listoftabels}
+% Here is the collection on commands that can be used to typeset a
+% number of common elements typically found in a thesis. The
+% |\tableofcontents| is the only required one.
+%
+% \begin{Verbatim}[frame=lines,framesep=\codeSkip,label={[Start of code]End of Code}]
+%% The ToC is required
+%\tableofcontents
+%% Uncomment these if need be
+% \listoffigures
+% \listoftables
+% \end{Verbatim}
+%
+% \iffalse
+%<*skeleton|thesis-test>
+
+%% The ToC is required
+\tableofcontents
+%% Uncomment these if need be
+%<+thesis-test>\listoffigures
+%<+thesis-test>\listoftables
+%<-thesis-test>%\listoffigures
+%<-thesis-test>%\listoftables
+%</skeleton|thesis-test>
+% \fi
+% \changes{v0.5}{2008/01/29}{DocStrip code wasn't being striped out.}
+%
+% \subsection{The rest}\label{subsec:therest}
+% 
+% Now that all the front matter is set up, it's time to start on the
+% main part of the thesis.
+%
+% You \emph{must} use |\mainmatter| before you start the main body of
+% your thesis, else the page numbering will be wrong.
+%
+% Once you are at the end of your main body, you \emph{must} use
+% |\backmatter| before you start the Appendices with |\appendix| for
+% your thesis, or the section formatting will be wrong.
+% \iffalse
+%<*skeleton>
+% \fi
+% \iffalse
+%%
+%% ``Real'' beginning of the document.
+%% mainmatter is needed to set the page numbering correctly
+% \fi
+% \begin{Verbatim}[frame=lines,framesep=\codeSkip,label={[Start of code]End of Code}]
+%%   mainmatter is needed after the ToC, (LoF, and LoT) to set the
+%%   page numbering correctly for the main body
+\mainmatter
+
+%% Thesis goes here
+
+\chapter{My Thesis}
+
+%% backmatter is needed at the end of the main body of your thesis to
+%% set up page numbering correctly for the remainder of the thesis
+\backmatter
+
+%% Start the correct formatting for the appendices
+\appendix
+
+%% Appendices go here (if you have them)
+
+%% Bibliography goes here (You better have one)
+%% BibTeX is your friend
+
+%% Index go here (if you have one)
+\end{document}
+% \end{Verbatim}
+% \iffalse
+%</skeleton>
+% \fi
+
+%^^A Begin main body for the thesis-test
+% \iffalse
+%<*thesis-test>
+%%   mainmatter is needed after the ToC, (LoF, and LoT) to set the
+%%   page numbering correctly for the main body
+\mainmatter
+
+%% Thesis goes here
+\chapter{The \AE{}NIED, Book I}\label{chap:aenied}
+
+\section{Start}
+
+Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus,
+Laviniaque venit litora, multum ille et terris iactatus et alto vi
+superum saevae memorem Iunonis ob iram; multa quoque et bello passus,
+dum conderet urbem, inferretque deos Latio, genus unde Latinum,
+Albanique patres, atque altae moenia Romae.\cite{virgil}
+
+
+\subsection{Middle}
+
+Dixit, et avertens rosea cervice refulsit, ambrosiaeque comae divinum
+vertice odorem spiravere, pedes vestis defluxit ad imos, et vera
+incessu patuit dea.  Ille ubi matrem adgnovit, tali fugientem est voce
+secutus: `Quid natum totiens, crudelis tu quoque, falsis iudis
+imaginibus?  Cur dextrae iungere dextram non datur, ac veras audire et
+reddere voces?'\cite{virgil}
+
+\subsubsection{End} 
+
+Postquam prima quies epulis, mensaeque remotae, crateras magnos
+statuunt et vina coronant.  Fit strepitus tectis, vocemque per ampla
+volutant atria; dependent lychni laquearibus aureis incensi, et noctem
+flammis funalia vincunt.  Hic regina gravem gemmis auroque poposcit
+implevitque mero pateram, quam Belus et omnes a Belo soliti; tum facta
+silentia tectis: `Iuppiter, hospitibus nam te dare iura loquuntur,
+hunc laetum Tyriisque diem Troiaque profectis esse velis, nostrosque
+huius meminisse minores.  Adsit laetitiae Bacchus dator, et bona Iuno;
+et vos, O, coetum, Tyrii, celebrate faventes.'  Dixit, et in mensam
+laticum libavit honorem, primaque, libato, summo tenus attigit ore,
+tum Bitiae dedit increpitans; ille impiger hausit spumantem pateram,
+et pleno se proluit auro post alii proceres.  Cithara crinitus Iopas
+personat aurata, docuit quem maximus Atlas.  Hic canit errantem lunam
+solisque labores; unde hominum genus et pecudes; unde imber et ignes;
+Arcturum pluviasque Hyadas geminosque Triones; quid tantum Oceano
+properent se tinguere soles hiberni, vel quae tardis mora noctibus
+obstet.  Ingeminant plausu Tyrii, Troesque sequuntur.  Nec non et
+vario noctem sermone trahebat infelix Dido, longumque bibebat amorem,
+multa super Priamo rogitans, super Hectore multa; nunc quibus Aurorae
+venisset filius armis, nunc quales Diomedis equi, nunc quantus
+Achilles.  `Immo age, et a prima dic, hospes, origine nobis insidias,'
+inquit, `Danaum, casusque tuorum, erroresque tuos; nam te iam septima
+portat omnibus errantem terris et fluctibus aestas.'\cite{virgil}
+
+\chapter{Some Tables and Figures}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{ll}\toprule
+    First & Last \\ \midrule
+    Ned & Hummel \\
+    Ned & Hummel \\
+    Ned & Hummel \\ \bottomrule
+  \end{tabular}
+  \caption{Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus,
+Laviniaque venit litora, multum ille et terris iactatus et alto vi
+superum saevae memorem Iunonis ob iram}
+  \label{tab:tabular}
+\end{table}
+
+
+\begin{table}[h]
+  \centering
+
+  \begin{compactitem}[\checkmark]
+    \item Foo
+    \item Foo
+    \item Foo
+    \end{compactitem}
+
+  \caption{Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus,
+Laviniaque venit litora, multum ille et terris iactatus et alto vi
+superum saevae memorem Iunonis ob iram}
+  \label{tab:list}
+\end{table}
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=3in]{unl}
+  \caption{Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus,
+Laviniaque venit litora, multum ille et terris iactatus et alto vi
+superum saevae memorem Iunonis ob iram}
+  \label{fig:test}
+\end{figure}
+
+\chapter{Some Math}\label{chap:math}
+
+This is a triviality, but we include it for completeness.
+\begin{equation}
+\int_0^\infty f(x) \, dx = 
+	\begin{cases} 1 & \mbox{if $f=\delta$,} \\
+	0 & \mbox{if $f=0$.} \end{cases} 
+\end{equation}
+
+Here is an aligned set of equations.
+\begin{align}
+f(x) &= f(x) \cdot 1 \\
+     &= f(x) \cdot (2-1)\label{eq:fun}\\
+     &= f(x)
+\end{align}
+
+The clever step is~\eqref{eq:fun}.
+
+%% backmatter is needed at the end of the main body of your thesis to
+%% set up page numbering correctly for the remainder of the thesis
+\backmatter
+
+%% Start the correct formatting for the appendices
+\appendix
+
+\chapter{Testing, 1, 2, 3, \ldots}
+
+This has been a test of the thesis typesetting system. 
+Had this been an actual thesis, this would have been 
+preceded by an actual thesis.
+
+%% Bibliography goes here (You better have one)
+%% BibTeX is your friend
+\bibliographystyle{plain}
+\bibliography{nuthesis}
+%% Pull in all the entries in the bibtex file. Is is a useful trick to
+%% check all your references.
+\nocite{*}
+
+%% Index go here (if you have one)
+
+\end{document}
+%</thesis-test>
+% \fi
+%^^A End main body for the thesis-test
+%
+% \iffalse
+%<*class>
+% \fi
+%
+% \StopEventually{%
+%   \PrintChanges%
+%   \nocite{url,booktabs,fancyvrb,Mittelbach:2004:LC,doc,docstrip,packagetutorial,packagewriters,ukfaq}
+%   \bibliographystyle{plain}%
+%   \bibliography{nuthesis}%
+%   \setcounter{IndexColumns}{2}%
+%   \PrintIndex%
+% }
+%
+% \section{Implementation}
+%
+% We use the \pkg{memoir}~\cite{memoir} as the base for
+% \pkg{nuthesis}. Simply because it had most of what was needed and
+% it was easy to add the missing features.
+%
+% \subsection{Initial code}
+% Load three of the four needed packages (We load \pkg{geometry}
+% later.) We use \pkg{setspace} to handle single/double spacing
+% correctly. From the \pkg{KOMA-script} bundle, we use \pkg{scrtime}
+% to use |\thistime| for the running headers in \texttt{draft}
+% mode.
+%
+% The packages~\cite{setspace,scrtime,geometry} should be already
+% installed with most \TeX{}
+% distributions. If~\cite{ifthen,keyval} are not installed,
+% then there is something wrong as they are required packages.
+% 
+%    \begin{macrocode}
+\RequirePackage{ifthen}
+\RequirePackage{keyval}
+\RequirePackage{setspace}
+\RequirePackage{scrtime}
+%    \end{macrocode}
+% We also define a couple of boolean variables that are needed by class options.
+%    \begin{macrocode}
+\newboolean{nu@print}
+\newboolean{nu@single}
+%    \end{macrocode}
+% \subsubsection{Building blocks}\label{subsubsec:buildingblocks}
+% To typeset the title page with all the non-standard title page
+% items, we need to set them up.
+%
+% \begin{macro}{\doctype}
+%   To allow for either a thesis or a dissertation, we allow give the
+%   user the ability to set it.
+%    \begin{macrocode}
+\newcommand{\doctype}[1]{%
+  \gdef\nu@doctype{#1}}
+\newcommand{\nu@doctype}{}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\degree}
+% \begin{macro}{\degreeabbreviation}
+%   Set up macros for the user to enter the full degree name eg{}
+%   ``|Doctor of Evil|'' along with the abbreviation ``M.D.'' for
+%   use on the title and abstract pages.
+%    \begin{macrocode}
+\newcommand{\degree}[1]{%
+  \gdef\nu@degree{#1}}
+\newcommand{\nu@degree}{}
+\newcommand{\degreeabbreviation}[1]{%
+  \gdef\nu@degreeabbreviation{#1}}
+\newcommand{\nu@degreeabbreviation}{}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+%
+% \begin{macro}{\major}
+% \begin{macro}{\college}
+% \begin{macro}{\university}
+% \begin{macro}{\city}
+% \begin{macro}{\state}
+%   Set up the |major|, |college|, |university|, and |city|. We also
+%   set a couple of defaults, viz{} |city|=Lincoln, |state|=Nebraska,
+%   |college|=Graduate College, |university|=University of Nebraska
+%   and |campus|=unl.
+%    \begin{macrocode}
+\newcommand{\major}[1]{%
+  \gdef\nu@major{#1}}
+\newcommand{\nu@major}{}
+\newcommand{\college}[1]{%
+  \gdef\nu@college{#1}}
+\newcommand{\nu@college}{Graduate College}
+\newcommand{\university}[1]{%
+  \gdef\nu@university{#1}}
+\newcommand{\nu@university}{University of Nebraska}
+\newcommand{\city}[1]{%
+  \gdef\nu@city{#1}}
+\newcommand{\nu@city}{Lincoln}
+\newcommand{\state}[1]{%
+  \gdef\nu@state{#1}}
+\newcommand{\nu@state}{Nebraska}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+%
+% \begin{macro}{\adviser}
+% \begin{macro}{\adviserAbstract}
+%   Define the macros needed to get the the name(s) and title(s) of
+%   one's |adviser|(s) for the title and abstract pages. Two macros
+%   are needed, as they have to be formated differently. These are both
+%   ``dumb'' macros in that they have only one argument. It's more trouble
+%   that it's worth to have \LaTeX{} be clever and ``do the right
+%   thing'' as there is to much variation in how to ``correctly'' list
+%   co-advisers.
+%    \begin{macrocode}
+\newcommand{\adviser}[1]{%
+  \gdef\nu@adviser{#1}}
+\newcommand{\adviserAbstract}[1]{%
+  \gdef\nu@adviserAbstract{#1}}
+\newcommand{\nu@adviser}{}
+\newcommand{\nu@adviserAbstract}{}
+%    \end{macrocode}
+% \changes{v0.7}{2008/04/14}{Added to allow for differences in advisers on title and abstract pages.}
+% \end{macro}
+% \end{macro}
+%
+% \begin{macro}{\degreemonth}
+% \begin{macro}{\degreeyear}
+%   Set up macros for the user to enter the information for when the
+%   final exam took place or when the degree is conferred.
+%    \begin{macrocode}
+\newcommand{\degreemonth}[1]{%
+  \gdef\nu@month{#1}}
+\newcommand{\nu@month}{}
+\newcommand{\degreeyear}[1]{%
+  \gdef\nu@year{#1}}
+\newcommand{\nu@year}{}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+%
+% \subsection{Declaration of Options}
+%
+% \begin{macro}{testing}
+%   This option is used to check settings, by printing out the frame
+%   on the title page. This frame shows the layout and positioning of
+%   the margins along with the header. All |testing| does is append
+%   |showframe| to the list of options that are passed to
+%   \pkg{geometry}.
+%    \begin{macrocode}
+\DeclareOption{testing}{%
+  \PassOptionsToPackage{showframe}{geometry}
+}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{single}
+% \begin{macro}{double}
+%   The options |single| and |double| control the the spacing of the
+%   document, where we can. We only want to make changes at the
+%   beginning of the document so, using |\AtBeginDocument| we test
+%   these booleans set by these options and do the right thing.
+%    \begin{macrocode}
+\DeclareOption{single}{%
+  \setboolean{nu@single}{true}
+}
+
+\DeclareOption{double}{%
+  \setboolean{nu@single}{false}
+}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+%
+% \begin{macro}{print}
+% \begin{macro}{electronic}
+%   These options don't do much, because they don't really need
+%   to. All |print| does is append |bindingoffset=0.5in| to the list
+%   of options that are passed to \pkg{geometry}.
+%    \begin{macrocode}
+\DeclareOption{print}{%
+  \setboolean{nu@print}{true}
+  \PassOptionsToPackage{bindingoffset=0.5in}{geometry}
+}
+%    \end{macrocode}
+% At the moment |electronic| is provided for symmetry and does nothing.
+%    \begin{macrocode}
+\DeclareOption{electronic}{%
+\relax
+}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+%
+% \begin{macro}{phd}
+% \begin{macro}{edd}
+% \begin{macro}{ms}
+% \begin{macro}{ma}
+%   For the most common degrees that will be using this class, we have
+%   options that allow several title page elements to be sent as a
+%   group.  A listing of what is defined by each option is shown in
+%   table~\ref{tab:autoFilledTitlePage}. For implementation details on
+%   the lower level commands that do the real work, please see
+%   \S\ref{subsubsec:buildingblocks}.
+%    \begin{macrocode}
+\DeclareOption{phd}{%
+  \doctype{Dissertation}
+  \degree{Doctor of Philosophy}
+  \degreeabbreviation{Ph.D.}
+}
+
+\DeclareOption{edd}{%
+  \doctype{Dissertation}
+  \degree{Doctor of Education}
+  \degreeabbreviation{Ed.D.}
+}
+
+\DeclareOption{ms}{%
+  \doctype{Thesis}
+  \degree{Master of Science}
+  \degreeabbreviation{M.S.}
+}
+
+\DeclareOption{ma}{%
+  \doctype{Thesis}
+  \degree{Master of Art}
+  \degreeabbreviation{M.A.}
+}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+%
+% Allow options be passed from our class to \pkg{memoir}. 
+%    \begin{macrocode}
+\DeclareOption*{%
+  \PassOptionsToClass{\CurrentOption}{memoir}
+}
+%    \end{macrocode}
+% \subsection{Execution of options}
+% We don't do anything fancy here other than set the default option to
+% be |double|, |electronic| and |phd|.
+%    \begin{macrocode}
+\ExecuteOptions{double,electronic,phd}
+\ProcessOptions
+%    \end{macrocode}
+%
+% \subsection{Package Loading}
+% 
+% We load \pkg{memoir} with some common default options.
+%    \begin{macrocode}
+\LoadClass[12pt,oneside]{memoir}
+%    \end{macrocode}
+%
+% For reasons I'm not sure of, if |geometry| is moved to where the rest of
+% packages are loaded, it yells at me. So, we load it here.
+% 
+% Load \pkg{geometry} with a number of options. To follow the rules
+% in~\cite{unl-thesis-guidebook,unl-thesis-electronic}, we set
+% \begin{itemize}
+% \item [|letterpaper|] we are in the US
+% \item [|margin=1in|] the minimum margins allowed. An
+%   |bindingoffset=0.5in| option is joined to this list of options by
+%   the class option |print|.
+% \item [|includehead|] is used to include the header into the
+%   \texttt{textarea} calculation so the margins are correct
+% \item [|nofoot|] as we do not have footers
+% \end{itemize}
+%    \begin{macrocode}
+\RequirePackage[letterpaper,margin=1in,includehead,nofoot]{geometry}
+%    \end{macrocode}
+%
+% \subsection{Main Code}
+% \subsubsection{Page Styles}
+% According to~\cite{unl-thesis-guidebook,unl-thesis-electronic}:
+% \begin{quote}
+%   Except for the title page and abstract, number all pages in your
+%   ETD.
+%
+%   Number the pages in the front matter with small roman numerals (i,
+%   ii, iii, iv, etc.), placed at the upper right of the
+%   page. However, the page number for the Title Page (i) and the
+%   pages of the Abstract (ii\ldots) should not appear on the page(s).
+%
+%   Number all pages through the body and back matter with Arabic
+%   numerals (1, 2, 3, etc.). You should number these pages at the
+%   upper right.
+% \end{quote}
+% 
+% \begin{macro}{nu@pagestyle}
+% \begin{macro}{nu@pagestyleDraft}
+%   So this is what we set up here. \pkg{memoir}'s default options
+%   take care of the lower roman to Arabic for us, if |\frontmatter|,
+%   |\mainmatter|, and |\backmatter| are used.
+% 
+%   Borrowing and idea from~\cite{uiucthesis}, we define
+%   |nu@pagestyleDraft| which prints out the date and time the file was
+%   processed by \LaTeX{}.
+% 
+%   Even though the guidebook calls for one-sided documents, the
+%   pagesytle has been set up to handle two-sided printing, if that
+%   option is passed into the class. We don't define the |twoside|
+%   option, \pkg{memor} handles that for us.
+%    \begin{macrocode}
+\makepagestyle{nu@pagestyle}
+\makeoddhead{nu@pagestyle}%
+  {}{}{\normalfont\thepage}
+\makeevenhead{nu@pagestyle}%
+  {\normalfont\thepage}{}{}
+
+\makepagestyle{nu@pagestyleDraft}
+\makeoddhead{nu@pagestyleDraft}%
+  {\itshape\LaTeX{}ed at \thistime{} on \today}{}{\normalfont\thepage}
+\makeevenhead{nu@pagestyleDraft}%
+  {\normalfont\thepage}{}{\itshape\LaTeX{}ed at \thistime{} on \today}
+%    \end{macrocode}
+% Check to see if we are in |draft| mode, if so, set the page styles
+% to use |nu@pagestyleDraft|, else use the default.  Set the
+% pagestyles |plain| and |empty| to be an alias for |nu@pagestyle|.
+%    \begin{macrocode}
+\ifdraftdoc
+  \aliaspagestyle{plain}{nu@pagestyleDraft}
+  \aliaspagestyle{empty}{nu@pagestyleDraft}
+%%  \aliaspagestyle{cleared}{nu@pagestyleDraft}
+  \pagestyle{nu@pagestyleDraft}
+%    \end{macrocode}
+% Just like for the |draft| option, we set the pagestyle |plain| as an
+% alias for |nu@pagestyle| so pages that start chapters are formatted
+% correctly. But we leave |empty| alone, as we need some pages to have
+% an empty page style.
+%    \begin{macrocode}
+\else
+  \aliaspagestyle{plain}{nu@pagestyle}
+%%  \aliaspagestyle{cleared}{nu@pagestyle}
+  \pagestyle{nu@pagestyle}
+\fi
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+%
+% \subsubsection{Front matter}
+% Here's our collection of re-defining commands and environments
+% needed for the typesetting the front matter.
+% \begin{macro}{maketitle}
+%   Most of the following is straight forward, just a lot of trial and
+%   error in figuring the spacing between different elements.
+%    \begin{macrocode}
+\renewcommand{\maketitle}{%
+\begin{center}%
+%    \end{macrocode}
+% We use |\singlespacing| for simplicity in our calculation of spacing
+% to mimic the look of the sample title page
+% in~\cite{unl-thesis-guidebook}
+%    \begin{macrocode}
+\MakeUppercase{\thetitle}\\[1\baselineskip] 
+\singlespacing
+%    \end{macrocode}
+%    \begin{macrocode}
+by\\[2\baselineskip]
+\theauthor\\[4\baselineskip]
+\MakeUppercase{A \nu@doctype}\\[4\baselineskip]
+Presented to the Faculty of\\[\baselineskip]
+The \nu@college{} at the \nu@university\\[\baselineskip]
+In Partial Fulfilment of Requirements\\[\baselineskip]
+For the Degree of \nu@degree\\[3\baselineskip]
+Major: \nu@major\\[3\baselineskip]
+Under the Supervision of \nu@adviser\\[3\baselineskip]
+\nu@city, \nu@state\\[1\baselineskip]
+\nu@month, \nu@year
+\end{center}
+\thispagestyle{empty}
+\cleardoublepage
+}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{environment}{abstract}
+%   \changes{v0.7}{2008/04/14}{Changed environment to use \cs{adviserAbstract} instead of \cs{adviser}}
+% \begin{environment}{copyrightpage}
+% \begin{environment}{dedication}
+% \begin{environment}{acknowledgments}
+% \begin{environment}{grantinfo}
+%   Most of the following is straight forward. Here you see the that
+%   many of the commands that capture the information are re-used
+%   again.
+%    \begin{macrocode}
+\renewenvironment{abstract}{%
+  \pagestyle{empty}%
+  \begin{doublespacing}%
+    \begin{center}%
+      \MakeUppercase{\thetitle}\\[.5\baselineskip]
+      \theauthor, \nu@degreeabbreviation\\
+      \nu@university, \nu@year%
+    \end{center}%
+    \begin{flushleft}%
+      Adviser: \nu@adviserAbstract%
+    \end{flushleft}%
+  }{\par\end{doublespacing}\cleardoublepage}
+
+\newenvironment{copyrightpage}[1][Copyright]{%
+  \begin{center}%
+    \MakeUppercase{#1}\\
+    \copyright{} \nu@year, \theauthor%
+  \end{center}%
+  \ifthenelse{\boolean{nu@single}}{\begin{singlespacing}}{\begin{doublespacing}}%
+    }{\par%
+      \ifthenelse{\boolean{nu@single}}{\end{singlespacing}}{\end{doublespacing}}%
+  \cleardoublepage}
+
+\newenvironment{dedication}[1][Dedication]{%
+  \begin{center}%
+    \MakeUppercase{#1}%
+  \end{center}%
+  \ifthenelse{\boolean{nu@single}}{\begin{singlespacing}}{\begin{doublespacing}}%
+    }{\par%
+      \ifthenelse{\boolean{nu@single}}{\end{singlespacing}}{\end{doublespacing}}%
+  \cleardoublepage}
+
+\newenvironment{acknowledgments}[1][Acknowledgments]{%
+  \begin{center}
+    \MakeUppercase{#1}
+  \end{center}
+  \ifthenelse{\boolean{nu@single}}{\begin{singlespacing}}{\begin{doublespacing}}%
+    }{\par%
+      \ifthenelse{\boolean{nu@single}}{\end{singlespacing}}{\end{doublespacing}}%
+  \cleardoublepage}
+
+\newenvironment{grantinfo}[1][Grant Information]{%
+  \begin{center}
+    \MakeUppercase{#1}
+  \end{center}
+  \ifthenelse{\boolean{nu@single}}{\begin{singlespacing}}{\begin{doublespacing}}%
+    }{\par%
+      \ifthenelse{\boolean{nu@single}}{\end{singlespacing}}{\end{doublespacing}}%
+  \cleardoublepage}
+%    \end{macrocode}
+% \end{environment}
+% \end{environment}
+% \end{environment}
+% \end{environment}
+% \end{environment}
+
+% \subsubsection{ToC, LoF, LoT}
+% \begin{macro}{tableofcontents}
+% \begin{macro}{listoffigures}
+% \begin{macro}{listoftables}
+%   We want the Table of Contents, List of Figures, and List of Tables
+%   all to start on new pages. We we make a ``copy'' of each before
+%   re-defining the commands
+%    \begin{macrocode}
+\let\nu@ToC\tableofcontents
+\renewcommand{\tableofcontents}{\cleardoublepage\nu@ToC}
+
+\let\nu@LoF\listoffigures
+\renewcommand{\listoffigures}{\cleardoublepage\nu@LoF}
+
+\let\nu@LoT\listoftables
+\renewcommand{\listoftables}{\cleardoublepage\nu@LoT}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+%
+% By default \pkg{memoir}, only numbers sections down to
+% |section|. For most users this isn't enough. So we reset them.
+%    \begin{macrocode}
+\maxsecnumdepth{subsubsection}
+\setsecnumdepth{subsubsection}
+\maxtocdepth{subsubsection}
+%    \end{macrocode}
+%
+% \subsection{Back matter}
+% \begin{macro}{backmatter}
+%   \pkg{memoir} resets some things in the backmatter that we don't
+%   want reset, because of what the guidebook says. So, we redefine it
+%   to do nothing.
+%    \begin{macrocode}
+\let\backmatter\relax
+%    \end{macrocode}
+% \end{macro}
+%
+% \subsection{Main matter}
+% Check to see if |single| has been passed as an option to the
+% class. If so turn on single spacing (where we can), if not use
+% double spacing.
+%    \begin{macrocode}
+\AtBeginDocument{%
+\ifthenelse{\boolean{nu@single}}{\singlespacing}{\doublespacing}%
+}
+%    \end{macrocode}
+%
+% \section{Acknowledgements}
+%
+% Thanks to people.
+%
+% \section{Known issues}
+%
+% \begin{itemize}
+% \item For captions, it appears that double spacing does not
+%   seem to get applied, but is applied for them in the LoF or LoT.
+% \end{itemize}
+%
+% \section{Things to do}
+% 
+% \begin{itemize}
+% \item error checking of mutually exclusive options -
+%   |print|/|electronic|, |single|/|double|.
+% \item error checking that only one of |phd|, |edd|, |ms|, |ma| can
+%   be used at a time
+% \item error checking for undefined options
+% \item check for existence of *.\{eps,pdf\} wordmarks for each of the campus
+% \item put required campus wordmarks in a separate folder (needs to
+%   be done carefully, to take into account different platforms.
+% \end{itemize}
+% 
+% \Finale
+%
+% \iffalse
+%</class>
+% \fi
+%
+% \iffalse
+%<*bib>
+@Book{Mittelbach:2004:LC,
+  author =	 "Frank Mittelbach and Michel Goossens and Johannes
+                  Braams and David Carlisle and Chris Rowley and
+                  Christine Detig and Joachim Schrod",
+  title =	 "The {\LaTeX} Companion",
+  publisher =	 "Ad{\-d}i{\-s}on-Wes{\-l}ey",
+  address =	 "Reading, MA, USA",
+  edition =	 "Second",
+  pages =	 "xxvii + 1090",
+  year =	 2004,
+  ISBN =	 "0-201-36299-6",
+  ISBN-13 =	 "978-0-201-36299-2",
+  LCCN =	 "Z253.4.L38 G66 2004",
+  bibdate =	 "Thu May 20 13:23:24 2004",
+  price =	 "US\$59.99, CAN\$86.99",
+  series =	 "Tools and Techniques for Computer Typesetting",
+  acknowledgement =ack-nhfb,
+  remark =	 "Authors listed as: Frank Mittelbach and Michel
+                  Goossens with Johannes Braams, David Carlisle, and
+                  Chris Rowley, and with contributions by Christine
+                  Detig and Joachim Schrod.",
+}
+
+@Manual{amsfonts,
+  title =	 {The \textsf{amsfonts} package},
+  author =	 {The American Mathematical Society},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=amsfonts}},
+}
+
+@Manual{amsmath,
+  title =	 {The \textsf{amsmath} package},
+  author =	 {The American Mathematical Society},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=amsmath}},
+}
+
+@Misc{beebebib,
+  title =	 {Nelson {H}. {F}. Beebe's Bibliographies Page},
+  author =	 {Nelson H. F. Beebe},
+  note =	 {Available at:
+                  \url{http://www.math.utah.edu/~beebe/bibliographies.html}},
+}
+
+@Manual{booktabs,
+  title =	 {The \textsf{booktabs} package},
+  author =	 {Danie Els},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=booktabs}},
+}
+
+@Manual{color,
+  title =	 {The \textsf{color} package},
+  author =	 {David Carlisle},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=color}},
+}
+
+@Manual{comprehensive,
+  title =	 {The \textsf{comprehensive} package},
+  author =	 {Scott Pakin},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=comprehensive}},
+}
+
+@Manual{doc,
+  title =	 {The \textsf{doc} and \textsf{shortvrb} packages},
+  author =	 {Frank Mittelbach},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=doc}},
+}
+
+@Manual{docstrip,
+  title =	 {The \textsf{DocScrip} package},
+  author =	 {Frank Mittelbach},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=docstrip}},
+}
+
+
+@Manual{epslatex,
+  title =	 {The \textsf{epslatex} package},
+  author =	 {Keith Reckdahl},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=epslatex}},
+}
+
+@Manual{fancyvrb,
+  title =	 {The \textsf{fancyvrb} package},
+  author =	 {Denis Girou and Sebastian Rahtz and Timothy Van
+                  Zandt},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=fancyvrb}},
+}
+
+@Article{freemathfonts,
+  author =	 {Stephen~G. Hartke},
+  title =	 {A Survey of Free Math Fonts for {\TeX} and {\LaTeX}},
+  journal =	 {The Prac\TeX{} Journal},
+  year =	 2006,
+  volume =	 1,
+  note =	 {Available at:
+                  \url{http://www.tug.org/pracjourn/2006-1/hartke/}},
+}
+
+@Manual{geometry,
+  title =	 {The \textsf{geometry} package},
+  author =	 {Hideo Umeki},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=geometry}},
+}
+
+@Manual{graphicx,
+  title =	 {The \textsf{graphicx} package},
+  author =	 {David Carlisle},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=graphicx}},
+}
+
+@Manual{hyperref,
+  title =	 {The \textsf{hyperref} package},
+  author =	 {Sebastian Rahtz and Heiko Oberdiek},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=hyperref}},
+}
+
+@Manual{ifthen,
+  title =	 {The \textsf{ifthen} package},
+  author =	 {David Carlisle and Leslie Lamport},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=ifthen}},
+}
+
+@Manual{keyval,
+  title =	 {The \textsf{keyval} package},
+  author =	 {David Carlisle},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=keyval}},
+}
+
+@Manual{listings,
+  title =	 {The \textsf{listings} package},
+  author =	 {Brooks Moses},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=listings}},
+}
+
+@Manual{mathpazo,
+  title =	 {The \textsf{mathpazo} package},
+  author =	 {Diego Puga},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=mathpazo}},
+}
+
+@Book{memoir,
+  author =	 {Peter Wilson},
+  title =	 {The Memoir Class for Configurable Typesetting User
+                  Guide},
+  publisher =	 {The Herries Press},
+  year =	 2004,
+  edition =	 {Sixth},
+  month =	 {January},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=memoir}},
+}
+
+@Article{memoirArticle,
+  author =	 {Peter Wilson},
+  title =	 {The \textsf{memoir} class},
+  journal =	 {The Prac\TeX{} Journal},
+  year =	 2006,
+  volume =	 3,
+  note =	 {Available at:
+                  \url{http://www.tug.org/pracjourn/2006-3/wilson/}},
+}
+
+@Manual{microtype,
+  title =	 {The \textsf{microtype} package},
+  author =	 {Robert Schlicht},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=microtype}},
+}
+
+@Manual{nomencl,
+  title =	 {The \textsf{nomencl} package},
+  author =	 {Lee Netherton and C.~V. Radhakrishnan},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=nomencl}},
+}
+
+@Manual{packagetutorial,
+  title =	 {How to package your {\LaTeX} Package},
+  author =	 {Scott Pakin},
+  year =	 2004,
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=dtxtut}},
+}
+
+@Manual{packagewriters,
+  title =	 {{\LaTeXe} for class and package writers},
+  author =	 {The {\LaTeX}3 Project},
+  year =	 2006,
+  note =	 {Available at:
+                  \url{http://www.ctan.org/tex-archive/macros/latex/doc/}},
+}
+
+@Manual{paralist,
+  title =	 {The \textsf{paralist} package},
+  author =	 {Bernd Schandl},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=paralist}},
+}
+
+@Article{productivity,
+  author =	 {Will Robertson},
+  title =	 {Productivity with macros and packages},
+  journal =	 {The Prac\TeX{} Journal},
+  year =	 2006,
+  volume =	 3,
+  note =	 {Available at:
+                  \url{http://www.tug.org/pracjourn/2006-3/robertson/}},
+}
+
+@Manual{pxfonts,
+  title =	 {The \textsf{pxfonts} package},
+  author =	 {Young Ryu},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=pxfonts}},
+}
+
+@Manual{scrtime,
+  title =	 {\textsf{scrtime} part of the \textsf{KOMA-Script}
+                  bundle},
+  author =	 {Markus Kohm},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=koma-script}},
+}
+
+@Manual{setspace,
+  title =	 {The \textsf{setspace} package},
+  author =	 {Geoffrey Tobin},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=setspace}},
+}
+
+@Manual{shortintro,
+  title =	 {A (Not So) Short Introduction to {\LaTeXe}.},
+  author =	 {Tobias Oetiker},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=lshort-english}},
+}
+
+@Manual{showkeys,
+  title =	 {The \textsf{showkeys} package},
+  author =	 {David Carlisle},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=showkeys}},
+}
+
+@Manual{ucthesis,
+  title =	 {The \textsf{ucthesis} package},
+  author =	 {Daniel Gildea},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=ucthesis}},
+}
+
+@Manual{uiucthesis,
+  title =	 {The \textsf{uiucthesis} package},
+  author =	 {Peter Czoschke},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=uiucthesis}},
+}
+
+@Misc{ukfaq,
+  author =	 {{UK} {\TeX} User Group},
+  title =	 {{\TeX} {F}requently {A}sked {Q}uestions},
+  note =	 {Available at:
+                  \url{http://www.tex.ac.uk/cgi-bin/texfaq2html}},
+}
+
+@Article{unhappy,
+  author =	 {Enrico Gregorio},
+  title =	 {Horrors in {\LaTeX}: How to misuse {\LaTeX} and make
+                  a \emph{copy editor} unhappy},
+  journal =	 {TUGBoat},
+  year =	 2005,
+  volume =	 26,
+  number =	 3,
+  pages =	 {273--279},
+  note =	 {Available at:
+                  \url{http://www.tug.org/TUGboat/Contents/contents26-3.html}},
+}
+
+@Manual{unl-thesis-electronic,
+  author =	 {Office of Graduate Studies University of
+                  Nebraska--Lincoln},
+  title =	 {Electronic Dissertations},
+  note =	 {Available at:
+                  \url{http://www.unl.edu/gradstudies/current/etd-intro.shtml}},
+}
+
+@Manual{unl-thesis-guidebook,
+  author =	 {Office of Graduate Studies University of
+                  Nebraska--Lincoln},
+  title =	 {Guidebook For Preparing a Thesis or Dissertation},
+  note =	 {Available at:
+                  \url{http://www.unl.edu/gradstudies/current/downloads/Guidebook.pdf}},
+}
+
+@Manual{url,
+  title =	 {The \textsf{url} package},
+  author =	 {Donald Arseneau},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=url}},
+}
+
+@Manual{varioref,
+  title =	 {The \textsf{varioref} package},
+  author =	 {Frank Mittelbach},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=varioref}},
+}
+
+@Book{virgil,
+  author =	 {Virgil},
+  title =	 {The Aenid},
+  publisher =	 {Project Gutenberg},
+  year =	 1995,
+  note =	 {From Project Gutenberg at
+                  \url{http://www.gutenberg.org/etext/227}},
+}
+
+@Manual{voss-mathmode,
+  title =	 {The \textsf{voss-mathmode} package},
+  author =	 {Herbert Vo{\ss}},
+  note =	 {Available at:
+                  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=voss-mathmode}},
+}
+%</bib>
+% \fi
+\endinput

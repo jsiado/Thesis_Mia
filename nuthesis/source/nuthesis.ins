@@ -1,0 +1,71 @@
+%%
+%% Copyright (C) 2008 by Ned W. Hummel nhummel@gmail.com
+%%
+%% This file may be distributed and/or modified under the conditions of
+%% the LaTeX Project Public License, either version 1.2 of this license
+%% or (at your option) any later version.  The latest version of this
+%% license is in:
+%% 
+%%    http://www.latex-project.org/lppl.txt
+%% 
+%% and version 1.3c or later is part of all distributions of LaTeX version
+%% 2006/05/20 or later.
+%%
+
+\input docstrip.tex
+\keepsilent
+\askforoverwritefalse
+
+\usedir{.}
+
+\preamble
+This is a generated file.
+
+Copyright (C) 2008 by Ned W. Hummel nhummel@gmail.com
+
+This file may be distributed and/or modified under the conditions of
+the LaTeX Project Public License, either version 1.3c of this license
+or (at your option) any later version.  The latest version of this
+license is in:
+
+   http://www.latex-project.org/lppl.txt
+
+and version 1.3c or later is part of all distributions of LaTeX version
+2006/05/20 or later.
+\endpreamble
+
+\declarepreamble\nothing
+\endpreamble
+
+\generate{%
+\file{nuthesis.cls}{\from{nuthesis.dtx}{class}}%
+\usepreamble\nothing
+\file{skeleton.tex}{\from{nuthesis.dtx}{skeleton}}%
+\file{thesis-test.tex}{\from{nuthesis.dtx}{thesis-test}}%
+\file{nuthesis.bib}{\from{nuthesis.dtx}{bib}}%
+}
+
+\obeyspaces
+\Msg{*************************************************************}
+\Msg{*                                                           *}
+\Msg{* To finish the installation you have to move the following *}
+\Msg{* file into a directory searched by TeX:                    *}
+\Msg{*     nuthesis.cls                                          *}
+\Msg{*                                                           *}
+\Msg{* To produce the documentation run the file nuthesis.dtx    *}
+\Msg{* through (pdf)LaTeX.                                       *}
+\Msg{*     (pdf)latex nuthesis.dtx                               *}
+\Msg{*     makeindex -s gglo -o nuthesis.gls nuthesis.glo        *}
+\Msg{*     bibtex nuthesis                                       *}
+\Msg{*     (pdf)latex nuthesis.dtx                               *}
+\Msg{*     (pdf)latex nuthesis.dtx                               *}
+\Msg{*                                                           *}
+\Msg{* To produce the command index run the following            *}
+\Msg{*     makeindex -s gind nuthesis                            *}
+\Msg{*     and then (pdf)LaTeX again                             *}
+\Msg{*                                                           *}
+\Msg{* Happy TeXing!                                             *}
+\Msg{*                                                           *}
+\Msg{*************************************************************}
+
+\endbatchfile

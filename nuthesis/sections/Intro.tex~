@@ -1,0 +1,45 @@
+\hyphenation{ma-te-rials}
+%%%%%%%%%%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%
+\chapter{INTRODUCTION}
+\label{ch:Intro}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.3]{Nitrogen.png}
+\caption{$^{14}N$ neutron capture in a PECVD polymerized pyridine film. The Q-value of this reaction is 626 keV. Taken from [22]}\label{N}	
+\end{figure}
+
+%______________________ References ______________________
+%% \begin{thebibliography}{99}
+%% \bibitem{Intro_1} A.N. Caruso. Journal of Physics: Condensed Matter. 22, 443201 (2010)
+%% \bibitem{Intro_2} Caruso, A.N., Dowben, P.A., Blakir, S., Schemm, N., Osberg, K., Fairchild, R.W., Flores, O.B., Balaz, S., Harken, A.D., Robertson, B.W., Brand, J.I. Mat. Sci. Eng. B \textbf{135} (2006) 129
+%% \bibitem{Intro_3} Day, E., Diaz, M.J., Adenwalla, S. J. Phys. D: Appl. Phys. \textbf{39} (2006) 2920
+%% \bibitem{Intro_4} Caruso, A.N., Billa, R.B., Balaz, S., Brand, J.I., Dowben, P.A., J. Phys.: Condens. Matter \textbf{16} (2004) L139
+%% \bibitem{Intro_5} Luo, G., Lu, J., Liu, J., Mein, W., Dowben, P.A. Mater. Sci. Eng. B \textbf{175} (2010) 1
+%% \bibitem{Intro_6} Bernard, L., Monson, J., Sokolov, A., Liu, Z.Y, Yang, C.S., Dowben, P.A., Doudin, B., Harken, A., Welsch, P. and Robertson, B.W. Appl. Phys. Lett. \textbf{83} (2003) 3743
+%% \bibitem{Intro_7} Liu, J., Dowben, P.A., Luo, G., Mei, W.-N., Kumar Rajapitamahuni, A., Sokolov, A., Karki, S. and Caruso, A.N. MRS Symposium Proceedings \textbf{1307} (2011) DOI:10.1557/opl.2011.503
+%% \bibitem{5} M.M. Abdul-Gader, et al. Int. J. Electron, \textbf{88} 873 (2001)
+%% \bibitem{6} B.J. Nordell et al. Mater. Chem. Phys. \textbf{173} 268-284 (2016)
+%% \bibitem{cancer} F.M. Wagner, B. Loeper-Kabasakal and H. Breitkreutz, ``Neutron medical treatment of tumours - a survey of facilities''. JINST \textbf{7} (2012) C03041
+%% \bibitem{cancer2} Oak Ridge National Laboratory. ``Neutron detector will advance human disease research'' ScienceDaily. ScienceDaily, 6 September 2012
+%% \bibitem{Caretti} Caretti, I., and Jim\'enez, I. Point defects in hexagonal BN, BC$_3$ and BC$_x$N compounds studied by x-ray absorption near-edge structure. Journal of /Applied Physics. \textbf{110} (2011) 023511 
+%% \bibitem{Cennignani} Cennignani, W., and Pantano, C.G. X-ray Photoelectron Spectroscopy of Boron-Doped carbon. 
+%% \bibitem{Pasquale_2} Pasquale, F.L., Li, Y., Du, J., and Kelber, J.A. Novel alloy polymers formed from \textit{ortho}-carborane and benzene or pyridine. J. Phys.: Condens. Matter \textbf{25} (2013) 105801
+%% \bibitem{Pasquale_DBA} Pasquale, F.L., Liu, J., Dowben, P.A., Kelber, J.A. Novel semiconducting alloy polymers formed from \textit{ortho}-carborane and 1,4-diaminobenzene. Materials Chemistry and Physics \textbf{133} (2012) 901-906
+%% \bibitem{Park} Park, K., Pederson, M.R., Boyer, L.L., Mei, W.N., Sabirianov, R.F., Zeng, X.C., Bulusu, S., Curran, S., Dewald, J., Day, E., Adenwalla, S., Diaz, M., Rosa, L.G., Balaz, S., and Dowben, P.A. Electronic structure and vibrational spectra of $C_2B_{10}$-based clusters and films. Phys. Rev. B \textbf{73} (2006) 035109
+%% \bibitem{Werheit} Werheit, H., Rotter, H.W., Meyer, F.D., Hillebrecht, H., Shalamberidze, S.O., Abzianidze, T.G., Esadze, G.G. FT-Raman spectra of isotope-enriched boron carbide. Journal of Solid State Chemistry \textbf{177} (2004) 569-574  
+%% \bibitem{Tallant} Tallant, D.R., Aselage, T.L., Campbell, A.N., and Emin, D. Boron Carbide Structure by Raman Spectroscopy. Physical Review B \textbf{40(8)} (1989) 5649
+%% \bibitem{Pasquale_Intro} Pasquale, F.L., James, R., Welch, R., Echeverria, E., Dowben, P.A., and Kelber, J.A. Novel Cross-Linked Ortho-Carborane and Ortho-Carborane:Y (Y=1,4-diaminobenzene, pyridine, benzene) Polymer Films: A New Class of Carborane-Based Materials with Tunable Electronic Structure. ECS Transactions \textbf{53(1)} (2013) 303-310 
+%% \bibitem{Sunwoo} Lee, S., Mazurowski, J., Ramseyer, G., Dowben, P.A. J. Appl. Phys. \textbf{72(10)} (1992) 4925
+%% \bibitem{Shirai} Shirai., K., Emura, S., Gonda, S.I., and Kumashiro, Y. Infrared study of amorphous B$_{1-x}$ C$_x$ films. J. Appl. Phys. \textbf{78(5)} (1995) 1
+%% \bibitem{Tan} Tan, C., James, R., Dong, B., Driver, M.S., Kelber, J.A., Downing, G., Cao, L.R.  Characterization of a boron carbide-based polymer neutron sensor. Nuclear Instruments and Methods in Physics Research A \textbf{803} (2015) 82-88
+%% \bibitem{intro_2_Hwang} Hwang, S., Yang, K., Dowben P.A., Ahmad, A.A., Ianno, N.J., Li, J.Z., Lin, J.Y., Jiang, H.X., McIlroy, D.N. Fabrication of n-type nickel doped $B_5C_{1+\delta}$ homojunction and heterojunction diodes. Appl. Phys. Lett. {\textbf 70} (1997) 1028
+%% \bibitem{intro_2_Hwang2} Hwang, S., Remmes, N.B., Dowben, P.A., McIlroy, D.N. Nickel doping of boron carbide grown by plasma enhanced chemical vapor deposition. J. Vac. Sci. Technol., B {\textbf 14} (1996) 2957
+%% \bibitem{intro_2_Hwang3} Hwang, S., Remmes, N., Dowben, P.A., McIlroy, D.N. Nickel doping of boron carbide and corresponding Fermi level shifts. J. Vac. Sci. Technol. B {\textbf 15} (1997) 854
+%% \bibitem{intro_2_Carlson} Carlson, L., Lagraffe, D., Balaz, S., Ignatove, A., Losovyj, Y.B., Choi, J., Dowben, P.A., Brand, J.I. Doping of boron carbides with cobalt, using cobaltocene. Appl. Phys. A Mater. Sci. Process. {\textbf 89} (2007) 195
+%% \bibitem{intro_2_Peterson} Peterson, G., Su, Q., Wang, Y., Dowben, P., Nastasi, M. Improved p-n heterojunction device performance induced by irradiation in amorphous boron carbide films. Mater. Sci. Eng. B {\textbf 202} (2015) 25
+%% \bibitem{intro_2_Robertson} B.W. Robertson, S. Adenwalla, A. Harken, P. Welsch, J.I. Brand, P.A. Dowben, J.P. Claassen, A class of boron-rich solid-state neutron detectors, Appl. Phys. Lett. 80 (2002) 3644.
+%% \bibitem{intro_2_caruso}  Caruso, A.N., Balaz, S., Xu, B., Dowben, P.A., McMullen-Gunn, A.S., Brand, J.I., Losovyj, Y.B., McIlroy, D.N. Surface photovoltage effects on the isomeric semiconductors of boron-carbide. Appl. Phys. Lett. {\textbf 84} (2004) 1302
+%% %\bibitem{nina} N. Hong, J. Mullins, K. Foreman, and S. Adenwalla, Boron carbide based solid state neutron detectors: the effects of bias and time constant on detection efficiency. Journal of Physics D: Applied Physics, vol. 43, no. 27, p. 275101, 2010.
+%% \end{thebibliography}

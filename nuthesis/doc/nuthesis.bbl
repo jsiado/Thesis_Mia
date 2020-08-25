@@ -1,0 +1,112 @@
+\begin{thebibliography}{10}
+
+\bibitem{url}
+Donald Arseneau.
+\newblock {\em The \textsf{url} package}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=url}.
+
+\bibitem{keyval}
+David Carlisle.
+\newblock {\em The \textsf{keyval} package}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=keyval}.
+
+\bibitem{ifthen}
+David Carlisle and Leslie Lamport.
+\newblock {\em The \textsf{ifthen} package}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=ifthen}.
+
+\bibitem{uiucthesis}
+Peter Czoschke.
+\newblock {\em The \textsf{uiucthesis} package}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=uiucthesis}.
+
+\bibitem{booktabs}
+Danie Els.
+\newblock {\em The \textsf{booktabs} package}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=booktabs}.
+
+\bibitem{fancyvrb}
+Denis Girou, Sebastian Rahtz, and Timothy~Van Zandt.
+\newblock {\em The \textsf{fancyvrb} package}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=fancyvrb}.
+
+\bibitem{ukfaq}
+{UK} {\TeX}~User Group.
+\newblock {\TeX} {F}requently {A}sked {Q}uestions.
+\newblock Available at: \url{http://www.tex.ac.uk/cgi-bin/texfaq2html}.
+
+\bibitem{scrtime}
+Markus Kohm.
+\newblock {\em \textsf{scrtime} part of the \textsf{KOMA-Script} bundle}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=koma-script}.
+
+\bibitem{doc}
+Frank Mittelbach.
+\newblock {\em The \textsf{doc} and \textsf{shortvrb} packages}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=doc}.
+
+\bibitem{docstrip}
+Frank Mittelbach.
+\newblock {\em The \textsf{DocScrip} package}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=docstrip}.
+
+\bibitem{Mittelbach:2004:LC}
+Frank Mittelbach, Michel Goossens, Johannes Braams, David Carlisle, Chris
+  Rowley, Christine Detig, and Joachim Schrod.
+\newblock {\em The {\LaTeX} Companion}.
+\newblock Tools and Techniques for Computer Typesetting.
+  Ad{\-d}i{\-s}on-Wes{\-l}ey, Reading, MA, USA, second edition, 2004.
+
+\bibitem{unl-thesis-electronic}
+Office of~Graduate Studies University~of Nebraska-Lincoln.
+\newblock {\em Electronic Dissertations}.
+\newblock Available at:
+  \url{http://www.unl.edu/gradstudies/current/etd-intro.shtml}.
+
+\bibitem{unl-thesis-guidebook}
+Office of~Graduate Studies University~of Nebraska-Lincoln.
+\newblock {\em Guidebook For Preparing a Thesis or Dissertation}.
+\newblock Available at:
+  \url{http://www.unl.edu/gradstudies/current/downloads/Guidebook.pdf}.
+
+\bibitem{packagetutorial}
+Scott Pakin.
+\newblock {\em How to package your {\LaTeX} Package}, 2004.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=dtxtut}.
+
+\bibitem{packagewriters}
+The~{\LaTeX}3 Project.
+\newblock {\em {\LaTeXe} for class and package writers}, 2006.
+\newblock Available at:
+  \url{http://www.ctan.org/tex-archive/macros/latex/doc/}.
+
+\bibitem{setspace}
+Geoffrey Tobin.
+\newblock {\em The \textsf{setspace} package}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=setspace}.
+
+\bibitem{geometry}
+Hideo Umeki.
+\newblock {\em The \textsf{geometry} package}.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=geometry}.
+
+\bibitem{memoir}
+Peter Wilson.
+\newblock {\em The Memoir Class for Configurable Typesetting User Guide}.
+\newblock The Herries Press, sixth edition, January 2004.
+\newblock Available at:
+  \url{http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=memoir}.
+
+\end{thebibliography}
