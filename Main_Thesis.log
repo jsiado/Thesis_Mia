@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.15)  25 AUG 2020 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.15)  26 AUG 2020 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,24 +891,34 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-(./Main_Thesis.aux)
+(./Main_Thesis.aux
+
+LaTeX Warning: Label `fig:cms_layout' multiply defined.
+
+
+LaTeX Warning: Label `fig:vis_insp' multiply defined.
+
+
+LaTeX Warning: Label `fig:vis_insp' multiply defined.
+
+)
 \openout1 = `Main_Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 177.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 178.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -962,7 +972,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \everyMPtoPDFconversion=\toks43
 )
 \AtBeginShipoutBox=\box39
-Package hyperref Info: Link coloring OFF on input line 177.
+Package hyperref Info: Link coloring OFF on input line 178.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -973,10 +983,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 177.
-LaTeX Info: Redefining \ref on input line 177.
-LaTeX Info: Redefining \pageref on input line 177.
-LaTeX Info: Redefining \nameref on input line 177.
+LaTeX Info: Redefining \nameref on input line 178.
+LaTeX Info: Redefining \ref on input line 178.
+LaTeX Info: Redefining \pageref on input line 178.
+LaTeX Info: Redefining \nameref on input line 178.
 (./Main_Thesis.out) (./Main_Thesis.out)
 \@outlinefile=\write4
 \openout4 = `Main_Thesis.out'.
@@ -990,52 +1000,52 @@ Package caption Info: End \AtBeginDocument code.
 act.tex) [2
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 226.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 227.
 
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 226.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 227.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 226
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 227
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 226
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 227
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 226.
+(Font)              <24.88> on input line 227.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 226.
+(Font)              <20.74> on input line 227.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 226.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 226.
+(Font)              <17.28> on input line 227.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 227.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 226.
+LaTeX Font Info:    Try loading font information for U+msa on input line 227.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 226.
+LaTeX Font Info:    Try loading font information for U+msb on input line 227.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+euf on input line 226.
+LaTeX Font Info:    Try loading font information for U+euf on input line 227.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
@@ -1044,7 +1054,7 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 227.
+(in both cases you will find help in the memoir manual). on input line 228.
 
 [3
 
@@ -1078,62 +1088,236 @@ Overfull \hbox (0.16273pt too wide) detected at line 3
 (./nuthesis/sections/Ch2-LHCandCMS.tex [1
 
 
-])
-(./nuthesis/sections/Ch3-SMandBSM.tex [2
+]
+<nuthesis/images/../images/ch2/cern_complex.jpg, id=247, 678.8562pt x 447.5922p
+t>
+File: nuthesis/images/../images/ch2/cern_complex.jpg Graphic file (type jpg)
+<use nuthesis/images/../images/ch2/cern_complex.jpg>
+Package pdftex.def Info: nuthesis/images/../images/ch2/cern_complex.jpg  used o
+n input line 16.
+(pdftex.def)             Requested size: 303.53268pt x 200.13063pt.
 
-] [3])
-(./nuthesis/sections/Ch4-Ana-I.tex [4
 
-]) (./nuthesis/sections/Ch5-Ana-II.tex
-[5
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-]) (./nuthesis/sections/Ch6-Ana-III.tex [6
-
-])
-(./nuthesis/sections/Ch7-Phase-I.tex [7
+[2
 
 ]
+<nuthesis/images/../images/ch2/cms_layout.jpg, id=260, 770.88pt x 555.07375pt>
+File: nuthesis/images/../images/ch2/cms_layout.jpg Graphic file (type jpg)
+<use nuthesis/images/../images/ch2/cms_layout.jpg>
+Package pdftex.def Info: nuthesis/images/../images/ch2/cms_layout.jpg  used on 
+input line 34.
+(pdftex.def)             Requested size: 303.53268pt x 218.55296pt.
+<nuthesis/images/../images/ch2/cms2.jpg, id=261, 268.00125pt x 189.70876pt>
+File: nuthesis/images/../images/ch2/cms2.jpg Graphic file (type jpg)
+<use nuthesis/images/../images/ch2/cms2.jpg>
+Package pdftex.def Info: nuthesis/images/../images/ch2/cms2.jpg  used on input 
+line 40.
+(pdftex.def)             Requested size: 303.53268pt x 214.86049pt.
 
-LaTeX Warning: Citation `pixels_plans' on page 8 undefined on input line 4.
 
-) (./nuthesis/sections/Ch8-TestBeam.tex [8
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch2/cms_cross.png, id=262, 853.1875pt x 435.6275pt>
+File: nuthesis/images/../images/ch2/cms_cross.png Graphic file (type png)
+<use nuthesis/images/../images/ch2/cms_cross.png>
+Package pdftex.def Info: nuthesis/images/../images/ch2/cms_cross.png  used on i
+nput line 47.
+(pdftex.def)             Requested size: 303.53268pt x 154.98451pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./nuthesis/sections/Ch3-SMandBSM.tex [3 <./nuthesis/images/../images/ch2/cer
+n_complex.jpg> <./nuthesis/images/../images/ch2/cms_layout.jpg>] [4 <./nuthesis
+/images/../images/ch2/cms2.jpg> <./nuthesis/images/../images/ch2/cms_cross.png>
+]) (./nuthesis/sections/Ch4-Ana-I.tex [5
+
+]) (./nuthesis/sections/Ch5-Ana-II.tex
+[6
+
+]) (./nuthesis/sections/Ch6-Ana-III.tex [7
 
 ])
-(./nuthesis/sections/Ch9-Conclusions.tex [9
+(./nuthesis/sections/Ch7-Phase-I.tex [8
 
-]) [10
+] [9
+
+]
+<nuthesis/images/ch7/reducedperformance.png, id=297, 3350.76843pt x 2042.38031p
+t>
+File: nuthesis/images/ch7/reducedperformance.png Graphic file (type png)
+<use nuthesis/images/ch7/reducedperformance.png>
+Package pdftex.def Info: nuthesis/images/ch7/reducedperformance.png  used on in
+put line 14.
+(pdftex.def)             Requested size: 390.25537pt x 237.84497pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/fpix.pdf, id=301, 2387.07802pt x 1336.995pt>
+File: nuthesis/images/../images/ch7/fpix.pdf Graphic file (type pdf)
+<use nuthesis/images/../images/ch7/fpix.pdf>
+Package pdftex.def Info: nuthesis/images/../images/ch7/fpix.pdf  used on input 
+line 29.
+(pdftex.def)             Requested size: 260.17465pt x 145.72345pt.
+<nuthesis/images/../images/ch7/bpix.pdf, id=302, 3655.6575pt x 2582.64874pt>
+File: nuthesis/images/../images/ch7/bpix.pdf Graphic file (type pdf)
+<use nuthesis/images/../images/ch7/bpix.pdf>
+Package pdftex.def Info: nuthesis/images/../images/ch7/bpix.pdf  used on input 
+line 30.
+(pdftex.def)             Requested size: 169.11154pt x 119.44563pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/gato1.jpeg, id=308, 652.4375pt x 652.4375pt>
+File: nuthesis/images/../images/ch7/gato1.jpeg Graphic file (type jpg)
+<use nuthesis/images/../images/ch7/gato1.jpeg>
+Package pdftex.def Info: nuthesis/images/../images/ch7/gato1.jpeg  used on inpu
+t line 41.
+(pdftex.def)             Requested size: 260.17465pt x 260.1839pt.
+<nuthesis/images/../images/ch7/gato2.jpeg, id=309, 915.42pt x 963.6pt>
+File: nuthesis/images/../images/ch7/gato2.jpeg Graphic file (type jpg)
+<use nuthesis/images/../images/ch7/gato2.jpeg>
+Package pdftex.def Info: nuthesis/images/../images/ch7/gato2.jpeg  used on inpu
+t line 42.
+(pdftex.def)             Requested size: 169.11154pt x 178.01324pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/bbm_hdi.png, id=310, 1551.54657pt x 931.98187pt>
+
+File: nuthesis/images/../images/ch7/bbm_hdi.png Graphic file (type png)
+<use nuthesis/images/../images/ch7/bbm_hdi.png>
+Package pdftex.def Info: nuthesis/images/../images/ch7/bbm_hdi.png  used on inp
+ut line 48.
+(pdftex.def)             Requested size: 303.53268pt x 182.3259pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/unl_workflow.png, id=311, 348.37846pt x 486.9886
+2pt>
+File: nuthesis/images/../images/ch7/unl_workflow.png Graphic file (type png)
+<use nuthesis/images/../images/ch7/unl_workflow.png>
+Package pdftex.def Info: nuthesis/images/../images/ch7/unl_workflow.png  used o
+n input line 56.
+(pdftex.def)             Requested size: 303.53268pt x 424.30086pt.
+
+LaTeX Warning: Citation `ph1_sop' on page 10 undefined on input line 57.
+
+
+LaTeX Warning: Citation `ph1_sop' on page 10 undefined on input line 57.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/vis_insp.jpg, id=312, 1042.31662pt x 781.73746pt
+>
+File: nuthesis/images/../images/ch7/vis_insp.jpg Graphic file (type jpg)
+<use nuthesis/images/../images/ch7/vis_insp.jpg>
+Package pdftex.def Info: nuthesis/images/../images/ch7/vis_insp.jpg  used on in
+put line 67.
+(pdftex.def)             Requested size: 303.53268pt x 227.6404pt.
+[10]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/sensor_probe_positions.png, id=322, 510.90875pt 
+x 352.31625pt>
+File: nuthesis/images/../images/ch7/sensor_probe_positions.png Graphic file (ty
+pe png)
+<use nuthesis/images/../images/ch7/sensor_probe_positions.png>
+Package pdftex.def Info: nuthesis/images/../images/ch7/sensor_probe_positions.p
+ng  used on input line 75.
+(pdftex.def)             Requested size: 303.53268pt x 209.3109pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/iv_test.pdf, id=323, 569.12625pt x 615.29875pt>
+File: nuthesis/images/../images/ch7/iv_test.pdf Graphic file (type pdf)
+<use nuthesis/images/../images/ch7/iv_test.pdf>
+Package pdftex.def Info: nuthesis/images/../images/ch7/iv_test.pdf  used on inp
+ut line 81.
+(pdftex.def)             Requested size: 303.53268pt x 328.17229pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/gantry.jpg, id=324, 2001.4775pt x 1500.60625pt>
+File: nuthesis/images/../images/ch7/gantry.jpg Graphic file (type jpg)
+<use nuthesis/images/../images/ch7/gantry.jpg>
+Package pdftex.def Info: nuthesis/images/../images/ch7/gantry.jpg  used on inpu
+t line 88.
+(pdftex.def)             Requested size: 303.53268pt x 227.55414pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/fully_asem_mod.png, id=325, 424.58624pt x 388.45
+125pt>
+File: nuthesis/images/../images/ch7/fully_asem_mod.png Graphic file (type png)
+<use nuthesis/images/../images/ch7/fully_asem_mod.png>
+Package pdftex.def Info: nuthesis/images/../images/ch7/fully_asem_mod.png  used
+ on input line 97.
+(pdftex.def)             Requested size: 303.53268pt x 277.71089pt.
+[11 <./nuthesis/images/ch7/reducedperformance.png> <./nuthesis/images/../images
+/ch7/fpix.pdf> <./nuthesis/images/../images/ch7/bpix.pdf
+
+pdfTeX warning: pdflatex (file ./nuthesis/images/../images/ch7/bpix.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/pix_unit_cell.png, id=364, 729.72626pt x 801.996
+25pt>
+File: nuthesis/images/../images/ch7/pix_unit_cell.png Graphic file (type png)
+<use nuthesis/images/../images/ch7/pix_unit_cell.png>
+Package pdftex.def Info: nuthesis/images/../images/ch7/pix_unit_cell.png  used 
+on input line 109.
+(pdftex.def)             Requested size: 303.53268pt x 333.5932pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/unl_workflow2.png, id=365, 747.79375pt x 508.901
+25pt>
+File: nuthesis/images/../images/ch7/unl_workflow2.png Graphic file (type png)
+<use nuthesis/images/../images/ch7/unl_workflow2.png>
+Package pdftex.def Info: nuthesis/images/../images/ch7/unl_workflow2.png  used 
+on input line 117.
+(pdftex.def)             Requested size: 303.53268pt x 206.56203pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./nuthesis/sections/Ch8-TestBeam.tex
+Overfull \vbox (45.6235pt too high) has occurred while \output is active []
+
+
+[12 <./nuthesis/images/../images/ch7/gato1.jpeg> <./nuthesis/images/../images/c
+h7/gato2.jpeg> <./nuthesis/images/../images/ch7/bbm_hdi.png>] [13 <./nuthesis/i
+mages/../images/ch7/unl_workflow.png>] [14 <./nuthesis/images/../images/ch7/vis
+_insp.jpg> <./nuthesis/images/../images/ch7/sensor_probe_positions.png>]
+[15 <./nuthesis/images/../images/ch7/iv_test.pdf> <./nuthesis/images/../images/
+ch7/gantry.jpg>] [16 <./nuthesis/images/../images/ch7/fully_asem_mod.png>]
+[17 <./nuthesis/images/../images/ch7/pix_unit_cell.png> <./nuthesis/images/../i
+mages/ch7/unl_workflow2.png>]) (./nuthesis/sections/Ch9-Conclusions.tex
+[18
+
+]) [19
 
 ]
 bibitemlist
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 295.
 
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 2229) in paragraph at lines 295--296
-[]\T1/lmr/m/n/12 CMS Tracker Group. ``The Per-for-mance plots for Phase 1 Pixel
- De-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-\T1/lmr/m/n/12 tec-tor 2017'' []$\T1/lmtt/m/n/12 https : / / twiki . cern . ch 
-/ twiki / bin / view / CMSPublic /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-\T1/lmtt/m/n/12 PixelOfflinePlotsAugust2017 # Alignment _ of _ the _ forward _ 
-pixels$[]\T1/lmr/m/n/12 , last
+Underfull \hbox (badness 3158) in paragraph at lines 304--305
+[]\T1/lmr/m/n/12 UNL Phase I FPIX As-sem-bly Stan-dard Op-er-at-ing Pro-ce-dure
+s. From
  []
 
 
 Class memoir Warning: The material used in the footer is too large
 (10.14995pt) for the given foot skip (0.0pt), it is recommended to
 either increase the foot skip or redesign the fotoer
-(in both cases you will find help in the memoir manual). on input line 525.
+(in both cases you will find help in the memoir manual). on input line 554.
 
-[11
+[20
 
 ]
 \tf@toc=\write5
@@ -1145,46 +1329,44 @@ either increase the foot skip or redesign the fotoer
 \tf@lot=\write7
 \openout7 = `Main_Thesis.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 525.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 525.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 554.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 554.
  (./Main_Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 525.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 525.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 554.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 554.
+Package rerunfilecheck Info: File `Main_Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 172A6609337F68CB399B995CEA877D69;2167.
 
-
-Package rerunfilecheck Warning: File `Main_Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Main_Thesis.out':
-(rerunfilecheck)             Before: 19B89227C9A81A3BB82030425B38B052;2131
-(rerunfilecheck)             After:  D9AF4782DD096D98A62D9ED7F42858DD;2130.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 525.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 554.
  ) 
 Here is how much of TeX's memory you used:
- 14247 strings out of 492982
- 210291 string characters out of 6134896
- 346922 words of memory out of 5000000
- 17427 multiletter control sequences out of 15000+600000
- 92310 words of font info for 96 fonts, out of 8000000 for 9000
+ 14363 strings out of 492982
+ 214288 string characters out of 6134896
+ 351179 words of memory out of 5000000
+ 17490 multiletter control sequences out of 15000+600000
+ 102240 words of font info for 98 fonts, out of 8000000 for 9000
  1159 hyphenation exceptions out of 8191
- 51i,11n,46p,791b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main_Thesis.pdf (19 pages, 155187 bytes).
+ 51i,12n,46p,1172b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+bx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on Main_Thesis.pdf (28 pages, 7963827 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 285 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 514 PDF objects out of 1000 (max. 8388607)
+ 410 compressed objects within 5 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 
