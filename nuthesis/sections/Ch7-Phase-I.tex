@@ -6,6 +6,9 @@ As discussed in chapter \ref{ch:lhcandcms} the CMS pixel detector will \ital{suf
 the work done by the UNL-HEP group. Some of these steps will be highlighted and described in detail as they were my contributions to this production campaign. Specially the  and highlighting 
 
 
+
+
+
 \section{The CMS Pixel Detector Phase I Upgrade}
 The CMS pixel detector is composed of two sections, the barrel section (BPix) and the forward section (FPix). Each of these sections (for phase 0) was composed of three layers originally designed to record three 3D positions (tracks) of the particles emerging from the \ital{pp} collisions. As well as to provide information to reconstruct primary and secondary vertices of decaying particles. This detector performed well during the LHC run I,{\rojo{incorporate the bunch crossing?}} taking data at the design luminosity of $1 x 10^{34} cm^{-2} s^{-1}$, which was then used in many analysis including the discovery of the Higgs bosson published in 2013. But after a few years of operation the pixel detector started to degrade due to radiation damage, causing an increase of fake rates as well as loose on resolution. Moreover, for run II the LHC planned to double the luminosity with successive increment until reach its peak of $2 x 10^{35} cm^{-2} s^{-1}$. A simulation of the performance of the pixel detector under different luminosity conditions can be seen in figure \ref{fig:red_perf}
 
@@ -19,11 +22,11 @@ The CMS pixel detector is composed of two sections, the barrel section (BPix) an
 This degradation prompted the need for an improved pixel detector. It was designed to have four layers in the barrel ubicated at distances of Hena2420
 and 3 layers at each endcap as shown in \ref{fig:new_pix}. better 
 
+{\rojo{This degradation prompted the need for an improved pixel detector. It was designed to have four layers in the barrel ubicated at distances of Hena2420
+and 3 layers at each endcap as shown in \ref{fig:new_pix}. better }}
 
-
-
-
-
+{\rojo{This degradation prompted the need for an improved pixel detector. It was designed to have four layers in the barrel ubicated at distances of Hena2420
+and 3 layers at each endcap as shown in \ref{fig:new_pix}. better lllllllllllll l l l l lll ll l l l ll l l l ll l lllllllllllllllllllllllllllllll lll l ll l l ll ll ll lll llll llll lll llll lll lll lll lllll lll llllll lllll lll llll llll llll lllll lll ll l l l ll pasa hacer espacio tenemos que escribir vainas mas coherentes a ver si ahora si slata la pagina}}
 
 \begin{figure}[!h]
 \centering
@@ -32,58 +35,72 @@ and 3 layers at each endcap as shown in \ref{fig:new_pix}. better
 \caption[Layout of the upgraded and old pixel detectors.]{Layout and comparison of the layers and disks in the upgraded (Phase I) and old (Phase 0) pixel detectors \cite{pix_tdr}.}\label{fig:new_pix}
 \end{figure}
 
+%%%%%%%%%%%%%
+%%%%%%%%%%%%
+%%%%%%%%%%
+
 \section{Module Production at UNL}
-The UNL module production workflow was designed to follow a pipeline-like as shown in figure \ref{fig:unlworkflow}
-
-The UNL-HEP group assembly workflow started by receiving two components: a Bare Bonded Module (BBM) and a High Density Interconnect (HDI), see figure \ref{fig:bbmyhdi}. Upon receiving, a visual inspection was done on these components to assure they were in good conditions and able to enter the production chain. A image showing the sort of thing we were looking for during the visual inspection could be seen in figure \ref{fig:vis_insp}.    
- 
-\begin{figure}[!h]
-\centering
-\includegraphics[width=0.6\textwidth]{../images/ch7/gato1}
-\includegraphics[width=0.39\textwidth]{../images/ch7/gato2}
-\caption[Photograph of a BBM and HDI.]{Photograph of a BBM (left) and HDI (right) as were received by the UNL-HEP group.}\label{fig:bbmyhdi}
-\end{figure}
-
-\begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.7\textwidth]{../images/ch7/bbm_hdi}
-  \caption[Visual inspection of a bare module.]{Visual inspection of a bare module.}\label{fig:vis_insp}
-\end{figure}
-
-
+The UNL module production workflow was designed to follow a pipeline-like structure as shown in figure \ref{fig:unlworkflow}. 
 
 \begin{figure}[!h]
   \centering
   \includegraphics[width=0.7\textwidth]{../images/ch7/unl_workflow}
-  \caption[UNL module assembly work flow.]{UNL module assembly work flow. Dashed lines represent occasional quality testing and reworking procedures; 10X numbers represent the stage within the assembly procedure while 20X numbers represent testing stages along the assembly procedure \cite{ph1_sop}.}\label{fig:unlworkflow}
+  \caption[UNL module assembly workflow.]{UNL module assembly workflow. Dashed lines represent occasional quality testing and reworking procedures\cite{ph1_sop}.}\label{fig:unlworkflow}
 \end{figure}
 
+This allows for different batches of modules to be going through it at different stages without stopping the workflow. Following is a short description of the tests and procedures performed during the production in the UNL silicon Lab. Special emphasis will be made in IV test, visual inspection and electrical test, the stages where the author of this work made most of the work{\rojo{improve}}. 
 
-\subsection{visual inspections}
+\subsection{Visual Inspections}
+The UNL-HEP group assembly workflow started upon receiving two components: a Bare Bonded Module (BBM) and a High Density Interconnect (HDI), see figure \ref{fig:bbmyhdi}.
 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.6\textwidth]{ch7/bare_module}
+\includegraphics[width=0.39\textwidth]{ch7/gato2}
+\caption[Photograph of a BBM and HDI.]{Photograph of a BBM (left) and HDI (right) as received by the UNL-HEP group.}\label{fig:bbmyhdi}
+\end{figure}
 
+The first stage of the module production was to do a visual inspection on these components to ensure they were in good conditions and able to continue into the production pipeline. To get a good view of such a small components a powerful microscope with magnification of {\rojo{confirm}} and an attached camera was used. A photograph of the set up is shown in figure \ref{fig:iv_station}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.7\textwidth]{ch7/iv_station}
+\caption[Photograph of the visual inspection and IV test station.]{Photograph showing a BBM under the microscope during a visual inspection. This station also served as IV test stand.}\label{fig:iv_station}
+\end{figure}
+
+Figure \ref{fig:vis_insp} shows different parts of four different modules where defects are observed. Some of these defects (Fig 2(chipped) ) will cause the module to be rejected inmediately whle others (Fig 3 and 4) will still undergo an IV test. 
 
 \begin{figure}[!h]
   \centering
-  \includegraphics[width=0.7\textwidth]{../images/ch7/vis_insp}
-  \caption[Visual inspection of a bare module.]{Visual inspection of a bare module.}\label{fig:vis_insp}
+  \includegraphics[width=0.4\textwidth]{ch7/vis_insp_1}
+  \includegraphics[width=0.4\textwidth]{ch7/vis_insp_2}
+  \includegraphics[width=0.4\textwidth]{ch7/vis_insp_3}
+  \includegraphics[width=0.4\textwidth]{ch7/vis_insp_4}
+  \caption[Visual inspection of a bare module.]{Photograph of the visual inspection of a BBM showing few of the things observed during a visual inspection: A good module (top left), scratches on the high voltage connection path (top right), scratch on the midle of the BBM (bottom left), and scratches on the wire bonds pad (bottom right)}\label{fig:vis_insp}
 \end{figure}
 
+{\rojo{why BBM has more scratches than the HDI}}
 
-\subsection{IV-Curve}
+\subsection{IV Test}
+After both BBM and HDI were visually inspected 
+
 \begin{figure}[!h]
   \centering
-  \includegraphics[width=0.7\textwidth]{../images/ch7/sensor_probe_positions}
+  \includegraphics[width=0.7\textwidth]{ch7/sensor_probe_positions}
   \caption[bla for index.]{bla bla.}\label{fig:sensor_probe_positions}
 \end{figure}
 
 \begin{figure}[!h]
   \centering
-  \includegraphics[width=0.7\textwidth]{../images/ch7/iv_test}
+  \includegraphics[width=0.7\textwidth]{ch7/iv_test}
   \caption[bla for index.]{bla bla.}\label{fig:vis_insp}
 \end{figure}
 
-\subsection{Module assembly}
+\subsection{Gluing}
+\subsection{Wirebonding}
+\subsection{Encapsulation}
+
+
 \begin{figure}[!h]
   \centering
   \includegraphics[width=0.7\textwidth]{../images/ch7/gantry}
@@ -99,7 +116,11 @@ The UNL-HEP group assembly workflow started by receiving two components: a Bare 
   \caption[bla for index.]{bla bla.}\label{fig:fully_asem_mod}
 \end{figure}
 
-
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=0.7\textwidth]{../images/ch7/bbm_hdi}
+  \caption[Visual inspection of a bare module.]{Visual inspection of a bare module.}\label{fig:vis_insp}
+\end{figure}
 
 
 

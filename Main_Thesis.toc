@@ -15,20 +15,22 @@
 \contentsline {chapter}{\chapternumberline {6}More on the Analysis?}{8}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Module Production for the Phase I CMS Pixel Detector Upgrade}{9}{chapter.7}
 \contentsline {section}{\numberline {7.1}The CMS Pixel Detector Phase I Upgrade}{10}{section.7.1}
-\contentsline {section}{\numberline {7.2}Module Production at UNL}{10}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}visual inspections}{12}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}IV-Curve}{12}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Module assembly}{12}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Electrical Test of a Fully assembly Module}{12}{subsection.7.2.4}
-\contentsline {chapter}{\chapternumberline {8}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{18}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction}{18}{section.8.1}
-\contentsline {section}{\numberline {8.2}The RD53 Chip}{18}{section.8.2}
-\contentsline {section}{\numberline {8.3}Purpose of Test Beam}{18}{section.8.3}
-\contentsline {section}{\numberline {8.4}Test Beam Set Up}{18}{section.8.4}
-\contentsline {section}{\numberline {8.5}Results}{18}{section.8.5}
-\contentsline {chapter}{\chapternumberline {9}Conclusions}{19}{chapter.9}
-\contentsline {section}{\numberline {9.1}Analysis}{19}{section.9.1}
-\contentsline {section}{\numberline {9.2}Phase 1}{19}{section.9.2}
-\contentsline {section}{\numberline {9.3}Beam Test}{19}{section.9.3}
-\contentsline {chapter}{Bibliography}{19}{section.9.3}
-\contentsline {chapter}{References}{20}{section*.20}
+\contentsline {section}{\numberline {7.2}Module Production at UNL}{12}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Visual Inspections}{13}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}IV Test}{14}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Gluing}{15}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Wirebonding}{15}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Encapsulation}{15}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Electrical Test of a Fully assembly Module}{15}{subsection.7.2.6}
+\contentsline {chapter}{\chapternumberline {8}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{19}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{19}{section.8.1}
+\contentsline {section}{\numberline {8.2}The RD53 Chip}{19}{section.8.2}
+\contentsline {section}{\numberline {8.3}Purpose of Test Beam}{19}{section.8.3}
+\contentsline {section}{\numberline {8.4}Test Beam Set Up}{19}{section.8.4}
+\contentsline {section}{\numberline {8.5}Results}{19}{section.8.5}
+\contentsline {chapter}{\chapternumberline {9}Conclusions}{20}{chapter.9}
+\contentsline {section}{\numberline {9.1}Analysis}{20}{section.9.1}
+\contentsline {section}{\numberline {9.2}Phase 1}{20}{section.9.2}
+\contentsline {section}{\numberline {9.3}Beam Test}{20}{section.9.3}
+\contentsline {chapter}{Bibliography}{20}{section.9.3}
+\contentsline {chapter}{References}{21}{section*.21}
