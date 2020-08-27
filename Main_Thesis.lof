@@ -2,26 +2,45 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The CERN acceleration \textit {facilities}}}{3}{figure.caption.3}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces CMS cross sectional view}}{3}{figure.caption.4}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces CMS cross sectional view}}{4}{figure.caption.5}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces CMS cross sectional view}}{4}{figure.caption.6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces LHC luminosity}}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces LHC dipoles}}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces CMS cross sectional view}}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces CMS Tracking system.}}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces CMS cross sectional view}}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces CMS cross sectional view}}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces phase o pixel detector}}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces silicon strips detector}}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The Electromagnetic Calorimeter}}{11}{figure.caption.12}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces The Hadronic Calorimeter}}{12}{figure.caption.13}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces The Muon Chambers}}{13}{figure.caption.14}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Expected performance of the original pixel detector for different luminosities.}}{11}{figure.caption.7}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Layout of the upgraded and old pixel detectors.}}{11}{figure.caption.8}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces UNL module assembly workflow.}}{12}{figure.caption.9}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Photograph of a BBM and HDI.}}{13}{figure.caption.10}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Photograph of the visual inspection and IV test station.}}{14}{figure.caption.11}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Visual inspection of a bare module.}}{14}{figure.caption.12}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces bla for index.}}{15}{figure.caption.13}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces bla for index.}}{16}{figure.caption.14}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces bla for index.}}{16}{figure.caption.15}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces bla for index.}}{17}{figure.caption.16}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Visual inspection of a bare module.}}{17}{figure.caption.17}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces bla for index.}}{18}{figure.caption.18}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces bla for index.}}{18}{figure.caption.19}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Expected performance of the original pixel detector for different luminosities.}}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Layout of the upgraded and old pixel detectors.}}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces UNL module assembly workflow.}}{21}{figure.caption.17}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Photograph of a BBM and HDI.}}{22}{figure.caption.18}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Photograph of the visual inspection and IV test station.}}{23}{figure.caption.19}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Visual inspection of a bare module.}}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Visual inspection of a bare module.}}{25}{figure.caption.21}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Probe position for an IV test}}{25}{figure.caption.22}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces IV result of a BBM}}{26}{figure.caption.23}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Gluing routine}}{26}{figure.caption.24}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces bla for index.}}{27}{figure.caption.25}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces bla for index.}}{28}{figure.caption.26}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces bla for index.}}{29}{figure.caption.27}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Fully assembly Module}}{29}{figure.caption.28}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Visual inspection of a bare module.}}{30}{figure.caption.29}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Electrical test station}}{31}{figure.caption.30}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Pretest}}{32}{figure.caption.31}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Pixel alive.}}{32}{figure.caption.32}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Trim test.}}{33}{figure.caption.33}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Ph Optimization.}}{34}{figure.caption.34}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Gain Pedestal.}}{35}{figure.caption.35}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Bond bonding test.}}{36}{figure.caption.36}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces bla for index.}}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {7.24}{\ignorespaces bla for index.}}{37}{figure.caption.38}
 \addvspace {10pt}
 \addvspace {10pt}

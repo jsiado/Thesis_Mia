@@ -1,36 +1,45 @@
 \babel@toc {english}{}
-\contentsline {chapter}{List of Figures}{vii}{section*.1}
-\contentsline {chapter}{List of Tables}{viii}{section*.2}
+\contentsline {chapter}{List of Figures}{viii}{section*.1}
+\contentsline {chapter}{List of Tables}{x}{section*.2}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}The LHC Accelerator and the CMS Experiment}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}The LHC Accelerator}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}CMS}{3}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The Tracker Detector}{4}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}The Electromagnetic Calorimeter}{4}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}The Hadronic Calorimeter}{4}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}The Muon Chambers}{4}{subsection.2.2.4}
-\contentsline {chapter}{\chapternumberline {3}The SM and BSM Theories}{5}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}Event generation, simulation and reconstruction}{6}{chapter.4}
-\contentsline {chapter}{\chapternumberline {5}Search for the particle}{7}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}More on the Analysis?}{8}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Module Production for the Phase I CMS Pixel Detector Upgrade}{9}{chapter.7}
-\contentsline {section}{\numberline {7.1}The CMS Pixel Detector Phase I Upgrade}{10}{section.7.1}
-\contentsline {section}{\numberline {7.2}Module Production at UNL}{12}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Visual Inspections}{13}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}IV Test}{14}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Gluing}{15}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Wirebonding}{15}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Encapsulation}{15}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}Electrical Test of a Fully assembly Module}{15}{subsection.7.2.6}
-\contentsline {chapter}{\chapternumberline {8}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{19}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction}{19}{section.8.1}
-\contentsline {section}{\numberline {8.2}The RD53 Chip}{19}{section.8.2}
-\contentsline {section}{\numberline {8.3}Purpose of Test Beam}{19}{section.8.3}
-\contentsline {section}{\numberline {8.4}Test Beam Set Up}{19}{section.8.4}
-\contentsline {section}{\numberline {8.5}Results}{19}{section.8.5}
-\contentsline {chapter}{\chapternumberline {9}Conclusions}{20}{chapter.9}
-\contentsline {section}{\numberline {9.1}Analysis}{20}{section.9.1}
-\contentsline {section}{\numberline {9.2}Phase 1}{20}{section.9.2}
-\contentsline {section}{\numberline {9.3}Beam Test}{20}{section.9.3}
-\contentsline {chapter}{Bibliography}{20}{section.9.3}
-\contentsline {chapter}{References}{21}{section*.21}
+\contentsline {section}{\numberline {2.2}CMS}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The Tracker Detector}{6}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Pixel Detector}{9}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Silicon Strips}{10}{subsubsection.2.2.1.2}
+\contentsline {subsection}{\numberline {2.2.2}The Electromagnetic Calorimeter}{11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}The Hadronic Calorimeter}{11}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}The Muon Chambers}{13}{subsection.2.2.4}
+\contentsline {chapter}{\chapternumberline {3}The SM and BSM Theories}{14}{chapter.3}
+\contentsline {chapter}{\chapternumberline {4}Event generation, simulation and reconstruction}{15}{chapter.4}
+\contentsline {chapter}{\chapternumberline {5}Search for the particle}{16}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}More on the Analysis?}{17}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Module Production for the Phase I CMS Pixel Detector Upgrade}{18}{chapter.7}
+\contentsline {section}{\numberline {7.1}The CMS Pixel Detector Phase I Upgrade}{19}{section.7.1}
+\contentsline {section}{\numberline {7.2}Module Production at UNL}{21}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Visual Inspections}{22}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}IV Test}{23}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Gluing}{23}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Wirebonding}{24}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Encapsulation}{27}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Electrical Test of a Fully assembly Module}{27}{subsection.7.2.6}
+\contentsline {subsubsection}{\numberline {7.2.6.1}Pretest}{28}{subsubsection.7.2.6.1}
+\contentsline {subsubsection}{\numberline {7.2.6.2}Pretest}{30}{subsubsection.7.2.6.2}
+\contentsline {subsubsection}{\numberline {7.2.6.3}Pixel Alive}{31}{subsubsection.7.2.6.3}
+\contentsline {subsubsection}{\numberline {7.2.6.4}Trim Test}{33}{subsubsection.7.2.6.4}
+\contentsline {subsubsection}{\numberline {7.2.6.5}PH Optimization}{33}{subsubsection.7.2.6.5}
+\contentsline {subsubsection}{\numberline {7.2.6.6}Gain Pedestal}{35}{subsubsection.7.2.6.6}
+\contentsline {subsubsection}{\numberline {7.2.6.7}Bond Bonding Test}{35}{subsubsection.7.2.6.7}
+\contentsline {chapter}{\chapternumberline {8}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{38}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{38}{section.8.1}
+\contentsline {section}{\numberline {8.2}The RD53 Chip}{38}{section.8.2}
+\contentsline {section}{\numberline {8.3}Purpose of Test Beam}{38}{section.8.3}
+\contentsline {section}{\numberline {8.4}Test Beam Set Up}{38}{section.8.4}
+\contentsline {section}{\numberline {8.5}Results}{38}{section.8.5}
+\contentsline {chapter}{\chapternumberline {9}Conclusions}{39}{chapter.9}
+\contentsline {section}{\numberline {9.1}Analysis}{39}{section.9.1}
+\contentsline {section}{\numberline {9.2}Phase 1}{39}{section.9.2}
+\contentsline {section}{\numberline {9.3}Beam Test}{39}{section.9.3}
+\contentsline {chapter}{Bibliography}{39}{section.9.3}
+\contentsline {chapter}{References}{40}{section*.40}
