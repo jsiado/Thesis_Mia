@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.15)  27 AUG 2020 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.15)  27 AUG 2020 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,7 +920,7 @@ LaTeX Warning: Label `fig:cms_layout' multiply defined.
 LaTeX Warning: Label `fig:cms_layout' multiply defined.
 
 
-LaTeX Warning: Label `fig:vis_insp' multiply defined.
+LaTeX Warning: Label `fig:gantry' multiply defined.
 
 
 LaTeX Warning: Label `fig:vis_insp' multiply defined.
@@ -938,19 +938,10 @@ LaTeX Warning: Label `fig:vis_insp' multiply defined.
 LaTeX Warning: Label `fig:vis_insp' multiply defined.
 
 
-LaTeX Warning: Label `fig:vis_insp' multiply defined.
+LaTeX Warning: Label `fig:pix_unit_cell' multiply defined.
 
 
-LaTeX Warning: Label `fig:vis_insp' multiply defined.
-
-
-LaTeX Warning: Label `fig:vis_insp' multiply defined.
-
-
-LaTeX Warning: Label `fig:vis_insp' multiply defined.
-
-
-LaTeX Warning: Label `fig:vis_insp' multiply defined.
+LaTeX Warning: Label `fig:unl_workflow2' multiply defined.
 
 )
 \openout1 = `Main_Thesis.aux'.
@@ -1140,7 +1131,7 @@ Overfull \hbox (0.16273pt too wide) detected at line 2
 
 
 ]
-<nuthesis/images/../images/ch2/11.png, id=351, 658.46pt x 722.7pt>
+<nuthesis/images/../images/ch2/11.png, id=352, 658.46pt x 722.7pt>
 File: nuthesis/images/../images/ch2/11.png Graphic file (type png)
 <use nuthesis/images/../images/ch2/11.png>
 Package pdftex.def Info: nuthesis/images/../images/ch2/11.png  used on input li
@@ -1150,7 +1141,7 @@ ne 16.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/../images/ch2/1.jpg, id=356, 752.8125pt x 718.685pt>
+<nuthesis/images/../images/ch2/1.jpg, id=357, 752.8125pt x 718.685pt>
 File: nuthesis/images/../images/ch2/1.jpg Graphic file (type jpg)
 <use nuthesis/images/../images/ch2/1.jpg>
 Package pdftex.def Info: nuthesis/images/../images/ch2/1.jpg  used on input lin
@@ -1162,7 +1153,7 @@ e 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/../images/ch2/2.jpg, id=369, 531.9875pt x 963.6pt>
+<nuthesis/images/../images/ch2/2.jpg, id=370, 531.9875pt x 963.6pt>
 File: nuthesis/images/../images/ch2/2.jpg Graphic file (type jpg)
 <use nuthesis/images/../images/ch2/2.jpg>
 Package pdftex.def Info: nuthesis/images/../images/ch2/2.jpg  used on input lin
@@ -1171,13 +1162,13 @@ e 34.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/../images/ch2/10.jpg, id=374, 879.285pt x 770.88pt>
+<nuthesis/images/../images/ch2/10.jpg, id=375, 879.285pt x 770.88pt>
 File: nuthesis/images/../images/ch2/10.jpg Graphic file (type jpg)
 <use nuthesis/images/../images/ch2/10.jpg>
 Package pdftex.def Info: nuthesis/images/../images/ch2/10.jpg  used on input li
 ne 46.
 (pdftex.def)             Requested size: 303.53268pt x 266.1068pt.
-<nuthesis/images/../images/ch2/3.png, id=379, 505.89pt x 505.89pt>
+<nuthesis/images/../images/ch2/3.png, id=380, 505.89pt x 505.89pt>
 File: nuthesis/images/../images/ch2/3.png Graphic file (type png)
 <use nuthesis/images/../images/ch2/3.png>
 Package pdftex.def Info: nuthesis/images/../images/ch2/3.png  used on input lin
@@ -1195,7 +1186,7 @@ LaTeX Warning: Text page 5 contains only floats.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/../images/ch2/12.jpg, id=399, 1284.8pt x 963.6pt>
+<nuthesis/images/../images/ch2/12.jpg, id=400, 1284.8pt x 963.6pt>
 File: nuthesis/images/../images/ch2/12.jpg Graphic file (type jpg)
 <use nuthesis/images/../images/ch2/12.jpg>
 Package pdftex.def Info: nuthesis/images/../images/ch2/12.jpg  used on input li
@@ -1204,7 +1195,7 @@ ne 59.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/../images/ch2/4.jpg, id=404, 722.7pt x 722.7pt>
+<nuthesis/images/../images/ch2/4.jpg, id=405, 722.7pt x 722.7pt>
 File: nuthesis/images/../images/ch2/4.jpg Graphic file (type jpg)
 <use nuthesis/images/../images/ch2/4.jpg>
 Package pdftex.def Info: nuthesis/images/../images/ch2/4.jpg  used on input lin
@@ -1220,14 +1211,14 @@ Overfull \vbox (0.3318pt too high) has occurred while \output is active []
 
 [7 <./nuthesis/images/../images/ch2/3.png (PNG copy)> <./nuthesis/images/../ima
 ges/ch2/12.jpg>]
-<nuthesis/images/../images/ch2/5.jpg, id=421, 501.875pt x 389.455pt>
+<nuthesis/images/../images/ch2/5.jpg, id=422, 501.875pt x 389.455pt>
 File: nuthesis/images/../images/ch2/5.jpg Graphic file (type jpg)
 <use nuthesis/images/../images/ch2/5.jpg>
 Package pdftex.def Info: nuthesis/images/../images/ch2/5.jpg  used on input lin
 e 74.
 (pdftex.def)             Requested size: 303.53268pt x 235.55266pt.
  [8 <./nuthesis/images/../images/ch2/4.jpg>]
-<nuthesis/images/../images/ch2/6.jpg, id=434, 963.6pt x 963.6pt>
+<nuthesis/images/../images/ch2/6.jpg, id=435, 963.6pt x 963.6pt>
 File: nuthesis/images/../images/ch2/6.jpg Graphic file (type jpg)
 <use nuthesis/images/../images/ch2/6.jpg>
 Package pdftex.def Info: nuthesis/images/../images/ch2/6.jpg  used on input lin
@@ -1235,20 +1226,20 @@ e 82.
 (pdftex.def)             Requested size: 303.53268pt x 303.5209pt.
  [9 <./nuthesis/images/../images/ch2/5.jpg>] [10 <./nuthesis/images/../images/c
 h2/6.jpg>]
-<nuthesis/images/../images/ch2/7.jpg, id=448, 963.6pt x 963.6pt>
+<nuthesis/images/../images/ch2/7.jpg, id=449, 963.6pt x 963.6pt>
 File: nuthesis/images/../images/ch2/7.jpg Graphic file (type jpg)
 <use nuthesis/images/../images/ch2/7.jpg>
 Package pdftex.def Info: nuthesis/images/../images/ch2/7.jpg  used on input lin
 e 89.
 (pdftex.def)             Requested size: 303.53268pt x 303.5209pt.
-<nuthesis/images/../images/ch2/8.jpg, id=453, 642.4pt x 787.94376pt>
+<nuthesis/images/../images/ch2/8.jpg, id=454, 642.4pt x 787.94376pt>
 File: nuthesis/images/../images/ch2/8.jpg Graphic file (type jpg)
 <use nuthesis/images/../images/ch2/8.jpg>
 Package pdftex.def Info: nuthesis/images/../images/ch2/8.jpg  used on input lin
 e 98.
 (pdftex.def)             Requested size: 303.53268pt x 372.30539pt.
  [11 <./nuthesis/images/../images/ch2/7.jpg>]
-<nuthesis/images/../images/ch2/9.png, id=463, 948.54375pt x 635.37375pt>
+<nuthesis/images/../images/ch2/9.png, id=464, 948.54375pt x 635.37375pt>
 File: nuthesis/images/../images/ch2/9.png Graphic file (type png)
 <use nuthesis/images/../images/ch2/9.png>
 Package pdftex.def Info: nuthesis/images/../images/ch2/9.png  used on input lin
@@ -1269,7 +1260,7 @@ a-I.tex [14
 ] [18
 
 ]
-<nuthesis/images/ch7/reducedperformance.png, id=499, 3350.76843pt x 2042.38031p
+<nuthesis/images/ch7/reducedperformance.png, id=500, 3350.76843pt x 2042.38031p
 t>
 File: nuthesis/images/ch7/reducedperformance.png Graphic file (type png)
 <use nuthesis/images/ch7/reducedperformance.png>
@@ -1280,20 +1271,20 @@ put line 13.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/../images/ch7/fpix.pdf, id=506, 2387.07802pt x 1336.995pt>
+<nuthesis/images/../images/ch7/fpix.pdf, id=507, 2387.07802pt x 1336.995pt>
 File: nuthesis/images/../images/ch7/fpix.pdf Graphic file (type pdf)
 <use nuthesis/images/../images/ch7/fpix.pdf>
 Package pdftex.def Info: nuthesis/images/../images/ch7/fpix.pdf  used on input 
 line 29.
 (pdftex.def)             Requested size: 260.17465pt x 145.72345pt.
-<nuthesis/images/../images/ch7/bpix.pdf, id=507, 3655.6575pt x 2582.64874pt>
+<nuthesis/images/../images/ch7/bpix.pdf, id=508, 3655.6575pt x 2582.64874pt>
 File: nuthesis/images/../images/ch7/bpix.pdf Graphic file (type pdf)
 <use nuthesis/images/../images/ch7/bpix.pdf>
 Package pdftex.def Info: nuthesis/images/../images/ch7/bpix.pdf  used on input 
 line 30.
 (pdftex.def)             Requested size: 169.11154pt x 119.44563pt.
 [19]
-<nuthesis/images/../images/ch7/unl_workflow.png, id=519, 348.37846pt x 486.9886
+<nuthesis/images/../images/ch7/unl_workflow.png, id=520, 348.37846pt x 486.9886
 2pt>
 File: nuthesis/images/../images/ch7/unl_workflow.png Graphic file (type png)
 <use nuthesis/images/../images/ch7/unl_workflow.png>
@@ -1306,257 +1297,306 @@ s/ch7/fpix.pdf> <./nuthesis/images/../images/ch7/bpix.pdf
 pdfTeX warning: pdflatex (file ./nuthesis/images/../images/ch7/bpix.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >] [21 <./nuthesis/images/../images/ch7/unl_workflow.png>]
-<nuthesis/images/ch7/bare_module.jpg, id=567, 4143.48pt x 2330.7075pt>
+<nuthesis/images/ch7/bare_module.jpg, id=568, 4143.48pt x 2330.7075pt>
 File: nuthesis/images/ch7/bare_module.jpg Graphic file (type jpg)
 <use nuthesis/images/ch7/bare_module.jpg>
 Package pdftex.def Info: nuthesis/images/ch7/bare_module.jpg  used on input lin
 e 54.
 (pdftex.def)             Requested size: 260.17465pt x 146.34457pt.
-<nuthesis/images/ch7/gato2.jpeg, id=568, 915.42pt x 963.6pt>
+<nuthesis/images/ch7/gato2.jpeg, id=569, 915.42pt x 963.6pt>
 File: nuthesis/images/ch7/gato2.jpeg Graphic file (type jpg)
 <use nuthesis/images/ch7/gato2.jpeg>
 Package pdftex.def Info: nuthesis/images/ch7/gato2.jpeg  used on input line 55.
 
 (pdftex.def)             Requested size: 169.11154pt x 178.01324pt.
-<nuthesis/images/ch7/iv_station.jpg, id=570, 4143.48pt x 2330.7075pt>
-File: nuthesis/images/ch7/iv_station.jpg Graphic file (type jpg)
-<use nuthesis/images/ch7/iv_station.jpg>
-Package pdftex.def Info: nuthesis/images/ch7/iv_station.jpg  used on input line
- 63.
+<nuthesis/images/ch7/probe_station.jpg, id=571, 4143.48pt x 2330.7075pt>
+File: nuthesis/images/ch7/probe_station.jpg Graphic file (type jpg)
+<use nuthesis/images/ch7/probe_station.jpg>
+Package pdftex.def Info: nuthesis/images/ch7/probe_station.jpg  used on input l
+ine 63.
 (pdftex.def)             Requested size: 303.53268pt x 170.70569pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [22 <./nuthesis/images/ch7/bare_module.jpg> <./nuthesis/images/ch7/gato2.jpeg>]
-<nuthesis/images/ch7/vis_insp_1.jpg, id=576, 1042.31662pt x 781.73746pt>
+<nuthesis/images/ch7/vis_insp_1.jpg, id=578, 1042.31662pt x 781.73746pt>
 File: nuthesis/images/ch7/vis_insp_1.jpg Graphic file (type jpg)
 <use nuthesis/images/ch7/vis_insp_1.jpg>
 Package pdftex.def Info: nuthesis/images/ch7/vis_insp_1.jpg  used on input line
  71.
 (pdftex.def)             Requested size: 173.44536pt x 130.07852pt.
-<nuthesis/images/ch7/vis_insp_2.jpg, id=577, 1042.31662pt x 781.73746pt>
+<nuthesis/images/ch7/vis_insp_2.jpg, id=579, 1042.31662pt x 781.73746pt>
 File: nuthesis/images/ch7/vis_insp_2.jpg Graphic file (type jpg)
 <use nuthesis/images/ch7/vis_insp_2.jpg>
 Package pdftex.def Info: nuthesis/images/ch7/vis_insp_2.jpg  used on input line
  72.
 (pdftex.def)             Requested size: 173.44536pt x 130.07852pt.
-<nuthesis/images/ch7/vis_insp_3.jpg, id=578, 1042.31662pt x 781.73746pt>
+<nuthesis/images/ch7/vis_insp_3.jpg, id=580, 1042.31662pt x 781.73746pt>
 File: nuthesis/images/ch7/vis_insp_3.jpg Graphic file (type jpg)
 <use nuthesis/images/ch7/vis_insp_3.jpg>
 Package pdftex.def Info: nuthesis/images/ch7/vis_insp_3.jpg  used on input line
  73.
 (pdftex.def)             Requested size: 173.44536pt x 130.07852pt.
-<nuthesis/images/ch7/vis_insp_4.jpg, id=579, 1042.31662pt x 781.73746pt>
-File: nuthesis/images/ch7/vis_insp_4.jpg Graphic file (type jpg)
-<use nuthesis/images/ch7/vis_insp_4.jpg>
-Package pdftex.def Info: nuthesis/images/ch7/vis_insp_4.jpg  used on input line
+<nuthesis/images/ch7/vis_insp_5.jpg, id=581, 1042.31662pt x 781.73746pt>
+File: nuthesis/images/ch7/vis_insp_5.jpg Graphic file (type jpg)
+<use nuthesis/images/ch7/vis_insp_5.jpg>
+Package pdftex.def Info: nuthesis/images/ch7/vis_insp_5.jpg  used on input line
  74.
 (pdftex.def)             Requested size: 173.44536pt x 130.07852pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/ch7/hdi_tbm.jpg, id=580, 1042.31662pt x 781.73746pt>
+<nuthesis/images/ch7/hdi_tbm.jpg, id=582, 1042.31662pt x 781.73746pt>
 File: nuthesis/images/ch7/hdi_tbm.jpg Graphic file (type jpg)
 <use nuthesis/images/ch7/hdi_tbm.jpg>
-Package pdftex.def Info: nuthesis/images/ch7/hdi_tbm.jpg  used on input line 82
+Package pdftex.def Info: nuthesis/images/ch7/hdi_tbm.jpg  used on input line 80
 .
 (pdftex.def)             Requested size: 173.44536pt x 130.07852pt.
-File: nuthesis/images/ch7/vis_insp_2.jpg Graphic file (type jpg)
-<use nuthesis/images/ch7/vis_insp_2.jpg>
-Package pdftex.def Info: nuthesis/images/ch7/vis_insp_2.jpg  used on input line
- 83.
-(pdftex.def)             Requested size: 173.44536pt x 130.07852pt.
-File: nuthesis/images/ch7/vis_insp_3.jpg Graphic file (type jpg)
-<use nuthesis/images/ch7/vis_insp_3.jpg>
-Package pdftex.def Info: nuthesis/images/ch7/vis_insp_3.jpg  used on input line
- 84.
-(pdftex.def)             Requested size: 173.44536pt x 130.07852pt.
-File: nuthesis/images/ch7/vis_insp_4.jpg Graphic file (type jpg)
-<use nuthesis/images/ch7/vis_insp_4.jpg>
-Package pdftex.def Info: nuthesis/images/ch7/vis_insp_4.jpg  used on input line
- 85.
+File: nuthesis/images/ch7/hdi_tbm.jpg Graphic file (type jpg)
+<use nuthesis/images/ch7/hdi_tbm.jpg>
+Package pdftex.def Info: nuthesis/images/ch7/hdi_tbm.jpg  used on input line 81
+.
 (pdftex.def)             Requested size: 173.44536pt x 130.07852pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/ch7/sensor_probe_positions.png, id=581, 510.90875pt x 352.3162
+<nuthesis/images/ch7/sensor_probe_positions.png, id=585, 510.90875pt x 352.3162
 5pt>
 File: nuthesis/images/ch7/sensor_probe_positions.png Graphic file (type png)
 <use nuthesis/images/ch7/sensor_probe_positions.png>
 Package pdftex.def Info: nuthesis/images/ch7/sensor_probe_positions.png  used o
-n input line 102.
+n input line 97.
 (pdftex.def)             Requested size: 303.53268pt x 209.3109pt.
+[23 <./nuthesis/images/ch7/probe_station.jpg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/ch7/iv_test.pdf, id=582, 569.12625pt x 615.29875pt>
+<nuthesis/images/ch7/iv_test.pdf, id=591, 569.12625pt x 615.29875pt>
 File: nuthesis/images/ch7/iv_test.pdf Graphic file (type pdf)
 <use nuthesis/images/ch7/iv_test.pdf>
 Package pdftex.def Info: nuthesis/images/ch7/iv_test.pdf  used on input line 10
-8.
+3.
 (pdftex.def)             Requested size: 173.44536pt x 187.52031pt.
-<nuthesis/images/ch7/12.png, id=583, 505.89pt x 505.89pt>
+<nuthesis/images/ch7/12.png, id=592, 505.89pt x 505.89pt>
 File: nuthesis/images/ch7/12.png Graphic file (type png)
 <use nuthesis/images/ch7/12.png>
-Package pdftex.def Info: nuthesis/images/ch7/12.png  used on input line 109.
+Package pdftex.def Info: nuthesis/images/ch7/12.png  used on input line 104.
 (pdftex.def)             Requested size: 173.44536pt x 173.44382pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23 <./nuthesis/images/ch7/iv_station.jpg>]
-<nuthesis/images/ch7/11.jpg, id=589, 276.03125pt x 183.68625pt>
-File: nuthesis/images/ch7/11.jpg Graphic file (type jpg)
-<use nuthesis/images/ch7/11.jpg>
-Package pdftex.def Info: nuthesis/images/ch7/11.jpg  used on input line 119.
-(pdftex.def)             Requested size: 303.53268pt x 202.00781pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[24 <./nuthesis/images/ch7/vis_insp_1.jpg> <./nuthesis/images/ch7/vis_insp_2.jp
-g> <./nuthesis/images/ch7/vis_insp_3.jpg> <./nuthesis/images/ch7/vis_insp_4.jpg
->]
-
-LaTeX Warning: Text page 25 contains only floats.
-
-[25 <./nuthesis/images/ch7/hdi_tbm.jpg> <./nuthesis/images/ch7/sensor_probe_pos
-itions.png>]
-<nuthesis/images/ch7/9.jpg, id=598, 722.7pt x 542.025pt>
-File: nuthesis/images/ch7/9.jpg Graphic file (type jpg)
-<use nuthesis/images/ch7/9.jpg>
-Package pdftex.def Info: nuthesis/images/ch7/9.jpg  used on input line 129.
-(pdftex.def)             Requested size: 303.53268pt x 227.64894pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<nuthesis/images/ch7/13.jpg, id=599, 642.4pt x 787.94376pt>
-File: nuthesis/images/ch7/13.jpg Graphic file (type jpg)
-<use nuthesis/images/ch7/13.jpg>
-Package pdftex.def Info: nuthesis/images/ch7/13.jpg  used on input line 137.
-(pdftex.def)             Requested size: 303.53268pt x 372.30539pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26 <./nuthesis/images/ch7/iv_test.pdf> <./nuthesis/images/ch7/12.png (PNG copy
-)> <./nuthesis/images/ch7/11.jpg>]
-<nuthesis/images/../images/ch7/gantry.jpg, id=647, 2001.4775pt x 1500.60625pt>
-File: nuthesis/images/../images/ch7/gantry.jpg Graphic file (type jpg)
-<use nuthesis/images/../images/ch7/gantry.jpg>
-Package pdftex.def Info: nuthesis/images/../images/ch7/gantry.jpg  used on inpu
-t line 146.
+<nuthesis/images/ch7/gantry.jpg, id=593, 2001.4775pt x 1500.60625pt>
+File: nuthesis/images/ch7/gantry.jpg Graphic file (type jpg)
+<use nuthesis/images/ch7/gantry.jpg>
+Package pdftex.def Info: nuthesis/images/ch7/gantry.jpg  used on input line 112
+.
 (pdftex.def)             Requested size: 303.53268pt x 227.55414pt.
+[24 <./nuthesis/images/ch7/vis_insp_1.jpg> <./nuthesis/images/ch7/vis_insp_2.jp
+g> <./nuthesis/images/ch7/vis_insp_3.jpg> <./nuthesis/images/ch7/vis_insp_5.jpg
+> <./nuthesis/images/ch7/hdi_tbm.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/ch7/hdi_on_bbm.png, id=598, 1951.29pt x 1457.445pt>
+File: nuthesis/images/ch7/hdi_on_bbm.png Graphic file (type png)
+<use nuthesis/images/ch7/hdi_on_bbm.png>
+Package pdftex.def Info: nuthesis/images/ch7/hdi_on_bbm.png  used on input line
+ 118.
+(pdftex.def)             Requested size: 303.53268pt x 226.70224pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/ch7/wirebonder.png, id=599, 359.84438pt x 161.85469pt>
+File: nuthesis/images/ch7/wirebonder.png Graphic file (type png)
+<use nuthesis/images/ch7/wirebonder.png>
+Package pdftex.def Info: nuthesis/images/ch7/wirebonder.png  used on input line
+ 127.
+(pdftex.def)             Requested size: 303.53268pt x 136.53737pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/ch7/wirebond.png, id=600, 359.84438pt x 161.85469pt>
+File: nuthesis/images/ch7/wirebond.png Graphic file (type png)
+<use nuthesis/images/ch7/wirebond.png>
+Package pdftex.def Info: nuthesis/images/ch7/wirebond.png  used on input line 1
+34.
+(pdftex.def)             Requested size: 303.53268pt x 136.53737pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/ch7/encap_roc.png, id=601, 650.43pt x 563.85657pt>
+File: nuthesis/images/ch7/encap_roc.png Graphic file (type png)
+<use nuthesis/images/ch7/encap_roc.png>
+Package pdftex.def Info: nuthesis/images/ch7/encap_roc.png  used on input line 
+144.
+(pdftex.def)             Requested size: 303.53268pt x 263.13701pt.
+<nuthesis/images/ch7/encap_tbm.png, id=602, 292.09125pt x 289.08pt>
+File: nuthesis/images/ch7/encap_tbm.png Graphic file (type png)
+<use nuthesis/images/ch7/encap_tbm.png>
+Package pdftex.def Info: nuthesis/images/ch7/encap_tbm.png  used on input line 
+145.
+(pdftex.def)             Requested size: 303.53268pt x 300.42877pt.
+<nuthesis/images/ch7/encap_hv.png, id=603, 577.40718pt x 334.24875pt>
+File: nuthesis/images/ch7/encap_hv.png Graphic file (type png)
+<use nuthesis/images/ch7/encap_hv.png>
+Package pdftex.def Info: nuthesis/images/ch7/encap_hv.png  used on input line 1
+46.
+(pdftex.def)             Requested size: 303.53268pt x 175.71782pt.
+
+LaTeX Warning: Float too large for page by 162.42738pt on input line 148.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/../images/ch7/fully_asem_mod.png, id=648, 424.58624pt x 388.45
+<nuthesis/images/../images/ch7/fully_asem_mod.png, id=604, 424.58624pt x 388.45
 125pt>
 File: nuthesis/images/../images/ch7/fully_asem_mod.png Graphic file (type png)
 <use nuthesis/images/../images/ch7/fully_asem_mod.png>
 Package pdftex.def Info: nuthesis/images/../images/ch7/fully_asem_mod.png  used
- on input line 158.
+ on input line 157.
 (pdftex.def)             Requested size: 303.53268pt x 277.71089pt.
-[27 <./nuthesis/images/ch7/9.jpg>]
+[25 <./nuthesis/images/ch7/sensor_probe_positions.png> <./nuthesis/images/ch7/i
+v_test.pdf> <./nuthesis/images/ch7/12.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28 <./nuthesis/images/ch7/13.jpg>]
-
-LaTeX Warning: Text page 29 contains only floats.
-
-[29 <./nuthesis/images/../images/ch7/gantry.jpg> <./nuthesis/images/../images/c
-h7/fully_asem_mod.png>]
-<nuthesis/images/../images/ch7/1.jpeg, id=662, 752.8125pt x 743.77875pt>
-File: nuthesis/images/../images/ch7/1.jpeg Graphic file (type jpg)
-<use nuthesis/images/../images/ch7/1.jpeg>
-Package pdftex.def Info: nuthesis/images/../images/ch7/1.jpeg  used on input li
-ne 168.
-(pdftex.def)             Requested size: 303.53268pt x 299.9009pt.
-<nuthesis/images/../images/ch7/8.png, id=663, 475.7775pt x 449.68pt>
-File: nuthesis/images/../images/ch7/8.png Graphic file (type png)
-<use nuthesis/images/../images/ch7/8.png>
-Package pdftex.def Info: nuthesis/images/../images/ch7/8.png  used on input lin
-e 174.
-(pdftex.def)             Requested size: 303.53268pt x 286.89534pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<nuthesis/images/../images/ch7/2.jpeg, id=664, 722.7pt x 626.34pt>
+<nuthesis/images/../images/ch7/2.jpeg, id=652, 722.7pt x 626.34pt>
 File: nuthesis/images/../images/ch7/2.jpeg Graphic file (type jpg)
 <use nuthesis/images/../images/ch7/2.jpeg>
 Package pdftex.def Info: nuthesis/images/../images/ch7/2.jpeg  used on input li
-ne 184.
+ne 166.
 (pdftex.def)             Requested size: 303.53268pt x 263.06099pt.
-[30 <./nuthesis/images/../images/ch7/1.jpeg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/../images/ch7/3.jpeg, id=669, 251.94125pt x 201.75375pt>
+<nuthesis/images/../images/ch7/3.jpeg, id=653, 251.94125pt x 201.75375pt>
 File: nuthesis/images/../images/ch7/3.jpeg Graphic file (type jpg)
 <use nuthesis/images/../images/ch7/3.jpeg>
 Package pdftex.def Info: nuthesis/images/../images/ch7/3.jpeg  used on input li
-ne 194.
+ne 176.
 (pdftex.def)             Requested size: 303.53268pt x 243.06993pt.
-[31 <./nuthesis/images/../images/ch7/8.png (PNG copy)>] [32 <./nuthesis/images/
-../images/ch7/2.jpeg> <./nuthesis/images/../images/ch7/3.jpeg>]
-<nuthesis/images/../images/ch7/4.jpeg, id=678, 501.875pt x 351.3125pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/4.jpeg, id=654, 501.875pt x 351.3125pt>
 File: nuthesis/images/../images/ch7/4.jpeg Graphic file (type jpg)
 <use nuthesis/images/../images/ch7/4.jpeg>
 Package pdftex.def Info: nuthesis/images/../images/ch7/4.jpeg  used on input li
-ne 204.
+ne 186.
 (pdftex.def)             Requested size: 303.53268pt x 212.48306pt.
- [33 <./nuthesis/images/../images/ch7/4.jpeg>]
-<nuthesis/images/../images/ch7/5.jpeg, id=684, 722.7pt x 903.375pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/5.jpeg, id=655, 722.7pt x 903.375pt>
 File: nuthesis/images/../images/ch7/5.jpeg Graphic file (type jpg)
 <use nuthesis/images/../images/ch7/5.jpeg>
 Package pdftex.def Info: nuthesis/images/../images/ch7/5.jpeg  used on input li
-ne 214.
+ne 196.
 (pdftex.def)             Requested size: 303.53268pt x 379.41492pt.
- [34 <./nuthesis/images/../images/ch7/5.jpeg>]
-<nuthesis/images/../images/ch7/6.jpeg, id=689, 1606.0pt x 1069.9975pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/6.jpeg, id=656, 1606.0pt x 1069.9975pt>
 File: nuthesis/images/../images/ch7/6.jpeg Graphic file (type jpg)
 <use nuthesis/images/../images/ch7/6.jpeg>
 Package pdftex.def Info: nuthesis/images/../images/ch7/6.jpeg  used on input li
-ne 224.
+ne 206.
 (pdftex.def)             Requested size: 303.53268pt x 202.22406pt.
 
-[35 <./nuthesis/images/../images/ch7/6.jpeg>]
-<nuthesis/images/../images/ch7/7.jpg, id=694, 652.4375pt x 652.4375pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/7.jpg, id=657, 652.4375pt x 652.4375pt>
 File: nuthesis/images/../images/ch7/7.jpg Graphic file (type jpg)
 <use nuthesis/images/../images/ch7/7.jpg>
 Package pdftex.def Info: nuthesis/images/../images/ch7/7.jpg  used on input lin
-e 234.
+e 216.
 (pdftex.def)             Requested size: 303.53268pt x 303.53958pt.
-<nuthesis/images/../images/ch7/pix_unit_cell.png, id=695, 729.72626pt x 801.996
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/../images/ch7/pix_unit_cell.png, id=658, 729.72626pt x 801.996
 25pt>
 File: nuthesis/images/../images/ch7/pix_unit_cell.png Graphic file (type png)
 <use nuthesis/images/../images/ch7/pix_unit_cell.png>
 Package pdftex.def Info: nuthesis/images/../images/ch7/pix_unit_cell.png  used 
-on input line 240.
+on input line 223.
 (pdftex.def)             Requested size: 303.53268pt x 333.5932pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<nuthesis/images/../images/ch7/unl_workflow2.png, id=696, 747.79375pt x 508.901
+<nuthesis/images/../images/ch7/unl_workflow2.png, id=659, 747.79375pt x 508.901
 25pt>
 File: nuthesis/images/../images/ch7/unl_workflow2.png Graphic file (type png)
 <use nuthesis/images/../images/ch7/unl_workflow2.png>
 Package pdftex.def Info: nuthesis/images/../images/ch7/unl_workflow2.png  used 
-on input line 248.
+on input line 230.
 (pdftex.def)             Requested size: 303.53268pt x 206.56203pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./nuthesis/sections/Ch8-TestBeam.tex [36 <./nuthesis/images/../images/ch7/7.
-jpg>] [37 <./nuthesis/images/../images/ch7/pix_unit_cell.png> <./nuthesis/image
-s/../images/ch7/unl_workflow2.png>]) (./nuthesis/sections/Ch9-Conclusions.tex
-[38
+File: nuthesis/images/../images/ch7/pix_unit_cell.png Graphic file (type png)
+<use nuthesis/images/../images/ch7/pix_unit_cell.png>
+Package pdftex.def Info: nuthesis/images/../images/ch7/pix_unit_cell.png  used 
+on input line 237.
+(pdftex.def)             Requested size: 303.53268pt x 333.5932pt.
 
-]) [39
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: nuthesis/images/../images/ch7/unl_workflow2.png Graphic file (type png)
+<use nuthesis/images/../images/ch7/unl_workflow2.png>
+Package pdftex.def Info: nuthesis/images/../images/ch7/unl_workflow2.png  used 
+on input line 244.
+(pdftex.def)             Requested size: 303.53268pt x 206.56203pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<nuthesis/images/ch7/mod_ass_time.png, id=660, 980.16188pt x 561.59813pt>
+File: nuthesis/images/ch7/mod_ass_time.png Graphic file (type png)
+<use nuthesis/images/ch7/mod_ass_time.png>
+Package pdftex.def Info: nuthesis/images/ch7/mod_ass_time.png  used on input li
+ne 250.
+(pdftex.def)             Requested size: 346.89734pt x 198.75603pt.
+<nuthesis/images/ch7/mod_ass_unl.png, id=661, 965.85844pt x 392.21532pt>
+File: nuthesis/images/ch7/mod_ass_unl.png Graphic file (type png)
+<use nuthesis/images/ch7/mod_ass_unl.png>
+Package pdftex.def Info: nuthesis/images/ch7/mod_ass_unl.png  used on input lin
+e 251.
+(pdftex.def)             Requested size: 346.89734pt x 140.86824pt.
+<nuthesis/images/ch7/mod_grade_time.pdf, id=662, 544.97903pt x 450.1347pt>
+File: nuthesis/images/ch7/mod_grade_time.pdf Graphic file (type pdf)
+<use nuthesis/images/ch7/mod_grade_time.pdf>
+Package pdftex.def Info: nuthesis/images/ch7/mod_grade_time.pdf  used on input 
+line 257.
+(pdftex.def)             Requested size: 260.17465pt x 214.89455pt.
+<nuthesis/images/ch7/mod_grade_batch.png, id=663, 1017.8025pt x 551.05875pt>
+File: nuthesis/images/ch7/mod_grade_batch.png Graphic file (type png)
+<use nuthesis/images/ch7/mod_grade_batch.png>
+Package pdftex.def Info: nuthesis/images/ch7/mod_grade_batch.png  used on input
+ line 258.
+(pdftex.def)             Requested size: 346.89734pt x 187.81995pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./nuthesis/sections/Ch8-TestBeam.tex
+Overfull \vbox (234.25497pt too high) has occurred while \output is active []
+
+
+[26 <./nuthesis/images/ch7/gantry.jpg> <./nuthesis/images/ch7/hdi_on_bbm.png>]
+[27 <./nuthesis/images/ch7/wirebonder.png> <./nuthesis/images/ch7/wirebond.png>
+] [28 <./nuthesis/images/ch7/encap_roc.png> <./nuthesis/images/ch7/encap_tbm.pn
+g> <./nuthesis/images/ch7/encap_hv.png>] [29 <./nuthesis/images/../images/ch7/f
+ully_asem_mod.png> <./nuthesis/images/../images/ch7/2.jpeg>] [30 <./nuthesis/im
+ages/../images/ch7/3.jpeg> <./nuthesis/images/../images/ch7/4.jpeg>] [31 <./nut
+hesis/images/../images/ch7/5.jpeg>] [32 <./nuthesis/images/../images/ch7/6.jpeg
+> <./nuthesis/images/../images/ch7/7.jpg>] [33 <./nuthesis/images/../images/ch7
+/pix_unit_cell.png> <./nuthesis/images/../images/ch7/unl_workflow2.png>]
+[34] [35 <./nuthesis/images/ch7/mod_ass_time.png> <./nuthesis/images/ch7/mod_as
+s_unl.png>] [36 <./nuthesis/images/ch7/mod_grade_time.pdf> <./nuthesis/images/c
+h7/mod_grade_batch.png>]) (./nuthesis/sections/Ch9-Conclusions.tex [37
+
+])
+[38
 
 ]
 bibitemlist
@@ -1572,7 +1612,7 @@ Class memoir Warning: The material used in the footer is too large
 either increase the foot skip or redesign the fotoer
 (in both cases you will find help in the memoir manual). on input line 554.
 
-[40
+[39
 
 ]
 \tf@toc=\write5
@@ -1590,7 +1630,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 554.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 554.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 554.
 Package rerunfilecheck Info: File `Main_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3B40750E90B3A1C789245B8A21B4FD8C;2972.
+(rerunfilecheck)             Checksum: 1DC19C7575E295BEF33DC063E1ECC09F;2901.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1598,10 +1638,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 554.
  ) 
 Here is how much of TeX's memory you used:
- 14540 strings out of 492982
- 218793 string characters out of 6134896
- 350625 words of memory out of 5000000
- 17601 multiletter control sequences out of 15000+600000
+ 14575 strings out of 492982
+ 219897 string characters out of 6134896
+ 354077 words of memory out of 5000000
+ 17626 multiletter control sequences out of 15000+600000
  102240 words of font info for 98 fonts, out of 8000000 for 9000
  1159 hyphenation exceptions out of 8191
  51i,12n,46p,1172b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1615,10 +1655,10 @@ onts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12
 type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Main_Thesis.pdf (50 pages, 10111644 bytes).
+Output written on Main_Thesis.pdf (49 pages, 22128403 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 644 compressed objects within 7 object streams
- 137 named destinations out of 1000 (max. 500000)
- 563 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 815 PDF objects out of 1000 (max. 8388607)
+ 649 compressed objects within 7 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 580 words of extra memory for PDF output out of 10000 (max. 10000000)
 

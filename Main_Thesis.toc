@@ -19,27 +19,26 @@
 \contentsline {section}{\numberline {7.1}The CMS Pixel Detector Phase I Upgrade}{19}{section.7.1}
 \contentsline {section}{\numberline {7.2}Module Production at UNL}{21}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Visual Inspections}{22}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}IV Test}{23}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Gluing}{23}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Wirebonding}{24}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Encapsulation}{27}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}Electrical Test of a Fully assembly Module}{27}{subsection.7.2.6}
-\contentsline {subsubsection}{\numberline {7.2.6.1}Pretest}{28}{subsubsection.7.2.6.1}
-\contentsline {subsubsection}{\numberline {7.2.6.2}Pretest}{30}{subsubsection.7.2.6.2}
-\contentsline {subsubsection}{\numberline {7.2.6.3}Pixel Alive}{31}{subsubsection.7.2.6.3}
-\contentsline {subsubsection}{\numberline {7.2.6.4}Trim Test}{33}{subsubsection.7.2.6.4}
-\contentsline {subsubsection}{\numberline {7.2.6.5}PH Optimization}{33}{subsubsection.7.2.6.5}
-\contentsline {subsubsection}{\numberline {7.2.6.6}Gain Pedestal}{35}{subsubsection.7.2.6.6}
-\contentsline {subsubsection}{\numberline {7.2.6.7}Bond Bonding Test}{35}{subsubsection.7.2.6.7}
-\contentsline {chapter}{\chapternumberline {8}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{38}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction}{38}{section.8.1}
-\contentsline {section}{\numberline {8.2}The RD53 Chip}{38}{section.8.2}
-\contentsline {section}{\numberline {8.3}Purpose of Test Beam}{38}{section.8.3}
-\contentsline {section}{\numberline {8.4}Test Beam Set Up}{38}{section.8.4}
-\contentsline {section}{\numberline {8.5}Results}{38}{section.8.5}
-\contentsline {chapter}{\chapternumberline {9}Conclusions}{39}{chapter.9}
-\contentsline {section}{\numberline {9.1}Analysis}{39}{section.9.1}
-\contentsline {section}{\numberline {9.2}Phase 1}{39}{section.9.2}
-\contentsline {section}{\numberline {9.3}Beam Test}{39}{section.9.3}
-\contentsline {chapter}{Bibliography}{39}{section.9.3}
-\contentsline {chapter}{References}{40}{section*.40}
+\contentsline {subsection}{\numberline {7.2.2}IV Test}{24}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Gluing}{26}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Wirebonding}{26}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Encapsulation}{26}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Electrical Test of a Fully assembly Module}{26}{subsection.7.2.6}
+\contentsline {subsubsection}{\numberline {7.2.6.1}Pretest}{26}{subsubsection.7.2.6.1}
+\contentsline {subsubsection}{\numberline {7.2.6.2}Pixel Alive}{26}{subsubsection.7.2.6.2}
+\contentsline {subsubsection}{\numberline {7.2.6.3}Trim Test}{26}{subsubsection.7.2.6.3}
+\contentsline {subsubsection}{\numberline {7.2.6.4}PH Optimization}{26}{subsubsection.7.2.6.4}
+\contentsline {subsubsection}{\numberline {7.2.6.5}Gain Pedestal}{26}{subsubsection.7.2.6.5}
+\contentsline {subsubsection}{\numberline {7.2.6.6}Bond Bonding Test}{26}{subsubsection.7.2.6.6}
+\contentsline {chapter}{\chapternumberline {8}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{37}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{37}{section.8.1}
+\contentsline {section}{\numberline {8.2}The RD53 Chip}{37}{section.8.2}
+\contentsline {section}{\numberline {8.3}Purpose of Test Beam}{37}{section.8.3}
+\contentsline {section}{\numberline {8.4}Test Beam Set Up}{37}{section.8.4}
+\contentsline {section}{\numberline {8.5}Results}{37}{section.8.5}
+\contentsline {chapter}{\chapternumberline {9}Conclusions}{38}{chapter.9}
+\contentsline {section}{\numberline {9.1}Analysis}{38}{section.9.1}
+\contentsline {section}{\numberline {9.2}Phase 1}{38}{section.9.2}
+\contentsline {section}{\numberline {9.3}Beam Test}{38}{section.9.3}
+\contentsline {chapter}{Bibliography}{38}{section.9.3}
+\contentsline {chapter}{References}{39}{section*.43}
