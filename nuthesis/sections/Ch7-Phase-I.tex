@@ -30,27 +30,29 @@ and 3 layers at each endcap as shown in \ref{fig:new_pix}. better
 %%%%%%%%%%
 
 \section{Module Production at UNL}
-The UNL module production workflow was designed to follow a pipeline-like structure as shown in figure \ref{fig:unlworkflow}. 
+The UNL module production workflow was designed to follow a pipeline-like structure as shown in figure \ref{fig:unlworkflow}. This allows for different batches of modules to be going through it at different stages without stopping the workflow. Following is a short description of the tests and procedures performed during the production in the UNL silicon Lab. Special emphasis will be made in IV test, visual inspection and electrical test, the stages where the author of this work made a lot of contributions {\rojo{improve}}. 
+
+%{\rojo{mention 4 sites}}
 
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.7\textwidth]{../images/ch7/unl_workflow}
-  \caption[UNL module assembly workflow]{UNL module assembly workflow. Dashed lines represent occasional quality testing and reworking procedures\cite{ph1_sop}.}\label{fig:unlworkflow}
+	\centering
+	\includegraphics[width=0.7\textwidth]{../images/ch7/unl_workflow}
+	\caption[UNL module assembly workflow]{UNL module assembly workflow. Dashed lines represent occasional quality testing and reworking procedures\cite{ph1_sop}.}
+	\label{fig:unlworkflow}
 \end{figure}
-
-This allows for different batches of modules to be going through it at different stages without stopping the workflow. Following is a short description of the tests and procedures performed during the production in the UNL silicon Lab. Special emphasis will be made in IV test, visual inspection and electrical test, the stages where the author of this work made most of the work{\rojo{improve}}. 
 
 \subsection{Visual Inspections}
-The UNL-HEP group assembly workflow started upon receiving two components: a Bare Bonded Module (BBM) and a High Density Interconnect (HDI), see figure \ref{fig:bbmyhdi}.
+The UNL-HEP group assembly workflow started upon receiving two components: a Bare Bonded Module (BBM) and a High Density Interconnect (HDI), see figure \ref{fig:bbmyhdi}. The first stage of the module production was a visual inspection on these components to ensure they were in good conditions and able to continue into the production pipeline.
 
 \begin{figure}[!h]
-\centering
-\includegraphics[width=0.6\textwidth]{ch7/bare_module}
-\includegraphics[width=0.39\textwidth]{ch7/gato2}
-\caption[Photograph of a BBM and HDI.]{Photograph of a BBM (left) and HDI {\rojo{right one}}(right) as received by the UNL-HEP group.}\label{fig:bbmyhdi}
+	\centering
+	\includegraphics[width=0.6\textwidth]{ch7/bare_module}
+	\includegraphics[width=0.39\textwidth]{ch7/gato2}
+	\caption[Photograph of a BBM and HDI.]{Photograph of a BBM (left) and HDI {\rojo{right one}}(right) as received by the UNL-HEP group.}
+	\label{fig:bbmyhdi}
 \end{figure}
 
-The first stage of the module production was to do a visual inspection on these components to ensure they were in good conditions and able to continue into the production pipeline. {\rojo{punto aparte?}} To get a good view of such a small components a powerful microscope with magnification of {\rojo{confirm}}, an attached camera, and LED ring illumination was used. A photograph of the set up is shown in figure \ref{fig:probe_station}. The entire set up was connected to a vacuum line to secure these component in place and avoid any damage during the visual inspection. BBM were received in a gel pack while the the HDI were usually received in their modules carriers. BBM and HDI were moved from the container into the probe station using a portable vacuum pen and taking the appropriate safety precaution: ESD wristband, gloves, face mask, etc.
+To get a good view of such a small components a powerful microscope with magnification of {\rojo{confirm}}, an attached camera, and LED ring illumination was used. A photograph of the set up, also referred to as probe station, is shown in figure \ref{fig:probe_station}. The entire set up was connected to a vacuum line to secure these component in place and avoid any damage during the visual inspection. BBMs were received in a gel pack while HDIs were usually received in their modules carriers. BBMs and HDIs were then moved into the probe station using a vacuum pen and taking the appropriate safety precaution: ESD wristband, gloves, face mask, etc.
 
 \begin{figure}[!h]
 \centering
@@ -58,15 +60,16 @@ The first stage of the module production was to do a visual inspection on these 
 \caption[Photograph of the visual inspection and IV test station.]{{\rojo{fix}} Photograph showing a BBM under the microscope during a visual inspection. This station also served as IV test stand.}\label{fig:probe_station}
 \end{figure}
 
-During visual inspection BBMs were scanned for unusual features or sign of damage, special attention was given to the high voltage connection and bond pads. Figure \ref{fig:vis_insp_bbm} shows different parts of four different modules where defects are observed {\rojo{defects are on only 3}}. Some of these defects, bottom right figure, caused, the module to be rejected immediately while others, top right and bottom left plots, will still undergo an IV test. While for the HDI the bond pads of the 16 ROCs, the wirebonds of the tbm, and the address pads were carefully checked. Figure \ref{fig:vis_insp_hdi} shows the TBM wirebonds as well as the bondpads of a ROC in a HDI.
+During visual inspection BBMs were scanned for unusual features or sign of damage, special attention was given to the high voltage connection and bond pads. Figure \ref{fig:vis_insp_bbm} shows different parts of four different modules where defects on three of them could be observed. Some of these defects, bottom right figure, caused the module to be rejected immediately while others, bottom figures, will still undergo an IV test. While for the HDI the bond pads of the 16 ROCs, the wirebonds of the tbm, and the address pads were carefully checked. Figure \ref{fig:vis_insp_hdi} shows the TBM wirebonds as well as the bondpads of a ROC in a HDI.
 
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.4\textwidth]{ch7/vis_insp_1}
-  \includegraphics[width=0.4\textwidth]{ch7/vis_insp_2}
-  \includegraphics[width=0.4\textwidth]{ch7/vis_insp_3}
-  \includegraphics[width=0.4\textwidth]{ch7/vis_insp_5}
-  \caption[Visual inspection of a bare module.]{Photograph of the visual inspection of a BBM showing few of the things observed during a visual inspection: A good module (top left), scratches on the high voltage connection path (top right), scratch on the midle of the BBM (bottom left), and scratches on the wire bonds pad (bottom right)}\label{fig:vis_insp_bbm}
+	\centering
+	\includegraphics[width=0.4\textwidth]{ch7/vis_insp_1}
+	\includegraphics[width=0.4\textwidth]{ch7/vis_insp_5}
+	\includegraphics[width=0.4\textwidth]{ch7/vis_insp_2}
+	\includegraphics[width=0.4\textwidth]{ch7/vis_insp_3}
+	\caption[Visual inspection of a bare module.]{Photograph of the visual inspection of a BBM showing few of the things observed during a visual inspection: A good module (top left), chipped ROC (top right), scratches on the high voltage connection pad (bottom left), and scratch on the midle of a ROC (bottom left)}
+	\label{fig:vis_insp_bbm}
 \end{figure}
 
 \begin{figure}[!h]
@@ -76,79 +79,69 @@ During visual inspection BBMs were scanned for unusual features or sign of damag
   \caption[Visual inspection of a HDI.]{Photograph of the visual inspection of a HDI shwing the wirebonds of the TBM (left) and the bondpads of a ROC (right). {\rojo{right fig}}}\label{fig:vis_insp_hdi}
 \end{figure}
 
-Figures \ref{fig:vis_insp_bbm} and Fig. \ref{fig:vis_insp_hdi} show a trend that was observed throughout the entire production. In general more unusual features and damage were observed in BBMs than on HDI. This was because BBM were derivered directly from the production company to our lab while the HDI were delivered to the Fermi National Laboratory (FermiLab) first where they were preliminary tested before the arrived at our testing facilities. 
+Figures \ref{fig:vis_insp_bbm} and Fig. \ref{fig:vis_insp_hdi} also show a trend that was observed throughout the entire production phase. In general more unusual features and damage were observed in BBMs than on HDI. This was because BBM were derivered directly from the production company to our lab while HDIs were first delivered to the Fermi National Laboratory (FermiLab) where they were preliminary tested and inspected before they arrive at our testing facilities. 
 
 \subsection{IV Test}\label{ivbbm}
-After both BBM and HDI have succesfully passed the visual inspection the BBM continues to the probe station for a current vs voltage (IV) test. The test uses the fact that the sensor behaves like a diode. During operation a potential difference is applied to the sensor to draw the electrons created by a charge particle passing through the sensor towards the bump bond to be collected. If this potential difference is too small not all electron will collected in time and if it is large the sensor could break. This potential difference is known as a depletion voltage. The IV test is meant to find the operating range for a given module (sensor) Figure \ref{fig:iv_test} shows the IV results for a BBM in good condition and figure \ref{fig:sensor_probe_positions} shows the position of the probes to perform an IV on a BBM.  
+After both BBM and HDI have succesfully passed the visual inspection the BBM continues to the probe station for a current vs voltage (IV) test. The test uses the fact that the sensor behaves like a diode. During operation a potential difference is applied to the sensor to draw the electrons created by a charge particle passing through the sensor towards the bump bond to be collected. If this potential difference is too small not all electron will collected in time and if it is large the sensor could break. This potential difference is known as a depletion voltage. The IV test is meant to find the operating range, a voltage where all the electron could be collected and the sensor will not break, for a given module (sensor). Figure \ref{fig:sensor_probe_positions} (left) shows the position of the probes to perform an IV on a BBM and figure \ref{fig:sensor_probe_positions} (right) shows IV results for a BBM in good operating condition.  
 
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.5\textwidth]{ch7/sensor_probe_positions}
-  \includegraphics[width=0.4\textwidth]{ch7/iv_test}
-  \caption[IV test of BBM]{Left: Probe position for an IV test on a BBM. Probe 2 is high voltage, probe 3 is ground, and probe 1 was not used \cite{ph1_sop}. Right: IV test results for a good BBM. The depletion voltage for this module is around {\rojo{confirm with right picture}}.}\label{fig:sensor_probe_positions}
+	\centering
+	\includegraphics[width=0.5\textwidth]{ch7/sensor_probe_positions}
+	\includegraphics[width=0.4\textwidth]{ch7/iv_test}
+	\caption[IV test of BBM]{Left: Probe position for an IV test on a BBM. Probe 2 is high voltage, probe 3 is ground, and probe 1 was not used \cite{ph1_sop}. Right: IV test results for a good BBM. The depletion voltage for this module is around {\rojo{confirm with right picture}}.}
+	\label{fig:sensor_probe_positions}
 \end{figure}
-
-%{\rojo{why bbm has lower compliance?}}
-
-
-
-
-
-
-
-
 
 \subsection{Gluing}
-The gluing routine was carefully design to perfectly match the HDI and BBM bondpads. This stage of the production was done using a custom made gantry \ital{AGS15000 Series Gantry}, fabricated by Aerotech \cite{aerotech}. It offered translational motion in 3D as well as rotation in x-y (gantry table) plane. A camera was attached to the gantry head allowing the user to monitor the entire process. This camera was of particular importance during the development and improvement of the gluing routine. A video showing the gluing routine in action can be watched at \cite{gluing_frank} and a full description of the gluing routine and procedure can be found in \cite{and_the}. Figure \ref{fig:gantry} shows the gantry with the different tools used to glue a HDI on a BBM. The final product after the process in complete can be seen in Fig. \ref{fig:hdionbbm}.
+The gluing routine was carefully design to perfectly match the HDI and BBM bondpads, in preparation for the wirebonding. This stage of the production was done using a custom made gantry, \ital{AGS15000 Series Gantry}, fabricated by Aerotech \cite{aerotech}. It offered translational motion in 3D as well as rotation in x-y (gantry table) plane. A camera was attached to the gantry head allowing the user to monitor the entire process. This camera was of particular importance during the development and improvement of the gluing and encapsulation routine. A video showing the gluing routine in action can be watched at \cite{gluing_frank} and a full description of the gluing routine and procedure can be found in \cite{and_the}. Figure \ref{fig:gantry} shows the gantry with the different tools used to glue a HDI on a BBM. The final product after the process is completed can be seen in Fig. \ref{fig:hdionbbm}.
 
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.7\textwidth]{ch7/gantry}
-  \caption[Gluing and encapsulation set up]{Photograph of a gantry used for gluing and encapsulation showing different parts of the set up and tools. }\label{fig:gantry}
+	\centering
+	\includegraphics[width=0.7\textwidth]{ch7/gantry}
+	\caption[Gluing and encapsulation set up]{Photograph of a gantry used for gluing and encapsulation showing different parts of the set up and tools. }
+	\label{fig:gantry}
 \end{figure}
 
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.5\textwidth]{ch7/hdi_on_bbm}
-  \includegraphics[width=0.5\textwidth]{ch7/hdi_on_bbm_close}
-  \caption[Gluing result]{HDI glued on top of a BBM. For a batch of four modules (top) zoom in view to note the almost perfect alignment between the HDI and BBM bondpads.}\label{fig:hdionbbm}
+	\centering
+	\includegraphics[width=0.5\textwidth]{ch7/hdi_on_bbm}
+	\includegraphics[width=0.5\textwidth]{ch7/hdi_on_bbm_close}
+	\caption[Gluing result]{HDI glued on top of a BBM. For a batch of four modules (top) and zoom in view to note the almost perfect alignment between the HDI and BBM bondpads.}
+	\label{fig:hdionbbm}
 \end{figure}
-
-
-
-
-
-
 
 
 \subsection{Wirebonding}
 After an HDI is glued to a BBM the next step in the assembly process is to make electrical connection between them. 
 
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.7\textwidth]{ch7/wirebonder}
-  \caption[wirebonder machine]{Wirebonding set up.}\label{fig:wirebonder}
+	\centering
+  	\includegraphics[width=0.7\textwidth]{ch7/wirebonder}
+  	\caption[wirebonder machine]{Wirebonding set up {\rojo{find fig}}.}
+  	\label{fig:wirebonder}
 \end{figure}
 
 
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.7\textwidth]{ch7/wirebond}
-  \caption[Wirebonded module]{Close up view of the wirebonds for a single ROC on a wirebonded module.}\label{fig:wirebond}
+  	\centering
+  	\includegraphics[width=0.7\textwidth]{ch7/wirebond}
+  	\caption[Wirebonded module]{Close up view of the wirebonds for a single ROC on a wirebonded module.}
+  	\label{fig:wirebond}
 \end{figure}
 
 
 
 \subsection{Encapsulation}
-The final step in manufacturing a module is to protect (cover) the wirebonds with an encapsulant, wirebond encapsulation. This procedure is necessary to ensure that the wirebonds are secure at both HDI and BBM ends. The set up and the equipment used is the same as for gluing showed in figure \ref{fig:gantry} and additional materials needed for this step are shown in figure \ref{fig:encapmate}. 
+The final step in manufacturing a module is to protect (cover) the wirebonds with an encapsulant, wirebond encapsulation. This procedure is necessary to ensure that the wirebonds are secure at both HDI and BBM ends. The set up and the equipment used is the same as for gluing showed in figure \ref{fig:gantry}. Additional materials needed for this step are shown in figure \ref{fig:encapmate}. 
  
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.5\textwidth]{ch7/encap_mat}
-  \caption[Encapsulation materials]{Wirebonds encapsulation materials \cite{ph1_sop}.}\label{fig:encapmate}
+	\centering
+	\includegraphics[width=0.5\textwidth]{ch7/encap_mat}
+	\caption[Encapsulation materials]{Wirebonds encapsulation materials \cite{ph1_sop}.}
+	\label{fig:encapmate}
 \end{figure}
 
-A material suitable for this task must be radiation hard and lightweight among other properties. After testing different material and alloys we settle on \ital{Silgard 186}, a mixture of two-component encapsulant. Erastomer (10 cc) and elastomer (1 cc) base and curing agent respectively. The components were then mix together using a centriguge and place in syringes for dispensing. Figure \ref{fig:encap} shows a module after its different components have been encapsulated. Note how all bond foots and pads are fully covered as needed. 
+A material suitable for this task must be radiation hard and lightweight among other properties. After testing different material and alloys we settle on \ital{Silgard 186}, a mixture of two-component encapsulant. Erastomer (10 cc) and elastomer (1 cc) base and curing agent respectively. The components then, were mix together using a centrifuge and place in a syringe for dispensing. There are three components that need encapsulation, HDI and BBM bond pads, TBM wirebonds, and high votage pads. Figure \ref{fig:encap} shows a module after its different components have been encapsulated. Note how all bond foots and pads are fully covered as needed \cite{and_the}. 
 
 \begin{figure}[!h]
   \centering
@@ -161,31 +154,41 @@ A material suitable for this task must be radiation hard and lightweight among o
 
 \subsection{Electrical Test of a Fully assembly Module}
 A manufactured module can be seen in Figure \ref{fig:fully_asem_mod}, it is then visually inspected and mark as ready for electrical test {\rojo{at the end of previous session?}}. 
-The electrical test of a fully assembly modules are done using the \ital{pXar} software framework. More information on pXar can be found at \cite{pxar}. The objective of the electrical test is to ensure that all 16 ROCs were functional and have good performance. For this purpose a suit of several tests were designed and developed, the software is flexible in the sense that we could execute a single test just by calling it or we could execute them all with a single command usually referred to as \ital{fulltest}. 
-The following section {\rojo{subsections?}} give a short description of the most \ital{important} tests a module has to surpass as well as the output of said test. A full list of the tests, a comprehensive description of them, and a {\rojo{description}} of their purpose can be found in \cite{fpix_module_testing_guide} and references therein. 
+The electrical test, hereon fulltest, of fully assembly modules is done using the \ital{pXar} software framework, written by the CMS FPix collaboration. More information on \ital{pXar} can be found in \cite{pxar}. The objective of the \ital{Fulltest} is to ensure that all 16 ROCs were functional and have good performance. For this purpose a suit of several tests were designed and developed, the software is flexible in the sense that we could execute a single test just by calling its name or we could execute them all with a single command \ital{Fulltest}. The \ital{Fulltest} at UNL was done using the set up showing in figure \ref{cold_box} at a temperature of $17^{\circ}$ $C$ and using a depletion voltage of $-150$ $V$. 
 
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.7\textwidth]{../images/ch7/fully_asem_mod}
-  \caption[Fully assembly Module]{Fully assembly Module}\label{fig:fully_asem_mod}
+	\centering
+	\includegraphics[width=0.7\textwidth]{ch7/fully_asem_mod}
+	\caption[Fully assembly Module]{Fully assembly Module}
+	\label{fig:fully_asem_mod}
 \end{figure}
 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{ch7/cold_box}
+	\caption[Testing set up]{Fully assembly module testing set up}
+	\label{cold_box}
+\end{figure}
+
+The following section {\rojo{subsections?}} give a short description of the most \ital{important} tests a module has to surpass as well as the output of these test. A full list of the tests, a comprehensive description of them, and a {\rojo{description}} of their purpose can be found in \cite{fpix_module_testing_guide} and references therein. After the \ital{Fulltest} of modules was completed some were shipped to Kansas university for X-ray testing and the rest were shipped to FermiLab for testing at $-10^{\circ}$ $C$
+
 \subsubsection{IV Test}
-A fully assembled module also undergoes an IV test as described in \ref{ivbbm}. The primary purpose of this test is to ensure that not damage was done to the circuitry during the assembly process. The IV result for a sample module is shown in figure \ref{ivfullmod}
+A fully assembled module also undergoes an IV test as described in \ref{ivbbm}. The primary purpose of this test is to ensure that not damage was caused to the circuitry during the assembly process and the module could be operated at high voltages. The IV result for a sample module is shown in figure \ref{ivfullmod}. The operational range for this particular module is between -100 V and -400 V.
 
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.4\textwidth]{ch7/iv_test}
-  \caption[IV results of a module]{IV test for a fully assembly module.}\label{fig:iv_test}
+	\centering
+	\includegraphics[width=0.4\textwidth]{ch7/iv_test}
+  	\caption[IV results of a module]{IV test for a fully assembly module.}
+  	\label{ivfullmod}
 \end{figure}
 
 \subsubsection{Pretest}
-It is composed of several subtests and its purpose is to check the basic functionalities of the ROCs and to calibrate some of the DAC {\rojo{list of DACs here or in ch 2}} settings. A couple of these subtests are: The \ital{ProgramRoc} measures the difference in current (Iana) drawn by the amplifiers when a voltage (Vana) is applied and remove. 
-If the difference between these two measurements is non-zero it implies that we are able to change DAC values by sending a command, the ROC is programmable. This test is done for all 16 modules in a ROC. The \ital{SetVthrCompCalDel} subtest is done to optimize the value of the VthrComp and CalDel DACs. It chooses a pixel from within a ROC and sends 5 calibration pulses to PUC of this pixel. This process is repeated for the 256 x 256 parameter space of these DACs and the response of the pixel is read to make an efficiency plot. Then VthrComp is set to the lower plateau plus 50 units and CalDel is set to half of the left and right edges. Figure \ref{fig:pretest} shows the output of these subtests for a sample module
+It is composed of several subtests and its purpose is to check the basic functionalities of the ROCs and to calibrate some of the DAC {\rojo{list of DAC here or in ch 2?}} settings. A couple of these subtests are \ital{ProgramRoc} and \ital{SetVthrCompCalDel}. The \ital{ProgramRoc} measures the difference in current (Iana) drawn by the amplifiers when a voltage (Vana) is applied and remove. 
+If the difference between these two measurements is non-zero it implies that we are able to change DAC values by sending a command, the ROC is programmable. This test is done for all 16 modules in a ROC. The \ital{SetVthrCompCalDel} subtest is done to optimize the value of the VthrComp and CalDel DACs. It chooses a pixel from within a ROC and sends 5 calibration pulses to the PUC of this pixel. This process is repeated for the 256 x 256 parameter space of these DACs and the response of the pixel is read to make an efficiency plot. Then VthrComp is set to the lower plateau plus 50 units and CalDel is set to half of the left and right edges. This is known as the \ital{VthrComp} and \ital{CalDel} working point of the pixel. Figure \ref{fig:pretest} shows the output of these subtests for a sample module
 
 \begin{figure}[!h]
   \centering
-  \includegraphics[width=0.7\textwidth]{../images/ch7/working_point}
+  \includegraphics[width=0.7\textwidth]{../images/ch7/pro_roc}
   \includegraphics[width=0.7\textwidth]{../images/ch7/working_point}
   \caption[Programable ROC and working point]{Output of the ProgramRoc (left) and finding working pixel (right) subtests.}\label{fig:pretest}
 \end{figure}
@@ -268,28 +271,19 @@ The SCurve test measures the efficiency of a pixel as a function of Vcal. It is 
   \caption[Scurve test]{Left: ROC map of the Vcal s-curve turn-on widths. Right: 1D distribution of the vcal scurve width.}\label{fig:vis_insp}
 \end{figure}
 
-
-
 \subsubsection{Bond Bonding Test}
+{\rojo{could be better, include the ROC-Sensor air gap?}} The primary purpose of the \ital{BumpBonding test} is to identify problems with the bumps connecting the sensor to the ROC. The test works by a calibration signal to the sensor via the alternatively path labeled 'sensor calib' \ref{pix_unit_cell}. The signal then reaches the sensor and makes its way to the ROC via the bump bond where it can be normally read. The strength of the signal is measure and compare to the one sent. In the {\ital{pXar} software usually 5 signal of 250 Vcal units are sent to each pixel during a \ital{BumpBonding} test. The {\rojo{output}} of the test is shown if figure \ref{fig:bb_map}    
 
-%The BumpBonding test is meant to flag any problems with the bump bonds that connect the sensor to the ROCs and form the path for the charge generated in the silicon sensor to be recorded by the ROCs. This test takes advantage of a parallel route designed for the calibration signal in the ROC. This route can be seen at the top left of Figure 1, connecting the source of the Vcal calibration pulse to the “top metal pad” by closing the switch labeled “sensor calib” instead of the standard “calib” switch. The “top metal pad” is located near the edge of the ROC on the side facing the sensor. The calibration pulse can pass via capacitive coupling from this pad, across the ROC-sensor air gap, and into the silicon sensor. The calibration pulse then makes its way back into the ROC via the bump bond and can be read out as normal. Using this signal path that contains the bump bond, the presence of the bump and the quality of the electrical connection it establishes between the sensor and the ROC can be tested. Currently in pXar there are four variants of bump bonding tests, optimized to different module types. For FPix modules, the standard test is the BB3 test. This document focuses on this specific BumpBonding test version.
-
-
-%The BumpBonding test is essentially an SCurve test with respect to VthrComp, with the calibration signal routed through the sensor instead of directly to the readout electronics. Vcal is configurable and by default is set to 250 (high range). In any case, Vcal should be set quite high since a large signal loss is expected going through the air gap from ROC to sensor. The number of triggers used is also configurable (default is 5). From the VthrComp s-curve for each pixel, the turn on value is extracted, defined as the value of VthrComp for which the efficiency surpasses 50%. For pixels with good bump bonds, these thresholds should be distributed normally, i.e. as a Gaussian curve. The distribution of the VthrComp turn-on is fitted to a Gaussian, the mean and width of which are recorded. In this fit, peaks near 0 or 255 are excluded, since these most likely come from dead pixels. Since variations in the mean of this turn-on are observed in odd and even columns, this fitting is done separately for the odd/even columns in the ROC. Pixels that turn on at much higher than average VthrComp values have higher than average signal loss. Leveraging this fact, pixels with turn-on values more than 5×σ above the mean are flagged as bad.
-
-
-
-
-
-%The BumpBonding test is meant to flag any problems with the bump bonds that connect the sensor to the ROCs and form the path for the charge generated in the silicon sensor to be recorded by the ROCs. This test takes advantage of a parallel route designed for the calibration signal in the ROC. This route can be seen at the top left of Figure 1, connecting the source of the Vcal calibration pulse to the “top metal pad” by closing the switch labeled “sensor calib” instead of the standard “calib” switch. The “top metal pad” is located near the edge of the ROC on the side facing the sensor. The calibration pulse can pass via capacitive coupling from this pad, across the ROC-sensor air gap, and into the silicon sensor. The calibration pulse then makes its way back into the ROC via the bump bond and can be read out as normal. Using this signal path that contains the bump bond, the presence of the bump and the quality of the electrical connection it establishes between the sensor and the ROC can be tested. Currently in pXar there are four variants of bump bonding tests, optimized to different module types. For FPix modules, the standard test is the BB3 test. This document focuses on this specific BumpBonding test version.
-
-%\begin{figure}[!h]
- % \centering
-  %\includegraphics[width=0.7\textwidth]{ch7/bb_map}
-  %\caption[Bond bonding test.]{Bond bonding test.}\label{fig:vis_insp}
-%\end{figure}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{ch7/bb_map}
+	\caption[Bond bonding test.]{Bond bonding test.}
+	\label{fig:bb_map}
+\end{figure}
 
 \subsubsection{Summary}
+The UNL-HEP module production was a susceesful {\rojo{project}} that culminated with the production and testing of over 500 modules. Following the production and testing these modules a grading criteria was adopted. 
+
 
 %\begin{figure}[!h]
  % \centering
@@ -305,11 +299,12 @@ The SCurve test measures the efficiency of a pixel as a function of Vcal. It is 
 %\end{figure}
 
 
-%\begin{figure}[!h]
- % \centering
-  %\includegraphics[width=0.7\textwidth]{../images/ch7/pix_unit_cell}
-%  \caption[bla for index.]{bla bla.}\label{fig:pix_unit_cell}
-%\end{figure}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{ch7/pix_unit_cell}
+	\caption[Pixel unit cell.]{Pixel unit cell {\rojo{find calibration figure}}.}
+	\label{pix_unit_cell}
+\end{figure}
 
 
 %\begin{figure}[!h]

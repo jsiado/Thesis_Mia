@@ -8,38 +8,36 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces CMS Tracking system.}}{7}{figure.caption.7}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces CMS cross sectional view}}{7}{figure.caption.8}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces CMS cross sectional view}}{8}{figure.caption.9}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces phase o pixel detector}}{8}{figure.caption.10}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces silicon strips detector}}{9}{figure.caption.11}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces The Electromagnetic Calorimeter}}{10}{figure.caption.12}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces The Hadronic Calorimeter}}{11}{figure.caption.13}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces The Muon Chambers}}{12}{figure.caption.14}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Expected performance of the original pixel detector for different luminosities.}}{19}{figure.caption.15}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Layout of the upgraded and old pixel detectors.}}{19}{figure.caption.16}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces UNL module assembly workflow}}{20}{figure.caption.17}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Photograph of a BBM and HDI.}}{21}{figure.caption.18}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Photograph of the visual inspection and IV test station.}}{22}{figure.caption.19}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Visual inspection of a bare module.}}{22}{figure.caption.20}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Visual inspection of a HDI.}}{23}{figure.caption.21}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces IV test of BBM}}{24}{figure.caption.22}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Gluing and encapsulation set up}}{25}{figure.caption.23}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Gluing result}}{26}{figure.caption.24}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces wirebonder machine}}{26}{figure.caption.25}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Wirebonded module}}{27}{figure.caption.26}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Encapsulation materials}}{27}{figure.caption.27}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Encapsulation results}}{28}{figure.caption.28}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Fully assembly Module}}{29}{figure.caption.29}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces IV results of a module}}{29}{figure.caption.30}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Programable ROC and working point}}{30}{figure.caption.31}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Pixel alive test}}{31}{figure.caption.32}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Faulty pixel alive test}}{31}{figure.caption.33}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Trim test turn on}}{33}{figure.caption.34}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Trim test Trim bits}}{34}{figure.caption.35}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Trim test final}}{35}{figure.caption.36}
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Scurve test}}{36}{figure.caption.37}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Expected performance of the original pixel detector for different luminosities.}}{15}{figure.caption.10}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Layout of the upgraded and old pixel detectors.}}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces UNL module assembly workflow}}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Photograph of a BBM and HDI.}}{17}{figure.caption.13}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Photograph of the visual inspection and IV test station.}}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Visual inspection of a bare module.}}{18}{figure.caption.15}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Visual inspection of a HDI.}}{19}{figure.caption.16}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces IV test of BBM}}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Gluing and encapsulation set up}}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Gluing result}}{22}{figure.caption.19}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces wirebonder machine}}{22}{figure.caption.20}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Wirebonded module}}{23}{figure.caption.21}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Encapsulation materials}}{23}{figure.caption.22}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Encapsulation results}}{24}{figure.caption.23}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Fully assembly Module}}{25}{figure.caption.24}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Testing set up}}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces IV results of a module}}{26}{figure.caption.26}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Programable ROC and working point}}{27}{figure.caption.27}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Pixel alive test}}{28}{figure.caption.28}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Faulty pixel alive test}}{28}{figure.caption.29}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Trim test turn on}}{30}{figure.caption.30}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Trim test Trim bits}}{31}{figure.caption.31}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Trim test final}}{32}{figure.caption.32}
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Scurve test}}{33}{figure.caption.33}
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Bond bonding test.}}{33}{figure.caption.34}
+\contentsline {figure}{\numberline {7.26}{\ignorespaces Pixel unit cell.}}{34}{figure.caption.35}
 \addvspace {10pt}
 \addvspace {10pt}
