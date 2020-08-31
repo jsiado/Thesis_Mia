@@ -15,8 +15,7 @@ The CMS pixel detector is composed of two sections, the barrel section (BPix) an
 \caption[Expected performance of the original pixel detector for different luminosities.]{Expected performance of the original pixel detector under different luminosity conditions: a) track-finding efficiency; b) fake rate. Conventions are the same for both plots, considering zero pileup (blue squares), average pileup of 25 (red dots), average pileup of 50 (black diamonds), and average pileup of 100 (magenta triangles).\cite{pix_tdr}}\label{fig:red_perf}
 \end{figure}
 
-This degradation prompted the need for an improved pixel detector. It was designed to have four layers in the barrel ubicated at distances of Hena2420
-and 3 layers at each endcap as shown in \ref{fig:new_pix}. better
+%This degradation prompted the need for an improved pixel detector. It was designed to have four layers in the barrel ubicated at distances of Hena2420 and 3 layers at each endcap as shown in \ref{fig:new_pix}. better
 
 \begin{figure}[!h]
 \centering
@@ -48,16 +47,17 @@ The UNL-HEP group assembly workflow started upon receiving two components: a Bar
 	\centering
 	\includegraphics[width=0.6\textwidth]{ch7/bare_module}
 	\includegraphics[width=0.39\textwidth]{ch7/gato2}
-	\caption[Photograph of a BBM and HDI.]{Photograph of a BBM (left) and HDI {\rojo{right one}}(right) as received by the UNL-HEP group.}
+	\caption[Photograph of a BBM and HDI.]{Photograph of a BBM (left) and HDI {\rojo{need right fig}}(right) as received by the UNL-HEP group.}
 	\label{fig:bbmyhdi}
 \end{figure}
 
 To get a good view of such a small components a powerful microscope with magnification of {\rojo{confirm}}, an attached camera, and LED ring illumination was used. A photograph of the set up, also referred to as probe station, is shown in figure \ref{fig:probe_station}. The entire set up was connected to a vacuum line to secure these component in place and avoid any damage during the visual inspection. BBMs were received in a gel pack while HDIs were usually received in their modules carriers. BBMs and HDIs were then moved into the probe station using a vacuum pen and taking the appropriate safety precaution: ESD wristband, gloves, face mask, etc.
 
 \begin{figure}[!h]
-\centering
-\includegraphics[width=0.7\textwidth]{ch7/probe_station}
-\caption[Photograph of the visual inspection and IV test station.]{{\rojo{fix}} Photograph showing a BBM under the microscope during a visual inspection. This station also served as IV test stand.}\label{fig:probe_station}
+	\centering
+	\includegraphics[width=0.7\textwidth]{ch7/probe_station}
+	\caption[Photograph of the visual inspection and IV test station.]{Photograph showing a BBM under the microscope during a visual inspection. This station also served as IV test stand.}
+	\label{fig:probe_station}
 \end{figure}
 
 During visual inspection BBMs were scanned for unusual features or sign of damage, special attention was given to the high voltage connection and bond pads. Figure \ref{fig:vis_insp_bbm} shows different parts of four different modules where defects on three of them could be observed. Some of these defects, bottom right figure, caused the module to be rejected immediately while others, bottom figures, will still undergo an IV test. While for the HDI the bond pads of the 16 ROCs, the wirebonds of the tbm, and the address pads were carefully checked. Figure \ref{fig:vis_insp_hdi} shows the TBM wirebonds as well as the bondpads of a ROC in a HDI.
@@ -73,10 +73,11 @@ During visual inspection BBMs were scanned for unusual features or sign of damag
 \end{figure}
 
 \begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.4\textwidth]{ch7/hdi_tbm}
-  \includegraphics[width=0.4\textwidth]{ch7/hdi_tbm}
-  \caption[Visual inspection of a HDI.]{Photograph of the visual inspection of a HDI shwing the wirebonds of the TBM (left) and the bondpads of a ROC (right). {\rojo{right fig}}}\label{fig:vis_insp_hdi}
+	\centering
+	\includegraphics[width=0.4\textwidth]{ch7/hdi_tbm}
+	\includegraphics[width=0.4\textwidth]{ch7/gato2}
+	\caption[Visual inspection of a HDI.]{Photograph of the visual inspection of a HDI shwing the wirebonds of the TBM (left) and the bondpads of a ROC (right). {\rojo{right fig}}}
+	\label{fig:vis_insp_hdi}
 \end{figure}
 
 Figures \ref{fig:vis_insp_bbm} and Fig. \ref{fig:vis_insp_hdi} also show a trend that was observed throughout the entire production phase. In general more unusual features and damage were observed in BBMs than on HDI. This was because BBM were derivered directly from the production company to our lab while HDIs were first delivered to the Fermi National Laboratory (FermiLab) where they were preliminary tested and inspected before they arrive at our testing facilities. 
@@ -112,12 +113,12 @@ The gluing routine was carefully design to perfectly match the HDI and BBM bondp
 
 
 \subsection{Wirebonding}
-After an HDI is glued to a BBM the next step in the assembly process is to make electrical connection between them. 
+After an HDI is glued to a BBM the next step in the assembly process is to make electrical connection between them. To this end, a wirebonder machine, Delvotec 56XX, and aluminium wires of 25\,$\mu$m diameter were used. {\rojo{need more}}
 
 \begin{figure}[!h]
 	\centering
   	\includegraphics[width=0.7\textwidth]{ch7/wirebonder}
-  	\caption[wirebonder machine]{Wirebonding set up {\rojo{find fig}}.}
+  	\caption[wirebonder machine]{Wirebonding set up {\rojo{looking for a good picture of the wirebonder}}.}
   	\label{fig:wirebonder}
 \end{figure}
 
@@ -154,7 +155,7 @@ A material suitable for this task must be radiation hard and lightweight among o
 
 \subsection{Electrical Test of a Fully assembly Module}
 A manufactured module can be seen in Figure \ref{fig:fully_asem_mod}, it is then visually inspected and mark as ready for electrical test {\rojo{at the end of previous session?}}. 
-The electrical test, hereon fulltest, of fully assembly modules is done using the \ital{pXar} software framework, written by the CMS FPix collaboration. More information on \ital{pXar} can be found in \cite{pxar}. The objective of the \ital{Fulltest} is to ensure that all 16 ROCs were functional and have good performance. For this purpose a suit of several tests were designed and developed, the software is flexible in the sense that we could execute a single test just by calling its name or we could execute them all with a single command \ital{Fulltest}. The \ital{Fulltest} at UNL was done using the set up showing in figure \ref{cold_box} at a temperature of $17^{\circ}$ $C$ and using a depletion voltage of $-150$ $V$. 
+The electrical test, hereon fulltest, of fully assembly modules is done using the \ital{pXar} software framework, written by the CMS FPix collaboration. More information on \ital{pXar} can be found in \cite{pxar}. The objective of the \ital{Fulltest} is to ensure that all 16 ROCs were functional and have good performance. For this purpose a suit of several tests were designed and developed, the software is flexible in the sense that we could execute a single test just by calling its name or we could execute them all with a single command \ital{Fulltest}. The \ital{Fulltest} at UNL was done using the set up showing in figure \ref{cold_box} at a temperature of $17^{\circ}$ $C$ and using a depletion voltage of $-150$ $V$. {\rojo{mention el Comandante}}%section 5.1 anotelli
 
 \begin{figure}[!h]
 	\centering
@@ -241,8 +242,6 @@ Next, starting from a high Vtrim, its value is iteratively lowered until the Vca
 \end{figure}
 
 \subsubsection{PH Optimization}
-
-
 %The PHOptimization test is responsible for setting an appropriate dynamic range for the 8-bit ADC that digitizes the recorded pulse height. The ADC is located in the Controller and Interface Block of the ROC. It can be seen in the bottom right box of Figure 1. The two DACs used to configure the ADC are PHOffset and PHScale. PHOffset adds a constant offset to the pulse height measurement, while PHScale effectively sets the gain of the ADC. The PHOptimization test is designed to optimize these DACs based on a highly sensitive and highly insensitive pixel in the given ROC, or, in other words, pixels with a very high and very low inherent gain. To use the ADC most effectively, the range of the ADC PH response as a function of Vcal needs to be optimized. On the low end, the ADC should provide a PH well above noise for the low-gain pixel near the lowest Vcal that registers a hit on it. On the high end, the ADC should saturate for the high-gain pixel at some user-defined Vcal well below the maximum Vcal the ROC can provide. This allows the signal strength required for saturation to be measured and 
 
 %\begin{figure}[!h]
@@ -250,7 +249,6 @@ Next, starting from a high Vtrim, its value is iteratively lowered until the Vca
   %\includegraphics[width=0.7\textwidth]{../images/ch7/ph_opt}
   %\caption[Ph Optimization.]{PH optimization.}\label{fig:vis_insp}
 %\end{figure}
-
 
 \subsubsection{Gain Pedestal}
 %The GainPedestal test does not alter any DAC parameters, but merely evaluates and records the shape of the pulse height vs. Vcal distribution for each pixel. For each pixel, this curve is fitted and the fit parameters are stored for later use. Since variations in gain are expected between pixels in a ROC, the gain must be measured independently for each pixel so that the pulse height to be calibrated back to the input signal size, in units of the Vcal DAC (low range). 4.5.2 Methodology For each pixel, a PH vs. Vcal curve is produced. To save time, the pulse height is sampled for a predetermined set of Vcal values instead of doing a complete Vcal scan. In the low Vcal range, the PH is measured in steps of 10 DAC units (configurable), from 10 to 255. Then, in the high Vcal range, the PH is measured for values of 30, 50, 70, 90, and 200. The results of these two scans are then combined into a PH vs. Vcal curve over the full Vcal range. This curve converts the high range Vcal values to their larger low range equivalents by multiplying by a factor of 7. This curve is then fit to an error function and the four fitted parameters and their errors are recorded. Parameter 0 corresponds to the Vcal value at the center of the error function, when the PH is halfway between zero and saturation (255). Parameter 1 is proportional to the width of the turn-on and is therefore inversely related to the gain of the pixel. Parameter 2 shifts the error function upwards, with a value of unity moving the floor of the function to zero. Parameter 3 corresponds to half the height of the function, and should be near 127.5 (255/2). The
@@ -282,14 +280,42 @@ The SCurve test measures the efficiency of a pixel as a function of Vcal. It is 
 \end{figure}
 
 \subsubsection{Summary}
-The UNL-HEP module production was a susceesful {\rojo{project}} that culminated with the production and testing of over 500 modules. Following the production and testing these modules a grading criteria was adopted. 
+The UNL-HEP module production was a susceesful {\rojo{project}} that culminated with the production and testing of over 500 modules. Figure \ref{mod_ass_time} shows the module production over time for both assembly sites, UNL and Purdue University. Production started slow for the first two months but ramped up after fixing some issues with the parts. Besides that the other time when production almost stopped was around July of 2016 when the BBM provider had difficulties and could not supply BBMs on time. {\rojo{include purdue database}}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{ch7/mod_ass_time}
+	\includegraphics[width=0.8\textwidth]{ch7/mod_ass_unl}
+	\caption[Module assembly over time.]{Module assembly over time for both assembly sites (top) and for UNL (bottom).}
+	\label{mod_ass_time}
+\end{figure}
+
+Following the production and testing these of modules a grading scheme was adopted. The grade of a module was given based on the amount of current drawn by it at nominal operating voltages and the number of pixel defects. UNL graded modules at $17$ $^{\circ} C$ but the final grade of the modules was given at FermiLab, where the \ital{Fulltest} was done at $-10$ $^{\circ} C$. Table \ref{tab:mod_grades} shows the grade names and the requirements a module needs to meet to obtain this grade. Since there are 672 modules needed to populate the forward part of the pixel detector and there were not enough grade A modules, some parts of the outer most cylinder was populated with grade B modules.  
 
 
-%\begin{figure}[!h]
- % \centering
-  %\includegraphics[width=0.7\textwidth]{../images/ch7/pix_unit_cell}
-  %\caption[bla for index.]{bla bla.}\label{fig:pix_unit_cell}
-%\end{figure}
+\begin{table}
+	\centering
+	\begin{tabular}{l | c | c | c  }
+		Grade & I(V=-150V)  & I(V=-150V)/I(V=-100V)  & Pixel defects\\
+		\hline \hline
+		A & $<2\mu A$  & $<2$ & $ <1\% $ \\ 
+		B & $<10\mu A$ & $<2$  & $ <4\% $ \\
+		C & $>10\mu A$ & $>2$ & $ >4\% $  \\    
+	\end{tabular}
+	\caption[Module grade]{Module grades for the Fpix phase I module production.}
+	\label{tab:mod_grades}
+\end{table}
+
+Figure \ref{fig:mod_grad_time} shows graded modules over time as well as the module grading by batch received and tested at FermiLab. The integration of the modules into the half cylinders was done at FermiLab, they were later transported to Switzerland and installed into the CMS detector.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{ch7/mod_grade_time}
+	\includegraphics[width=0.8\textwidth]{ch7/mod_grade_batch}
+	\caption[Module grade over time.]{Module grade over time (top) and per received batch at the integration site(bottom).}
+	\label{fig:mod_grad_time}
+\end{figure}
+
 
 
 %\begin{figure}[!h]
@@ -307,24 +333,6 @@ The UNL-HEP module production was a susceesful {\rojo{project}} that culminated 
 \end{figure}
 
 
-%\begin{figure}[!h]
- % \centering
-  %\includegraphics[width=0.7\textwidth]{../images/ch7/unl_workflow2}
-%  \caption[bla for index.]{bla bla.}\label{fig:unl_workflow2}
-%\end{figure}
 
-%\begin{figure}[ht]
-%\centering
-%  \includegraphics[width=0.8\textwidth]{ch7/mod_ass_time}
- % \includegraphics[width=0.8\textwidth]{ch7/mod_ass_unl}
- %\caption[Module assembly over time.]{Module assembly over time for both assembly sites (top) and for UNL (bottom).}\label{fig:mod_ass_time}
-%\end{figure}
 
-%\begin{figure}[h]
-%\begin{center}
- % \includegraphics[width=0.6\textwidth]{ch7/mod_grade_time}
-  %\includegraphics[width=0.8\textwidth]{ch7/mod_grade_batch}
-  %\caption[Module grade over time.]{Module grade over time (top) and per received batch at the integration site(bottom).}\label{fig:mod_grad_time}
-%\end{center}
-%\end{figure}
 

@@ -4,12 +4,12 @@
 \BOOKMARK [0][-]{chapter.2}{The LHC Accelerator and the CMS Experiment}{}% 4
 \BOOKMARK [1][-]{section.2.1}{The LHC Accelerator}{chapter.2}% 5
 \BOOKMARK [1][-]{section.2.2}{CMS}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.2.1}{The Tracker Detector}{section.2.2}% 7
-\BOOKMARK [3][-]{subsubsection.2.2.1.1}{Pixel Detector}{subsection.2.2.1}% 8
-\BOOKMARK [3][-]{subsubsection.2.2.1.2}{Silicon Strips}{subsection.2.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.2.2}{The Electromagnetic Calorimeter}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.3}{The Hadronic Calorimeter}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.4}{The Muon Chambers}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.1}{The Muon Chambers}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.2}{The Hadronic Calorimeter}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.3}{The Electromagnetic Calorimeter}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.4}{The Tracker Detector}{section.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.4.1}{Silicon Strips}{subsection.2.2.4}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.4.2}{Pixel Detector}{subsection.2.2.4}% 12
 \BOOKMARK [0][-]{chapter.3}{The SM and BSM Theories}{}% 13
 \BOOKMARK [0][-]{chapter.4}{Event generation, simulation and reconstruction}{}% 14
 \BOOKMARK [0][-]{chapter.5}{Search for the particle}{}% 15
@@ -42,4 +42,4 @@
 \BOOKMARK [1][-]{section.9.1}{Analysis}{chapter.9}% 42
 \BOOKMARK [1][-]{section.9.2}{Phase 1}{chapter.9}% 43
 \BOOKMARK [1][-]{section.9.3}{Beam Test}{chapter.9}% 44
-\BOOKMARK [0][-]{section*.37}{References}{}% 45
+\BOOKMARK [0][-]{section*.39}{References}{}% 45
