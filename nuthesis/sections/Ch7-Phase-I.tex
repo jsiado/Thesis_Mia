@@ -45,9 +45,9 @@ The UNL-HEP group assembly workflow started upon receiving two components: a Bar
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{ch7/bare_module}
-	\includegraphics[width=0.39\textwidth]{ch7/gato2}
-	\caption[Photograph of a BBM and HDI.]{Photograph of a BBM (left) and HDI {\rojo{need right fig}}(right) as received by the UNL-HEP group.}
+	\includegraphics[width=0.3\textwidth]{ch7/bbm}
+	\includegraphics[width=0.3\textwidth]{ch7/hdi}
+	\caption[Photograph of a BBM and HDI.]{Photograph of a BBM (left) and HDI (right) as received by the UNL-HEP group.}
 	\label{fig:bbmyhdi}
 \end{figure}
 
@@ -75,7 +75,7 @@ During visual inspection BBMs were scanned for unusual features or sign of damag
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.4\textwidth]{ch7/hdi_tbm}
-	\includegraphics[width=0.4\textwidth]{ch7/gato2}
+	\includegraphics[width=0.4\textwidth]{ch7/aaaa}
 	\caption[Visual inspection of a HDI.]{Photograph of the visual inspection of a HDI shwing the wirebonds of the TBM (left) and the bondpads of a ROC (right). {\rojo{right fig}}}
 	\label{fig:vis_insp_hdi}
 \end{figure}
@@ -87,7 +87,7 @@ After both BBM and HDI have succesfully passed the visual inspection the BBM con
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{ch7/sensor_probe_positions}
+	\includegraphics[width=0.5\textwidth, height= 0.42\textwidth]{ch7/sensor_probe_positions}
 	\includegraphics[width=0.4\textwidth]{ch7/iv_test}
 	\caption[IV test of BBM]{Left: Probe position for an IV test on a BBM. Probe 2 is high voltage, probe 3 is ground, and probe 1 was not used \cite{ph1_sop}. Right: IV test results for a good BBM. The depletion voltage for this module is around {\rojo{confirm with right picture}}.}
 	\label{fig:sensor_probe_positions}
@@ -115,11 +115,20 @@ The gluing routine was carefully design to perfectly match the HDI and BBM bondp
 \subsection{Wirebonding}
 After an HDI is glued to a BBM the next step in the assembly process is to make electrical connection between them. To this end, a wirebonder machine, Delvotec 56XX, and aluminium wires of 25\,$\mu$m diameter were used. {\rojo{need more}}
 
+Figures \ref{fig:wirebonder}, \ref{wirebondinaction} and \ref{fig:wirebond} show the set up the process and the final product respectively 
 \begin{figure}[!h]
 	\centering
   	\includegraphics[width=0.7\textwidth]{ch7/wirebonder}
-  	\caption[wirebonder machine]{Wirebonding set up {\rojo{looking for a good picture of the wirebonder}}.}
+  	\caption[wirebonder machine]{Wirebonding set up {\rojo{find good picture of the wirebonder}}.}
   	\label{fig:wirebonder}
+\end{figure}
+
+
+\begin{figure}[!h]
+	\centering
+  	\includegraphics[width=0.7\textwidth]{ch7/wire_bond_fig}
+  	\caption[wirebonder process]{Wirebonder in action with a batch of two modules \cite{brian_disc}.}
+  	\label{wirebondinaction}
 \end{figure}
 
 
@@ -155,7 +164,7 @@ A material suitable for this task must be radiation hard and lightweight among o
 
 \subsection{Electrical Test of a Fully assembly Module}
 A manufactured module can be seen in Figure \ref{fig:fully_asem_mod}, it is then visually inspected and mark as ready for electrical test {\rojo{at the end of previous session?}}. 
-The electrical test, hereon fulltest, of fully assembly modules is done using the \ital{pXar} software framework, written by the CMS FPix collaboration. More information on \ital{pXar} can be found in \cite{pxar}. The objective of the \ital{Fulltest} is to ensure that all 16 ROCs were functional and have good performance. For this purpose a suit of several tests were designed and developed, the software is flexible in the sense that we could execute a single test just by calling its name or we could execute them all with a single command \ital{Fulltest}. The \ital{Fulltest} at UNL was done using the set up showing in figure \ref{cold_box} at a temperature of $17^{\circ}$ $C$ and using a depletion voltage of $-150$ $V$. {\rojo{mention el Comandante}}%section 5.1 anotelli
+The electrical test, hereon fulltest, of fully assembly modules is done using the \ital{pXar} software framework, written by the CMS FPix collaboration. More information on \ital{pXar} can be found in \cite{pxar}. The objective of the \ital{Fulltest} is to ensure that all 16 ROCs were functional and have good performance. For this purpose a suit of several tests were designed and developed, the software is flexible in the sense that we could execute a single test just by calling its name or we could execute them all with a single command \ital{Fulltest} with the exception of the IV test. The \ital{Fulltest} at UNL was done using the set up showing in figure \ref{cold_box} at a temperature of $17^{\circ}$ $C$ and using a depletion voltage of $-150$ $V$. The set up allowed us to test up to 4 modules in parallel using a software called \ital{ElComandante} \cite{elcomandante} written specifically for this purpose. The modules are connected via flex cables to adapter cards which convert the data into SCSI format. Each adapter card is connected to a digital test board and the data is finally transferred to a computer via an USB cable. The temperature inside the colbox was controlled by a chiller.
 
 \begin{figure}[!h]
 	\centering
@@ -242,22 +251,40 @@ Next, starting from a high Vtrim, its value is iteratively lowered until the Vca
 \end{figure}
 
 \subsubsection{PH Optimization}
-%The PHOptimization test is responsible for setting an appropriate dynamic range for the 8-bit ADC that digitizes the recorded pulse height. The ADC is located in the Controller and Interface Block of the ROC. It can be seen in the bottom right box of Figure 1. The two DACs used to configure the ADC are PHOffset and PHScale. PHOffset adds a constant offset to the pulse height measurement, while PHScale effectively sets the gain of the ADC. The PHOptimization test is designed to optimize these DACs based on a highly sensitive and highly insensitive pixel in the given ROC, or, in other words, pixels with a very high and very low inherent gain. To use the ADC most effectively, the range of the ADC PH response as a function of Vcal needs to be optimized. On the low end, the ADC should provide a PH well above noise for the low-gain pixel near the lowest Vcal that registers a hit on it. On the high end, the ADC should saturate for the high-gain pixel at some user-defined Vcal well below the maximum Vcal the ROC can provide. This allows the signal strength required for saturation to be measured and 
+The PHOptimization test is responsible for setting the dynamic range of the output pulse height (PH) as calculated by the ADC serializer. It accomplishes this by optimizing the \ital{PHOffset} and \ital{PHScale} DACs, which adds a constant offset to the pulse height measurement and sets the gain of the ADC. \ital{PHOptimization} works in the following way: First it identifies a low gain and a high gain ensuring it is working (good in pixel alive) and as far as possible from the edges of the sensor. Then, two Vcal signals, low = 60 and high = 255, are sent to each pixel in a ROC and 1D distribution of the PH is created for each vcal value, see figure \ref{phvcal}. A pixel close to the center in each of these distribution is selected as the low and high gain pixel for that ROC.
 
-%\begin{figure}[!h]
- % \centering
-  %\includegraphics[width=0.7\textwidth]{../images/ch7/ph_opt}
-  %\caption[Ph Optimization.]{PH optimization.}\label{fig:vis_insp}
-%\end{figure}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{/ch7/phop_min_dist}
+	\includegraphics[width=0.49\textwidth]{/ch7/phop_max_dist}
+	\caption[PH vs Vcal]{Distribution of PH as a function of Vcal used to indentify low (top or left) and high (bottom or right) gain pixels.}
+	\label{phvcal}
+\end{figure}
+
+After both pixels have been identified the test optimizes \ital{PHScale} and \ital{PHOffset} by performing a 2D scan over these two DACs plane. %, using the appropriate Vcal value in each case.
+The output of these scan is showing if figure \ref{phovsphs}. The final value of the DACs are chosen from the interception of these two plots as showing in figure \ref{phovsphs}c.  
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.33\textwidth]{/ch7/phop_min}
+	\includegraphics[width=0.33\textwidth]{/ch7/phop_max}
+	\includegraphics[width=0.32\textwidth]{/ch7/phop_inter}
+	\caption[PHOffset and PHScale scan]{Scan on the PHOffset-PHScale plane used to optimize these DACs. a) for a low gain pixel, b) for a high gain pixel, c) interception of a) and b) showing the values of PHOffset and PHScale.}
+	\label{phovsphs}
+\end{figure}
 
 \subsubsection{Gain Pedestal}
-%The GainPedestal test does not alter any DAC parameters, but merely evaluates and records the shape of the pulse height vs. Vcal distribution for each pixel. For each pixel, this curve is fitted and the fit parameters are stored for later use. Since variations in gain are expected between pixels in a ROC, the gain must be measured independently for each pixel so that the pulse height to be calibrated back to the input signal size, in units of the Vcal DAC (low range). 4.5.2 Methodology For each pixel, a PH vs. Vcal curve is produced. To save time, the pulse height is sampled for a predetermined set of Vcal values instead of doing a complete Vcal scan. In the low Vcal range, the PH is measured in steps of 10 DAC units (configurable), from 10 to 255. Then, in the high Vcal range, the PH is measured for values of 30, 50, 70, 90, and 200. The results of these two scans are then combined into a PH vs. Vcal curve over the full Vcal range. This curve converts the high range Vcal values to their larger low range equivalents by multiplying by a factor of 7. This curve is then fit to an error function and the four fitted parameters and their errors are recorded. Parameter 0 corresponds to the Vcal value at the center of the error function, when the PH is halfway between zero and saturation (255). Parameter 1 is proportional to the width of the turn-on and is therefore inversely related to the gain of the pixel. Parameter 2 shifts the error function upwards, with a value of unity moving the floor of the function to zero. Parameter 3 corresponds to half the height of the function, and should be near 127.5 (255/2). The
+The \ital{Gainpedestal} test measures and records the variation in gain for each pixel in a ROC. Since each pixel will have a different gain these values are needed to calibrate the PH to an input signal. It produces a PH vs. Vcal curvea and fits it with an error function recording the its 4 parameters. Parameter 0 corresponds to
+the Vcal value at the center of the error function. Parameter 1 is proportional to the width of the turn-on and is therefore inversely related to the gain of the pixel. Parameter 2 shifts the error function upwards, with a value of unity moving the floor of the function to zero. Parameter 3 corresponds to half the height of the function, and should be near 127.5 (255/2). {\rojo{include equation?}}% y=A*erf(k*(x-x0))+y0
+The test also measures the linearity of the pixel response by comparing the integral of the fitted error function in the vcal range to a linear approximation. The results of the test for parameter zero and its linearity are shown in figure \ref{gainped}.
 
-%\begin{figure}[!h]
- % \centering
-  %\includegraphics[width=0.7\textwidth]{../images/ch7/gain_ped}
-%  \caption[Gain Pedestal.]{Gain pedestal.}\label{fig:vis_insp}
-%\end{figure}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{ch7/gain_ped_p1}
+	\includegraphics[width=0.6\textwidth]{ch7/bbbb}
+	\caption[Gain pedestal test]{Results of the \ital{GainPedestal} test. a) parameter 0 and b) linearity test {\rojo{find figure}}}
+	\label{gainped}
+\end{figure}
 
 \subsubsection{Scurve Test}
 The SCurve test measures the efficiency of a pixel as a function of Vcal. It is based on the assumption that a pixel will not respond to lower values of Vcal but it will always respond for higher values. In the absence of noise this curve will be just a step function which changes from zero effiecinecy below the threshold to a region of 100\% efficiency above. The effect of the noise is to smear out the step function giving it a \ital{S} shape. As the noise is assume to follow a Gaussian distribution, the SCurve if fitted with an error function and its width is a measure of the noise level in the pixel. Since the Vcal is known at this point in the testing procedure the SCurve is done around this Vcal value. In order to extract an accurate estimate of the width the number of triggers used for the test is 200. The output of this test can seen in figure \ref{fig:scurve}
@@ -323,12 +350,10 @@ Figure \ref{fig:mod_grad_time} shows graded modules over time as well as the mod
  % \includegraphics[width=0.7\textwidth]{../images/ch7/unl_workflow2}
  % \caption[bla for index.]{bla bla.}\label{fig:unl_workflow2}
 %\end{figure}
-
-
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\textwidth]{ch7/pix_unit_cell}
-	\caption[Pixel unit cell.]{Pixel unit cell {\rojo{find calibration figure}}.}
+	\includegraphics[width=0.7\textwidth]{ch7/thepuc}
+	\caption[Pixel unit cell.]{A schematic view of a pixel circuit showing the PUC, CIB, DCP, and some of the relevant DACs.}
 	\label{pix_unit_cell}
 \end{figure}
 
