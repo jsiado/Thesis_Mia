@@ -1,42 +1,57 @@
 %\setcounter{chapter}{7}
 \chapter{Module Production for the Phase I CMS Pixel Detector Upgrade}\label{ch:phase1}
 
-As discussed in chapter \ref{ch:lhcandcms} the CMS pixel detector will {\rojo{suffer}} from radiation damage throughout its lifetime hence the need for periodical upgrades. The first version of the detector was known as phase 0, it became fully operational 2010 after solving a setback during the original starting period in 2008. In 2017 the pixel detector was replaced during the so-called phase 1 upgrade, the University of Nebraska, high energy group (UNL-HEP) played a major role in assembling and testing over 500 modules, from 2013 to 2016, which then became part of the forward region of the pixel detector. The next update of this detector, the phase II upgrade, is projected to take place in 2025 when the current detector will be reaching its limits and its performance will be deteriorated. In this chapter we describe why the phase 0 pixel detector needed an upgrade making and {\rojo{describe}} the work done by the UNL-HEP group. Some of these steps will be highlighted and {\rojo{described}} in detail as they were my contributions to this production campaign. %Specially the  and highlighting 
+As discussed in chapter \ref{ch:lhcandcms}, radiation has a big impact on the CMS pixel detector causing damage to its components throughout its lifetime, therefore this detector needs to be periodically upgraded. The first version of the detector was known as phase 0, it was installed in 2008 and became fully operational in 2010 after a magnet failure caused a delay in the LHC original starting date. In 2017 the pixel detector was replaced during the phase I pixel upgrade. From 2013 to 2106 the University of Nebraska, high energy group (UNL-HEP) played a major role in assembling and testing, which then became part of the forward region of the pixel detector. The next generation of the pixel detector, the phase II upgrade, is projected to take place in 2025 when the current detector will be reaching its radiation limits and its performance will be deteriorated. In this chapter we describe why the phase 0 pixel detector needed an upgrade and the main changes done to it. We also present a description of the module assembly and testing process at UNL. Some of the steps in the process will be highlighted and in detailed as they were my contributions to the production campaign.
+
+%Special attention is making and {\rojo{describe}} the work done by the UNL-HEP group.  %Specially the  and highlighting 
 
 \section{The CMS Forward Pixel Detector Phase I Upgrade}
 {\rojo{how many modules}} 768 or 672.\\ 
 %The CMS pixel detector is composed of two sections, the barrel section (BPix) and the forward section (FPix). Each of these sections (for phase 0) was composed of three layers originally designed to record three 3D positions (tracks) of the particles emerging from the \ital{pp} collisions. As well as to provide information to reconstruct primary and secondary vertices of decaying particles. 
-The phase 0 detector performed well during the LHC run I, taking data at an initial luminosity of $7$ x $10^{33} cm^{-2} s^{-1}$, which was then used in many analysis including the discovery of the Higgs bosson published in 2013. But after a few years of operation the pixel detector started to degrade due to radiation damage, causing an increase of fake rates as well as loose on resolution. Moreover, for run II the LHC planned to double its luminosity with successive increment until it reaches its peak of $2$ x $10^{35} cm^{-2} s^{-1}$. A simulation of the performance of the pixel detector under different luminosity conditions can be seen in figure \ref{fig:red_perf}.
+The phase 0 detector performed well during the LHC run I, taking data at a peak luminosity close to $7$ x $10^{33} cm^{-2} s^{-1}$ and energy of 8 TeV. This data was used in many physics analysis including the discovery of the Higgs bosson published in 2013. But after a few years of operation the pixel detector started to degrade due to radiation damage, causing an increase of fake rates as well as loose on resolution. Moreover, for run II the LHC physics program planned three major updates: to more than double its luminosity with successive increment until it reaches its peak of $2$ x $10^{35} cm^{-2} s^{-1}$, to increase the center of mass energy to 13 TeV and finally to its design value of 14 TeV, reduce the bunch crossing from 50 ns to 25 ns hence increasing the amount of pile up per interaction. As it was designed the phase 0 pixel detector could not withstand such collision conditions. Therefore plans began to design and construct a new and improved detector that could perform effectively in the new LHC running conditions. Figure \ref{redperf} shows a comparison in performance of the previous (top) and the current (bottom) pixel detector under different luminosity  and pile-up conditions. %It is evident 
+%A simulation of the performance of the pixel detector under different luminosity conditions can be seen in figure \ref{fig:red_perf}. 
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.9\textwidth]{ch7/reducedperformance}
-	%\includegraphics[width=0.9\textwidth]{pixel/reducedperformance}
-	\caption[Expected performance of the original pixel detector for different luminosities.]{Expected performance of the original pixel detector under different luminosity conditions: a) track-finding efficiency; b) fake rate. Conventions are the same for both plots, considering zero pileup (blue squares), average pileup of 25 (red dots), average pileup of 50 (black diamonds), and average pileup of 100 (magenta triangles).\cite{pix_tdr}.}
-	\label{fig:red_perf}
+	\includegraphics[width=0.6\textwidth]{ch7/reducedperformance}
+	\includegraphics[width=0.6\textwidth]{ch7/reducedperformance}
+	\caption[Simulated performance comparison of previous and current]{Simulated performace of the previous pixel detector (top) and current (bottom) under different conditions using a $t\bar{t}$ sample: a) track-finding efficiency; b) fake rate. Conventions are the same for both plots, considering zero pileup (blue squares), average pileup of 25 (red dots), average pileup of 50 (black diamonds), and average pileup of 100 (magenta triangles) {\rojo{find figure}}.\cite{pix_tdr}.}
+	\label{redperf}
 \end{figure}
 
-The current forward pixel detector have three endcap disks located at 29.1 cm, 39.6 cm, and 51.6 cm from the intraction point. Compared to the old FPix, innermost disk is 4.4 cm closer to the interaction point. This provides a four-hit coverage for tracks ranging up to $\pm$ 2.5 in pseudorapidity, as showing in figure \ref{schematicofpixeldetector}.
+%Figure \ref{pixeloldandnew} compares the old and the new pixel detector 
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{ch7/schematic_pixel_det}
-	%\includegraphics[width=0.9\textwidth]{pixel/reducedperformance}
-	\caption[Schematic view of the pixel detector]{Schematic view of the pixel detector highlighing the positions of the disks to maximize the 4 hit eta coverage \cite{pix_tdr}.}
-	\label{schematicofpixeldetector}
-\end{figure}
 
-To reduce the extra material added by the extra layer of the pixel detector a lightweight support was used, a CO2 cooling system was adopted, and inactive materials were moved from the tracking area. % To avoid the increase of material that an additional layer signifies, several step by the addition of the extra layer
+For the current pixel detector a new layer was added to the barrel and the forward region, as shown in figure \ref{pixeloldandnew}. The three FPix endcap disks are located at 29.1 cm, 39.6 cm, and 51.6 cm from the interaction point. Compared to the old FPix, the innermost disk is 4.4 cm closer to the interaction point. This provides a four-hit coverage for tracks ranging up to $\pm$ 2.5 in pseudorapidity. To reduce the extra material added by the extra layer of the pixel detector a lightweight support was used, a CO2 cooling system was adopted, and inactive materials were moved away from the tracking area. % To avoid the increase of material that an additional layer signifies, several step by the addition of the extra layer
 Figure \ref{pixelmaterial} shows the amount of material needed for both the old and the current pixel detector as a function of eta.
 
+
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.9\textwidth]{ch7/pixel_material}
-	\caption[Material used by the pixel detector]{Material used by the old (green histograms) and current (black dots) pixel detector \cite{pix_tdr}.}
-	\label{pixelmaterial}
+	\includegraphics[width=0.6\textwidth]{../images/ch7/fpix.pdf}
+	\includegraphics[width=0.39\textwidth]{../images/ch7/bpix.pdf}
+	\caption[Layout of the upgraded and old pixel detectors.]{Layout and comparison of the layers and disks in the upgraded (Phase I) and old (Phase 0) pixel detectors \cite{pix_tdr}.}
+	\label{pixeloldandnew}
 \end{figure}
 
-{\rojo{Overall the geometry of the current FPix is similar to the old detector.}} The three disks are vertically divided into half-disks, and are composed of inner and outer disks. This allows for easy assembly and disassembly for repairs when necessary. Each of these three disks are mounted on half cylinders, which also contains the CO2 cooling tubes and the readout electronics as shown in figure \ref{halfdisk}. Each half disk contains 56 modules bringing the total number of modules for the FPix to 672. One key difference between the old and current detector is the use of one single module type in a 2x8 array. This made easier the installation compared to the old detector.   
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[width=0.9\textwidth]{ch7/schematic_pixel_det}
+%	%\includegraphics[width=0.9\textwidth]{pixel/reducedperformance}
+%	\caption[Schematic view of the pixel detector]{Schematic view of the pixel detector highlighing the positions of the disks to maximize the 4 hit eta coverage \cite{pix_tdr}.}
+%	\label{schematicofpixeldetector}
+%\end{figure}
+
+
+
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[width=0.9\textwidth]{ch7/pixel_material}
+%	\caption[Material used by the pixel detector]{Material used by the old (green histograms) and current (black dots) pixel detector \cite{pix_tdr}.}
+%	\label{pixelmaterial}
+%\end{figure}
+
+In general the geometry of the current FPix is similar to the old detector. The three disks are vertically divided into half-disks, and are composed of inner and outer disks. This allows for easy assembly and disassembly for repairs when necessary. Each of these three disks are mounted on half cylinders, which also contains the CO2 cooling tubes and the readout electronics as shown in figure \ref{halfdisk}. Each half disk contains 56 modules bringing the total number of modules for the FPix to 672. One key difference between the old and current detector is the use of one single module type in a 2x8 array. This made easier the installation compared to the old detector.   
 
 \begin{figure}[!h]
 	\centering
@@ -45,20 +60,13 @@ Figure \ref{pixelmaterial} shows the amount of material needed for both the old 
 	\caption[Half disks and half cylinder]{Half disks and half cylinder for the forward pixel detector \cite{pix_tdr}.}
 	\label{halfdisk}
 \end{figure}
-  
-Modules are mounted on the inner and outer half disks and not attached to the half cylinder. This allows damage modules to be replaced without having to disassembly the half cylinder. The modules in the inner ring are rotated by 12 degrees towards the interaction point to improve resolution in both the azimuthal and radial direction.   
-
-The size of the pixel is 100 x 150 mm. 
-%\begin{figure}[!h]
-%	\centering
-%	\includegraphics[width=0.6\textwidth]{../images/ch7/fpix.pdf}
-%	\includegraphics[width=0.39\textwidth]{../images/ch7/bpix.pdf}
-%	\caption[Layout of the upgraded and old pixel detectors.]{Layout and comparison of the layers and disks in the upgraded (Phase I) and old (Phase 0) pixel detectors \cite{pix_tdr}.}
-%	\label{fig:new_pix}
-%\end{figure}
+Modules are composed of 16 read out chips (ROCs) and each ROC is form by 4160 pixels of 100mm x 150 mm. {\rojo{improve of module and readout}}
+Modules are mounted on the inner and outer half disks and not attached to the half cylinder. This allows damaged modules to be replaced without having to disassembly the half cylinder. The modules in the inner ring are rotated by 12 degrees towards the interaction point to improve resolution in both the azimuthal and radial direction.
 
 \section{Module Production at UNL}
-The UNL module production workflow was designed to follow a pipeline-like structure as shown in figure \ref{fig:unlworkflow}. This allows for different batches of modules to be going through it at different stages without stopping the workflow. Following is a short description of the tests and procedures performed during the production in the UNL silicon Lab. Special emphasis will be made in IV test, visual inspection and electrical test, the stages where the author of this work made a lot of contributions {\rojo{improve}}. 
+The module production for the FPix was a join effort among several US institutions. University of Nebraska and Purdue University were assembly sites, Kansas University was x-ray testing site, and modules were finally tested and incorporated to the disks in the silicon laboratory detector at FermiLab.
+
+The assembly process workflow at UNL was designed to follow a pipeline-like structure as shown in figure \ref{fig:unlworkflow}. This allows for different batches of modules to be going through it at different stages without stopping the workflow. Following is a short description of the tests and procedures performed during the production in the UNL silicon Lab. Special emphasis will be made in IV test, visual inspection and electrical test, the stages where the author of this work made a lot of contributions {\rojo{improve}}. 
 
 %{\rojo{mention 4 sites}}
 

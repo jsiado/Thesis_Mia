@@ -18,21 +18,21 @@
 \contentsline {chapter}{\chapternumberline {7}Module Production for the Phase I CMS Pixel Detector Upgrade}{12}{chapter.7}
 \contentsline {section}{\numberline {7.1}The CMS Forward Pixel Detector Phase I Upgrade}{13}{section.7.1}
 \contentsline {section}{\numberline {7.2}Module Production at UNL}{16}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Visual Inspections}{17}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}IV Test}{21}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Gluing}{22}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Wirebonding}{23}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Encapsulation}{24}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}Electrical Test of a Fully assembly Module}{26}{subsection.7.2.6}
+\contentsline {subsection}{\numberline {7.2.1}Visual Inspections}{16}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}IV Test}{20}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Gluing}{21}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Wirebonding}{22}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Encapsulation}{22}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Electrical Test of a Fully assembly Module}{24}{subsection.7.2.6}
 \contentsline {subsubsection}{\numberline {7.2.6.1}IV Test}{28}{subsubsection.7.2.6.1}
 \contentsline {subsubsection}{\numberline {7.2.6.2}Pretest}{28}{subsubsection.7.2.6.2}
 \contentsline {subsubsection}{\numberline {7.2.6.3}Pixel Alive}{29}{subsubsection.7.2.6.3}
 \contentsline {subsubsection}{\numberline {7.2.6.4}Trimming Test}{31}{subsubsection.7.2.6.4}
-\contentsline {subsubsection}{\numberline {7.2.6.5}PH Optimization}{33}{subsubsection.7.2.6.5}
-\contentsline {subsubsection}{\numberline {7.2.6.6}Gain Pedestal}{35}{subsubsection.7.2.6.6}
-\contentsline {subsubsection}{\numberline {7.2.6.7}Scurve Test}{36}{subsubsection.7.2.6.7}
-\contentsline {subsubsection}{\numberline {7.2.6.8}Bond Bonding Test}{37}{subsubsection.7.2.6.8}
-\contentsline {subsubsection}{\numberline {7.2.6.9}Summary}{38}{subsubsection.7.2.6.9}
+\contentsline {subsubsection}{\numberline {7.2.6.5}PH Optimization}{32}{subsubsection.7.2.6.5}
+\contentsline {subsubsection}{\numberline {7.2.6.6}Gain Pedestal}{33}{subsubsection.7.2.6.6}
+\contentsline {subsubsection}{\numberline {7.2.6.7}Scurve Test}{35}{subsubsection.7.2.6.7}
+\contentsline {subsubsection}{\numberline {7.2.6.8}Bond Bonding Test}{36}{subsubsection.7.2.6.8}
+\contentsline {subsubsection}{\numberline {7.2.6.9}Summary}{37}{subsubsection.7.2.6.9}
 \contentsline {chapter}{\chapternumberline {8}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{42}{chapter.8}
 \contentsline {section}{\numberline {8.1}Introduction}{42}{section.8.1}
 \contentsline {section}{\numberline {8.2}The RD53 Chip}{42}{section.8.2}
@@ -43,4 +43,4 @@
 \contentsline {section}{\numberline {9.1}Analysis}{43}{section.9.1}
 \contentsline {section}{\numberline {9.2}Phase 1}{43}{section.9.2}
 \contentsline {section}{\numberline {9.3}Beam Test}{43}{section.9.3}
-\contentsline {chapter}{References}{44}{section*.46}
+\contentsline {chapter}{References}{44}{section*.45}
