@@ -83,7 +83,7 @@ The UNL-HEP group assembly workflow started upon receiving two components: a Bar
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.3\textwidth]{ch7/bbm}
-	\includegraphics[width=0.3\textwidth]{ch7/hdi}
+	\includegraphics[width=0.3\textwidth, height= 0.6\textwidth]{ch7/hdi}
 	\caption[Photograph of a BBM and HDI.]{Photograph of a BBM (left) and HDI (right) as received by the UNL-HEP group.}
 	\label{fig:bbmyhdi}
 \end{figure}
@@ -112,8 +112,8 @@ During visual inspection BBMs were scanned for unusual features or sign of damag
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.4\textwidth]{ch7/hdi_tbm}
-	\includegraphics[width=0.4\textwidth]{ch7/aaaa}
-	\caption[Visual inspection of a HDI.]{Photograph of the visual inspection of a HDI shwing the wirebonds of the TBM (left) and the bondpads of a ROC (right). {\rojo{right fig}}}
+	\includegraphics[width=0.4\textwidth]{ch7/hdi_issue}
+	\caption[Visual inspection of a HDI.]{Photograph of the visual inspection of an HDI showing the wirebonds of the TBM. Lleft: good wirebonds connections, right: bent TBM wirebonds, these wires had to be straightened before encapsulation.}
 	\label{fig:vis_insp_hdi}
 \end{figure}
 
@@ -125,7 +125,7 @@ After both BBM and HDI have succesfully passed the visual inspection the BBM con
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.5\textwidth, height= 0.42\textwidth]{ch7/sensor_probe_positions}
-	\includegraphics[width=0.4\textwidth]{ch7/iv_test}
+	\includegraphics[width=0.4\textwidth]{ch7/iv_bbm}
 	\caption[IV test of BBM]{Left: Probe position for an IV test on a BBM. Probe 2 is high voltage, probe 3 is ground, and probe 1 was not used \cite{ph1_sop}. Right: IV test results for a good BBM. The depletion voltage for this module is around {\rojo{confirm with right picture}}.}
 	\label{fig:sensor_probe_positions}
 \end{figure}
@@ -142,40 +142,33 @@ The gluing routine was carefully design to perfectly match the HDI and BBM bondp
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{ch7/hdi_on_bbm}
-	\includegraphics[width=0.5\textwidth]{ch7/hdi_on_bbm_close}
+	\includegraphics[width=0.46\textwidth]{ch7/hdi_on_bbm}
+	\includegraphics[width=0.46\textwidth]{ch7/hdi_on_bbm_close}
 	\caption[Gluing result]{HDI glued on top of a BBM. For a batch of four modules (top) and zoom in view to note the almost perfect alignment between the HDI and BBM bondpads.}
 	\label{fig:hdionbbm}
 \end{figure}
 
 
 \subsection{Wirebonding}
-After an HDI is glued to a BBM the next step in the assembly process is to make electrical connection between them. To this end, a wirebonder machine, Delvotec 56XX, and aluminium wires of 25\,$\mu$m diameter were used. {\rojo{need more}}
+After an HDI is glued to a BBM the next step in the assembly process is to make electrical connection between them. To this end, a wirebonder machine, Delvotec 56XX shown in figure \ref{wirebonder}. The first step in wirebonding was to find the position of the 35 bondpads for both the HDI and the BBM for all 16 ROCs. These positions were then fed into a custom made program to make the process automated. Using this software the wirebonder used aluminium wires of 25\,$\mu$m in diameter to make the connection between the HDi and the BBM %were used. The process consisted in finding the 35 positions of the bonpads on the HDI and the BBM with the software. These position were fed to the program to make the process automated. 
 
-Figures \ref{fig:wirebonder}, \ref{wirebondinaction} and \ref{fig:wirebond} show the set up the process and the final product respectively 
+ 
 \begin{figure}[!h]
 	\centering
   	\includegraphics[width=0.7\textwidth]{ch7/wirebonder}
   	\caption[wirebonder machine]{Wirebonding set up {\rojo{find good picture of the wirebonder}}.}
-  	\label{fig:wirebonder}
+  	\label{wirebonder}
 \end{figure}
 
+Figures \ref{wirebondinaction}left, shows the wirerebinding precess for a batch of two modules. The setup allowed for a maximum of 4 modules to be wirebonded in parallel. The program could also be modified to make repairs in individual wirebonds. And \ref{wirebondinaction}right, shows a close up view of the worebonds of a ROC in a module.
 
 \begin{figure}[!h]
 	\centering
-  	\includegraphics[width=0.7\textwidth]{ch7/wire_bond_fig}
-  	\caption[wirebonder process]{Wirebonder in action with a batch of two modules \cite{brian_disc}.}
+  	\includegraphics[width=0.45\textwidth]{ch7/wire_bond_fig}
+  	\includegraphics[width=0.45\textwidth]{ch7/wirebond}
+  	\caption[Wirebonding process]{Left: Wirebonder in action with a batch of two modules. Right: Close up look at a ROC after wirebonding\cite{brian_disc}.}
   	\label{wirebondinaction}
 \end{figure}
-
-
-\begin{figure}[!h]
-  	\centering
-  	\includegraphics[width=0.7\textwidth]{ch7/wirebond}
-  	\caption[Wirebonded module]{Close up view of the wirebonds for a single ROC on a wirebonded module.}
-  	\label{fig:wirebond}
-\end{figure}
-
 
 
 \subsection{Encapsulation}
@@ -224,7 +217,7 @@ A fully assembled module also undergoes an IV test as described in \ref{ivbbm}. 
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.4\textwidth]{ch7/iv_test}
+	\includegraphics[width=0.4\textwidth]{ch7/iv_full}
   	\caption[IV results of a module]{IV test for a fully assembly module.}
   	\label{ivfullmod}
 \end{figure}
@@ -338,7 +331,8 @@ The SCurve test measures the efficiency of a pixel as a function of Vcal. It is 
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\textwidth]{ch7/bb_map}
+	\includegraphics[width=0.7\textwidth]{ch7/bb_map_good}
+	\includegraphics[width=0.7\textwidth]{ch7/bb_map_bad}
 	\caption[Bond bonding test.]{Bond bonding test.}
 	\label{fig:bb_map}
 \end{figure}
