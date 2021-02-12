@@ -2,48 +2,55 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The CERN acceleration \textit {facilities}}}{3}{figure.caption.3}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces LHC luminosity}}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces LHC dipoles}}{4}{figure.caption.5}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces CMS detector}}{5}{figure.caption.6}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces CMS cross sectional view}}{5}{figure.caption.7}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces CMS detector coordinate system}}{6}{figure.caption.8}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Pixel detector}}{7}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces CMS detector}}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces LHC luminosity}}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces CMS cross sectional view}}{7}{figure.caption.6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces CMS detector coordinate system}}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Pixel detector}}{10}{figure.caption.8}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Simulated performance comparison of previous and current}}{14}{figure.caption.10}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Layout of the upgraded and old pixel detectors.}}{15}{figure.caption.11}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Half disks and half cylinder}}{15}{figure.caption.12}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces UNL module assembly workflow}}{17}{figure.caption.13}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Photograph of a BBM and HDI.}}{18}{figure.caption.14}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Photograph of the visual inspection and IV test station.}}{18}{figure.caption.15}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Visual inspection of a bare module.}}{19}{figure.caption.16}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Visual inspection of a HDI.}}{19}{figure.caption.17}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces IV test of BBM}}{21}{figure.caption.18}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Gluing and encapsulation set up}}{22}{figure.caption.19}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Gluing result}}{22}{figure.caption.20}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces wirebonder machine}}{23}{figure.caption.21}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Wirebonding process}}{23}{figure.caption.22}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Encapsulation materials}}{24}{figure.caption.23}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Encapsulation results}}{25}{figure.caption.24}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Fully assembly Module}}{26}{figure.caption.25}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Testing set up}}{26}{figure.caption.26}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces IV results of a module}}{27}{figure.caption.27}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Programable ROC and working point}}{29}{figure.caption.28}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Pixel alive test}}{29}{figure.caption.29}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Faulty pixel alive test}}{30}{figure.caption.30}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Trim test turn on}}{31}{figure.caption.31}
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Trim test Trim bits}}{32}{figure.caption.32}
-\contentsline {figure}{\numberline {7.24}{\ignorespaces Trim test final}}{33}{figure.caption.33}
-\contentsline {figure}{\numberline {7.25}{\ignorespaces PH vs Vcal}}{33}{figure.caption.34}
-\contentsline {figure}{\numberline {7.26}{\ignorespaces PHOffset and PHScale scan}}{34}{figure.caption.35}
-\contentsline {figure}{\numberline {7.27}{\ignorespaces Gain pedestal test}}{35}{figure.caption.36}
-\contentsline {figure}{\numberline {7.28}{\ignorespaces Scurve test}}{36}{figure.caption.37}
-\contentsline {figure}{\numberline {7.29}{\ignorespaces Bond bonding test.}}{37}{figure.caption.38}
-\contentsline {figure}{\numberline {7.30}{\ignorespaces Module assembly over time.}}{38}{figure.caption.39}
-\contentsline {figure}{\numberline {7.31}{\ignorespaces Module grade over time.}}{39}{figure.caption.41}
-\contentsline {figure}{\numberline {7.32}{\ignorespaces Pixel unit cell.}}{40}{figure.caption.42}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Simulated performance comparison of previous and current}}{17}{figure.caption.9}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Layout of the upgraded and old pixel detectors.}}{18}{figure.caption.10}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Half disks and half cylinder}}{18}{figure.caption.11}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces UNL module assembly workflow}}{20}{figure.caption.12}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Photograph of a BBM and HDI.}}{21}{figure.caption.13}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Photograph of the visual inspection and IV test station.}}{21}{figure.caption.14}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Visual inspection of a bare module.}}{22}{figure.caption.15}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Visual inspection of a HDI.}}{22}{figure.caption.16}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces IV test of BBM}}{24}{figure.caption.17}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Gluing and encapsulation set up}}{25}{figure.caption.18}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Gluing result}}{25}{figure.caption.19}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces wirebonder machine}}{26}{figure.caption.20}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Wirebonding process}}{26}{figure.caption.21}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Encapsulation materials}}{27}{figure.caption.22}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Encapsulation results}}{28}{figure.caption.23}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Fully assembly Module}}{29}{figure.caption.24}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Testing set up}}{29}{figure.caption.25}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces IV results of a module}}{30}{figure.caption.26}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Programable ROC and working point}}{32}{figure.caption.27}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Pixel alive test}}{32}{figure.caption.28}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Faulty pixel alive test}}{33}{figure.caption.29}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Trim test turn on}}{34}{figure.caption.30}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Trim test Trim bits}}{35}{figure.caption.31}
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Trim test final}}{36}{figure.caption.32}
+\contentsline {figure}{\numberline {7.25}{\ignorespaces PH vs Vcal}}{36}{figure.caption.33}
+\contentsline {figure}{\numberline {7.26}{\ignorespaces PHOffset and PHScale scan}}{37}{figure.caption.34}
+\contentsline {figure}{\numberline {7.27}{\ignorespaces Gain pedestal test}}{38}{figure.caption.35}
+\contentsline {figure}{\numberline {7.28}{\ignorespaces Scurve test}}{39}{figure.caption.36}
+\contentsline {figure}{\numberline {7.29}{\ignorespaces Bond bonding test.}}{40}{figure.caption.37}
+\contentsline {figure}{\numberline {7.30}{\ignorespaces Module assembly over time.}}{41}{figure.caption.38}
+\contentsline {figure}{\numberline {7.31}{\ignorespaces Module grade over time.}}{42}{figure.caption.40}
+\contentsline {figure}{\numberline {7.32}{\ignorespaces Pixel unit cell.}}{43}{figure.caption.41}
 \addvspace {10pt}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Test beam setup}}{44}{figure.caption.42}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Test beam setup}}{45}{figure.caption.43}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces chip}}{45}{figure.caption.44}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Cell efficiency}}{46}{figure.caption.45}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Charge}}{46}{figure.caption.46}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Cluster.}}{47}{figure.caption.47}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces X_residuals.}}{47}{figure.caption.48}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Y residuals.}}{47}{figure.caption.49}
 \addvspace {10pt}

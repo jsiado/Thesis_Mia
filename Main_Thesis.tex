@@ -1,30 +1,20 @@
-%% This is file `skeleton.tex',
-%% generated with the docstrip utility.
-%%
+%% This is file `skeleton.tex', generated with the docstrip utility.
 %% The original source files were:
 %%
 %% nuthesis.dtx  (with options: `skeleton')
-%% For common degrees, you can use the class options:
-%% phd, edd, ms, ma
-%% phd is the default
-
+%% For common degrees, you can use the class options: phd, edd, ms, ma. phd is the default
 
 \documentclass[print]{nuthesis}
 %\usepackage{mathptmx} % times new roman
 \usepackage{graphicx}
-\graphicspath{ {nuthesis/images/} }
+\graphicspath{{nuthesis/images/}}
 \usepackage{times}
 \usepackage{epstopdf}
 \usepackage{amsmath}
-%\usepackage{program}
-%\usepackage{algorithmic}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
-
-
-
-%%% My packages
-
+\usepackage{lipsum}
+% My packages
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{latexsym}
@@ -34,26 +24,17 @@
 \usepackage{epsfig}
 %\usepackage{subfigure} % subfiguras
 \usepackage{hyperref}
+\hypersetup{colorlinks = true, urlcolor = blue, linkcolor = blue, citecolor = blue}
 \usepackage{amssymb}
 %\usepackage[pdftex]{color,graphicx}
 \usepackage{color} %Paquete para escribir letras en color
-%\usepackage[pdftex]{hyperref}
-%\usepackage[dvips]{graphicx}
-%\usepackage{setspace}
-%\singlespacing
-%\usepackage{fancyhdr}
 \usepackage[hang]{footmisc}
 \usepackage[font=small,labelfont=bf]{caption}
-%\usepackage{biblatex}
-%\usepackage{cite}
-%\usepackage[noadjust]{cite}
+\usepackage{cite}
 \usepackage{pifont}
 \usepackage{multirow}
-
 \usepackage{xspace}
-
 \usepackage{lmodern}
-\usepackage{cite}
 \usepackage{lineno}
 \usepackage{arydshln} %for dashed lines
 \usepackage{slashed}
@@ -63,20 +44,6 @@
 
 
 
-
-\newcommand{\tHq}{\ensuremath{tHq}\xspace}
-\newcommand{\tHW}{\ensuremath{tHW}\xspace}
-\newcommand{\tH}{\ensuremath{tH}\xspace}
-\newcommand{\ttH}{\ensuremath{t\bar{t}H}\xspace}
-\newcommand{\ttZ}{\ensuremath{t\bar{t}Z}\xspace}
-\newcommand{\ttW}{\ensuremath{t\bar{t}W}\xspace}
-\newcommand{\ttV}{\ensuremath{t\bar{t}\mathrm{V}}}
-\newcommand{\WW}{\ensuremath{WW}\xspace}
-\newcommand{\HWW}{\ensuremath{HWW}\xspace}
-\newcommand{\WZ}{\ensuremath{WZ}\xspace}
-\newcommand{\ZZ}{\ensuremath{ZZ}\xspace}
-\newcommand{\tZW}{\ensuremath{tZW}}
-\newcommand{\tZq}{\ensuremath{tZq}}
 \newcommand{\tautau}{\ensuremath{\tau\tau}\xspace}
 \newcommand{\Zll}{\ensuremath{\mathrm{Z}\to\ell^+\ell^-}\xspace}
 \newcommand{\Ztt}{\ensuremath{\mathrm{Z}\to\tau^+\tau^-}\xspace}
@@ -88,8 +55,6 @@
 \newcommand{\ptRel}{\ensuremath{\pt^\text{rel}}\xspace}
 \newcommand{\relIso}{\ensuremath{I_\text{rel}}\xspace}
 \newcommand{\miniIso}{\ensuremath{I_\text{mini}}\xspace}
-\newcommand{\CV}{\ensuremath{\kappa_\text{V}}\xspace}
-\newcommand{\Ct}{\ensuremath{\kappa_t}\xspace}
 \newcommand{\ft}{\ensuremath{f_t}\xspace}
 \newcommand{\mumu}{\ensuremath{\mu^\pm\mu^\pm}\xspace}
 \newcommand{\emu}{\ensuremath{\e^\pm\mu^\pm}\xspace}
@@ -106,69 +71,28 @@
 \newcommand{\wpm}{\ensuremath{W^\pm}\xspace}
 %\newcommand{\z0}{\ensuremath{z^0}\xspace}
 \newcommand{\Lagr}{\mathcal{L}}
-\newcommand{\beqn}{\begin{equation}}
-\newcommand{\eeqn}{\end{equation}}
-\newcommand{\bit}{\begin{itemize}}
-\newcommand{\eit}{\end{itemize}}
 \newcommand{\pp}{\ensuremath{pp}\xspace}
 \newcommand{\etac}{\ensuremath{\eta}\xspace} %\etac=\eta coord
 \newcommand{\phic}{\ensuremath{\phi}\xspace}
 \newcommand{\dt}{\ensuremath{\mathcal{DT}}\xspace}
-\newcommand{\ital}{\textit}
 \newcommand{\MET}{\ensuremath{E_T^{miss}}\xspace}
 \newcommand{\e}{\textrm{e}}
+
+
 \newcommand{\tbf}{\textbf}
 \newcommand{\rojo}{\color{red}}
+\newcommand{\ital}{\textit}
 
 \setcounter{secnumdepth}{4}
 
 %\renewcommand*{\chapnumfont}{\normalfont\Large\bfseries\rmfamily}
 %\renewcommand*{\chaptitlefont}{\normalfont\Large\scshape\bfseries\rmfamily}
 
-
 %%%%%%%%%%%   chapter styles %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \chapterstyle{bianchi}
 \renewcommand*{\chapnamefont}{\normalfont\large\rmfamily\scshape}
 \renewcommand*{\chapnumfont}{\normalfont\large}
 \renewcommand*{\chaptitlefont}{\normalfont\large\rmfamily}
-
-%\chapterstyle{crosshead}
-%\chapterstyle{dowding}
-%\chapterstyle{ntglike}
-
-
-%%%%%%%% chapterstyle VZ21%%%%%%%%%%%%%%%%%%%%%%
-%% \usepackage{calc,fourier}
-%% \usepackage[T1]{fontenc}
-%% \makeatletter
-%% \setlength\midchapskip{7pt}
-%% \makechapterstyle{VZ21}{
-%%   \renewcommand\chapnamefont{\Large\scshape}
-%%   \renewcommand\chapnumfont{\Large\scshape\centering}
-%%   \renewcommand\chaptitlefont{\huge\bfseries\centering}
-%%   \renewcommand\printchaptertitle[1]{%
-%%     \setlength\tabcolsep{7pt}% used as indentation on both sides
-%%     \settowidth\@tempdimc{\chaptitlefont ##1}%
-%%     \setlength\@tempdimc{\textwidth-\@tempdimc-2\tabcolsep}%
-%%     \chaptitlefont
-%%     \ifdim\@tempdimc > 0pt\relax% one line
-%%     \begin{tabular}{c}
-%%         ##1\\ 
-%%     \end{tabular}
-%%     \else% two+ lines
-%%     \begin{tabular}{%
-%%         >{\chaptitlefont\arraybackslash}p{\textwidth-2\tabcolsep}}
-%%        ##1\\ 
-%%     \end{tabular}
-%%     \fi
-%%   }
-%% }
-%% \makeatother
-%% \chapterstyle{VZ21}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \addto\captionsenglish{% Replace "english" with the language you use
   \renewcommand{\contentsname}%
@@ -177,11 +101,8 @@
 
 \begin{document}
 
-%\linenumbers
-
 \renewcommand\bibname{References}
-%% Start formatting the first few special pages
-%% frontmatter is needed to set the page numbering correctly
+%% Start formatting the first few special pages frontmatter is needed to set the page numbering correctly
 \frontmatter
 
 \title{Search for something}
@@ -192,32 +113,27 @@
 \degreemonth{July}
 \degreeyear{2020}
 
-%% For most people the following can be changed with a class
-%% option. To manually set these, just uncomment the following and
-%% make the needed changes.
+%% For most people the following can be changed with a class option. To manually set these, just uncomment the following and make the needed changes.
 \doctype{Dissertation}
 \degree{Doctor of Philosophy}
 \degreeabbreviation{Ph.D.}
-%%
-%% Now that we know everything we need, we can generate the title page
-%% itself.
-%%
+
+%% Now that we know everything we need, we can generate the title page itself.
+
 \maketitle
-%%
-%% You have a maximum of 350 words for your abstract, which includes
-%% your title, name, etc.
-%%
-%% Required
+%% You have a maximum of 350 words for your abstract, which includes your title, name, etc. It is required
 \begin{abstract}
  \input{nuthesis/sections/Abstract.tex}
 \end{abstract}
 
-%% Optional
-%% \begin{copyrightpage}
-%% \end{copyrightpage}
+%Optional
+\begin{copyrightpage}
+my rights
+\end{copyrightpage}
 
 %% Optional
 \begin{dedication}
+For you
 %  \vspace{0.3\textheight}
   % \centering
  % {\huge \textit{``... Josefa.}}\\ \ \\
@@ -227,17 +143,13 @@
   %{\Huge $ \mathfrak{ to \ Nenas \ and \  nenita}$}
 \end{dedication}
 
-%% Optional
 \begin{acknowledgments}
-
-%\input{nuthesis/sections/Introduction.tex}
-
+thank you all. 
 \end{acknowledgments}
 
 %% Optional
 %% \begin{grantinfo}
 %% \end{grantinfo}
-%% The ToC is required
 %% Uncomment these if need be
 
 %% The ToC is required
@@ -247,20 +159,14 @@
 \listoffigures
 \listoftables
 %%
-%% ``Real'' beginning of the document. %% mainmatter is needed to set the page numbering correctly
-%%   mainmatter is needed after the ToC, (LoF, and LoT) to set the %%   page numbering correctly for the main body
+%% ``Real'' beginning of the document. %% mainmatter is needed to set the page numbering correctly. Mainmatter is needed after the ToC, (LoF, and LoT) to set the %%   page numbering correctly for the main body
 \mainmatter
-%% Thesis goes here
-%%\chapter{My Thesis}
-%%\1. Introduction
-%%\2. Related Work
-%%\3. 3D reconstruction
-%%\4. Hyperspectra data cube mining
 
 %\input{nuthesis/sections/Ch0-Read-Notes.tex}
 \input{nuthesis/sections/Ch1-Introduction.tex}
 \input{nuthesis/sections/Ch2-LHCandCMS.tex}
 \input{nuthesis/sections/Ch3-SMandBSM.tex}
+%\input{nuthesis/sections/Ch4-Ana-notes.tex}
 \input{nuthesis/sections/Ch4-Ana-I.tex}
 \input{nuthesis/sections/Ch5-Ana-II.tex}
 \input{nuthesis/sections/Ch6-Ana-III.tex}
@@ -268,24 +174,14 @@
 \input{nuthesis/sections/Ch8-TestBeam.tex}
 \input{nuthesis/sections/Ch9-Conclusions.tex}
 
-%%\input{nuthesis/sections/Future.tex}
-
 \backmatter
 
 %% Start the correct formatting for the appendices
 \appendix
 %\input{nuthesis/sections/datasets.tex}
-%\input{nuthesis/sections/bdt_plots_apendix.tex}
-%\input{nuthesis/sections/ad_binning.tex}
-%\input{nuthesis/sections/bdtctcv_apendix.tex}
-%\input{nuthesis/sections/overlap.tex}
-%\input{nuthesis/sections/forward_jet_model.tex}
-%\input{nuthesis/sections/xsbrscalings.tex}
 
 %% Appendices go here (if you have them)
 
-%% Bibliography goes here (You better have one)
-%% BibTeX is your friend
 %\addcontentsline{toc}{chapter}{Bibliography}
 %\bibliographystyle{abbrv}
 %use following if all content of bibtex file should be shown
@@ -295,12 +191,35 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%    ch2    %%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibitem{lhc} Evans, Lyndon, (ed. ) and Bryant, Philip, (ed. ), LHC Machine, JINST 3 (2008) S08001 \url{https://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08001}
+\bibitem{hig_paper} P. Higgs. Broken Symmetries and the masses of gauge bosons. \url{https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.13.508}
+\bibitem{peter_higgs}{P. Higgs. (1964). "Broken Symmetries and the Masses of Gauge Bosons". Physical Review Letters. 13 (16): 508–509. Bibcode:1964PhRvL..13..508H. doi:10.1103/PhysRevLett.13.508}
+
+\bibitem{other_1}{ Englert, F.; Brout, R. (1964). "Broken Symmetry and the Mass of Gauge Vector Mesons". Physical Review Letters. 13 (9): 321–23. Bibcode:1964PhRvL..13..321E. doi:10.1103/PhysRevLett.13.321.}
+
+\bibitem{other_2}{Brout, R.; Englert, F. (1998). "Spontaneous Symmetry Breaking in Gauge Theories: A Historical Survey". arXiv:hep-th/9802142.}
+
+\bibitem{atlas_higgs} ATLAS Collaboration, “Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC”, Phys. Lett. B 716 (2012) 1, doi:10.1016/j.physletb.2012.08.020, arXiv:1207.7214.
+\bibitem{cms_higgs} CMS Collaboration, “Observation of a new boson at a mass of 125 GeV with the CMS
+experiment at the LHC”, Phys. Lett. B 716 (2012) 30,
+doi:10.1016/j.physletb.2012.08.021, arXiv:1207.7235.
+
+
 \bibitem{atlas}{The Atlas collaboration, Technical Design Report LHCC 99-14, ATLAS TDR 14. CERN, Geneva Switzerland, 1999}
 \bibitem{cms_doc}{CMS Collaboration. The CMS Experiment at the CERN LHC. Volume 3, 2008.}
 \bibitem{lhcb}{LHCb Collaboration, S. Amato et al., LHCb technical proposal,CERN-LHCC-98-04}
 \bibitem{alice}{ALICE: Technical proposal for a large ion collider experiment at the CERN LHC, CERN-LHCC-95-71.}
 \bibitem{accelproc} from \url{https://videos.cern.ch/record/1610170.}
 \bibitem{cms_tdr} CMS, the Compact Muon Solenoid: Technical proposal CERN-LHCC-94-38.
+\bibitem{cms_web} \url{http://cms.web.cern.ch/news/cms-detector-design}
+\bibitem{cms_lumi} \url{https://cms.cern/news/first-measurement-lhc-run-2-pp-data-collected-2016-2017-and-2018}
+
+
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%    ch3    %%%%%%%%%%%%%%%%%
@@ -336,21 +255,12 @@
 %%%%%%%%%%%%%%%%%%%    ch8    %%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%    ch9    %%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %\bibitem{Treses}
 %\emph{C. H$\ddot{o}$rmann. Design and performance of the silicon pixel detector modules for the CMS experiment. Dissertation, Universit$\ddot{a}$ Z$\ddot{u}$rich, 2006}
-
 %\bibitem{Doses}
 %\emph{R. Horisberger. Status of pixel upgrade phase I. Presetation from Traker general meeting, CMS week, CERN 9 april 2013}
-
-
-
 %\bibitem{Tres}
 %\emph{The CMS collaboration, CMS Tracker, Technical Design Report LHCC 98-6, CERN, Geneva Switzerland, 1998}
-
 %\bibitem{no used} {\rojo{ not used yet in the main document}
 %\bibitem{pixel_performance} CMS Tracker Group. ``The Performance plots for Phase 1 Pixel Detector 2017'' \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/PixelOfflinePlotsAugust2017#Alignment_of_the_forward_pixels}, last accessed on 01.05.2018
 %\bibitem{unl_sop} UNL Silicon pixel group ``Pixel Phase-I activities at University of Nebraska-Lincoln (UNL)''\url{https://twiki.cern.ch/twiki/bin/view/CMS/UNLPixelPhaseI}, last accessed on 01.05.2018.
@@ -358,25 +268,8 @@
 %\bibitem{pr_algorithm} C. Fangmeier. ``Fiducial recognition'', 2016. Github repository,\url{https://github.com/cfangmeier/Small/blob/master/JupyterNotebooks/Fiducial_Recognition.ipynb}
 %\bibitem{sop_103} F. Meier and J. Monroy `` SOP 103 - Module assembly: Gluing of HDI to BBM'', retrieved from \url{https://twiki.cern.ch/twiki/pub/CMS/UNLPixelPhaseI/UNL-PxPhI-SOP-103-v0.pdf}, last accessed on 05.30.2018.
 %\bibitem{gluing_frank} F. Meier `` Forward Pixel Module Glueing at UNL'' YouTube, Sep. 15, 2014, retrieved from \url{https://www.youtube.com/watch?v=ofdntTIwKY4}.  
-
 %\bibitem{sop_105} F. Meier and J. Monroy `` SOP 105 - Module assembly: Encapsulation of wirebonds'', retrieved from \url{https://twiki.cern.ch/twiki/pub/CMS/UNLPixelPhaseI/UNL-PxPhI-SOP-103-v0.pdf}, last accessed on 05.30.2018.
-
-
-
-
-
 %\bibitem{pixel_performance} CMS Tracker Group. ``The Performance plots for Phase 1 Pixel Detector 2017'' \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/PixelOfflinePlotsAugust2017#Alignment_of_the_forward_pixels}, last accessed on 01.05.2018
-
-
-
-
-
-
-
-
-
-
-
 %\bibitem{maxwell} J.C. Maxwell. ``A dynamical theory of the electromagnetic field''. Philosophical Transactions of the Royal Society of London. 155: 459–512.(1865) doi:10.1098/rstl.1865.0008
 %\bibitem{planck} M. Planck. ``Über das Gesetz der Energieverteilung im Normalspektrum''. Annalen der Physik. 4 (3): 553.(1901).
 %\bibitem{photoeffect} A. Einstein ``Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt''. Annalen der Physik. 17 (6): 132–148, (1905).
@@ -482,7 +375,7 @@
 %\bibitem{cmssw}CMS Collaboration. ``CMSSW Application Framework'', \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookCMSSWFramework}, last accesses 06.02.2018 
 
 
-  %%%%%%%%%%%%%%%%%%%%%%%references for gen sim reco charper%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%references for gen sim reco charper%%%%%%%%%%%%%%%
 
 
 %\bibitem{gen} A. Buckleya, J. Butterworthb, S. Giesekec, et. al. ``General-purpose event generators for LHC physics''. arXiv:1101.2599v1 [hep-ph] 13 Jan 2011
@@ -523,8 +416,8 @@
 %\bibitem{top12035} CMS Collaboration, ``New CMS results at Moriond (Electroweak) 2013'', Retrieved from \url{http://cms.web.cern.ch/sites/cms.web.cern.ch/files/styles/large/public/field/image/TOP12035\_Event01.png?itok=uMdnSqzC}
 %\bibitem{cmsshow} CMS Collaboration. ``Physics Analysis Oriented Event Display ( Fireworks / cmsShow )'', \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookFireworks}, last accessed 10.02.2018.
 
-%% %%%%%%%%%%%%%%%%%%%%references for statistics chapter %%%%%%%%%%%%%%%%%%%%%%  
 
+%% %%%%%%%%%%%%%%%%%%%%references for statistics chapter %%%%%%%%%%%%%%%%%%%%%%  
 %\bibitem{mva} G. Cowan. ``Topics in statistical data analysis for high-energy physics''. arXiv:1012.3589v1
 %\bibitem{tmva}  A. Hoecker et al., ``TMVA-Toolkit for multivariate data analysis'' \href{https://arxiv.org/pdf/physics/0703039.pdf}{arXiv:physics/0703039v5 (2009)} 
 %\bibitem{luca} L. Lista. ``Statistical Methods for Data Analysis in Particle Physics'', 2nd ed. Springer International Publishing. (2017) \url{https://dx.doi.org/10.1007/978-3-319-62840-0}
@@ -542,10 +435,10 @@
 %\bibitem{asymptotic} G. Cowan, K. Cranmer, E. Gross, and O. Vitells, ``Asymptotic formulae for likelihood-based tests of new physics'', European Physical Journal C, vol. 71, p. 1554, (2011).
 %\bibitem{wilks} S. S. Wilks, ``The Large-Sample Distribution of the Likelihood Ratio for Testing Composite Hypotheses'', Annals of Mathematical Statistics, vol. 9, pp. 60-62, (03, 1938).
 
-  
-  %%   %%%%%%%%%%%%%%%%%%%%references for Anlysis chapter %%%%%%%%%%%%%%%%%%%%%%
-  
-  
+
+%%%%%%%%%%%%%%%%%%%%references for Anlysis chapter %%%%%%%%%%%%%%%%%%%%%%
+
+
 %\bibitem{h_mass} G. Aad et al. (ATLAS Collaboration, CMS Collaboration). ``Combined Measurement of the Higgs Boson Mass in pp Collisions at $\sqrt{s}=7$ and 8 TeV with the ATLAS and CMS Experiments''.  Phys. Rev. Lett. 114, 191803. \url{https://arxiv.org/pdf/1503.07589.pdf}.
 %\bibitem{hespel} B. Hespel, F. Maltoni, and E. Vryonidou, ``Higgs and Z boson associated production via gluon fusion in the SM and the 2HDM'', JHEP 06 (2015) 065, \url{https://dx.doi:10.1007/JHEP06(2015)065}, arXiv:1503.01656.
 %\bibitem{diboson} ATLAS Collaboration, ``Measurements of Higgs boson production and couplings in diboson final states with the ATLAS detector at the LHC'', Phys. Lett. B726 (2013) 88-119, doi:10.1016/j.physletb.2014.05.011,10.1016/j.physletb.2013.08.010, arXiv:1307.1427. [Erratum: Phys. Lett.B734,406(2014)].
@@ -556,7 +449,7 @@
 %\bibitem{CMS_PAS_HIG_17-005}CMS Collaboration, ``Search for production of a Higgs boson and a single top quark in multilepton final states in proton collisions at $\sqrt{s}=13$ TeV'', CMS Physics Analysis Summary CMS-PAS-HIG-17-005, 2016.
 %\bibitem{dqm} CMS Collaboration. ``The CMS data quality monitoring software: experience and future prospects'', J. Phys.: Conf. Ser. 513 (2014) 032024
 
-  
+
 %\bibitem{json} CMS Collaboration, ``PdmV2016Analysis,'' (2016). \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/PdmV2016Analysis#DATA}, last accessed 11.04.2016.
 %\bibitem{CMS_AN_2017-029} M. Peruzzi, F. Romeo, B. Stieger et al., ``Search for ttH in multilepton final states at $\sqrt{s}=13$ TeV'', CMS Analysis Note CMS AN-17-029, 2017.
 %\bibitem{THQProdTwiki} B. Maier, ``SingleTopHiggProduction13TeV'', February, 2016. \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/SingleTopHiggsGeneration13TeV}.
@@ -573,11 +466,7 @@
 %\bibitem{CMS_AN_2016-378} J. Monroy, P.Das, B. Stieger et al., ``Search for tHq in multilepton final states at $\sqrt{s}=13$ TeV'', CMS Analysis Note CMS AN-16-378, 2016.
 %\bibitem{fink} T. Chwalek 1 , N. Faltermann 1 , S. Fink 1 , et. al., ``Investigating the top-Yukawa coupling with the production of a Higgs boson in association with a single top quark in the $H \to b\bar{b}$ decay channel. CMS Analysis Note CMS AN-16-065, Version 4, 2017.
 
-
-  
-  %%% references for pixels chapter
-
-
+% references for pixels chapter
 %\bibitem{pixel_performance} CMS Tracker Group. ``The Performance plots for Phase 1 Pixel Detector 2017'' \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/PixelOfflinePlotsAugust2017#Alignment_of_the_forward_pixels}, last accessed on 01.05.2018
 %\bibitem{unl_sop} UNL Silicon pixel group ``Pixel Phase-I activities at University of Nebraska-Lincoln (UNL)''\url{https://twiki.cern.ch/twiki/bin/view/CMS/UNLPixelPhaseI}, last accessed on 01.05.2018.
 %\bibitem{aerotech} Aerotech (n.d.). ``AGS15000 Series'', retrieved from \url{https://www.aerotech.com/product-catalog/gantry-system/ags15000.aspx?p=\%2fproduct-catalog\%2fgantry-system.aspx\%3f}
