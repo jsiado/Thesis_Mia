@@ -35,8 +35,8 @@
 \contentsline {subsubsection}{\numberline {7.2.6.8}Bond Bonding Test}{38}{subsubsection.7.2.6.8}
 \contentsline {subsubsection}{\numberline {7.2.6.9}Summary}{39}{subsubsection.7.2.6.9}
 \contentsline {chapter}{\chapternumberline {8}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{44}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Conclusions}{48}{chapter.9}
-\contentsline {section}{\numberline {9.1}Analysis}{48}{section.9.1}
-\contentsline {section}{\numberline {9.2}Phase 1}{48}{section.9.2}
-\contentsline {section}{\numberline {9.3}Beam Test}{48}{section.9.3}
-\contentsline {chapter}{References}{49}{section*.51}
+\contentsline {chapter}{\chapternumberline {9}Conclusions}{47}{chapter.9}
+\contentsline {section}{\numberline {9.1}Analysis}{47}{section.9.1}
+\contentsline {section}{\numberline {9.2}Phase 1}{47}{section.9.2}
+\contentsline {section}{\numberline {9.3}Beam Test}{47}{section.9.3}
+\contentsline {chapter}{References}{48}{section*.47}
