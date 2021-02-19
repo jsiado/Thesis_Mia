@@ -2,6 +2,7 @@
 *.jpg
 *.aux
 *.pdf
+!Main_Thesis.pdf
 *.out
 *.log
 *.root
