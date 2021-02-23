@@ -1,6 +1,6 @@
 \babel@toc {english}{}
-\contentsline {chapter}{List of Figures}{ix}{section*.1}
-\contentsline {chapter}{List of Tables}{xi}{section*.2}
+\contentsline {chapter}{List of Figures}{x}{section*.1}
+\contentsline {chapter}{List of Tables}{xiii}{section*.2}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}The LHC Accelerator and the CMS Experiment}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}The LHC Accelerator}{2}{section.2.1}
@@ -13,30 +13,53 @@
 \contentsline {subsubsection}{\numberline {2.2.4.2}Pixel Detector}{9}{subsubsection.2.2.4.2}
 \contentsline {subsubsection}{\numberline {2.2.4.3}The trigger}{10}{subsubsection.2.2.4.3}
 \contentsline {chapter}{\chapternumberline {3}The SM and BSM Theories}{11}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}Event generation, simulation and reconstruction}{12}{chapter.4}
-\contentsline {chapter}{\chapternumberline {5}Search for the particle}{13}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}More on the Analysis?}{14}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Module Production for the Phase I CMS Pixel Detector Upgrade}{15}{chapter.7}
-\contentsline {section}{\numberline {7.1}The CMS Forward Pixel Detector Phase I Upgrade}{16}{section.7.1}
-\contentsline {section}{\numberline {7.2}Module Production at UNL}{19}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Visual Inspections}{19}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}IV Test}{23}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Gluing}{23}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Wirebonding}{24}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Encapsulation}{26}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}Electrical Test of a Fully assembly Module}{27}{subsection.7.2.6}
-\contentsline {subsubsection}{\numberline {7.2.6.1}IV Test}{30}{subsubsection.7.2.6.1}
-\contentsline {subsubsection}{\numberline {7.2.6.2}Pretest}{30}{subsubsection.7.2.6.2}
-\contentsline {subsubsection}{\numberline {7.2.6.3}Pixel Alive}{31}{subsubsection.7.2.6.3}
-\contentsline {subsubsection}{\numberline {7.2.6.4}Trimming Test}{32}{subsubsection.7.2.6.4}
-\contentsline {subsubsection}{\numberline {7.2.6.5}PH Optimization}{34}{subsubsection.7.2.6.5}
-\contentsline {subsubsection}{\numberline {7.2.6.6}Gain Pedestal}{37}{subsubsection.7.2.6.6}
-\contentsline {subsubsection}{\numberline {7.2.6.7}Scurve Test}{37}{subsubsection.7.2.6.7}
-\contentsline {subsubsection}{\numberline {7.2.6.8}Bond Bonding Test}{38}{subsubsection.7.2.6.8}
-\contentsline {subsubsection}{\numberline {7.2.6.9}Summary}{39}{subsubsection.7.2.6.9}
-\contentsline {chapter}{\chapternumberline {8}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{44}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Conclusions}{47}{chapter.9}
-\contentsline {section}{\numberline {9.1}Analysis}{47}{section.9.1}
-\contentsline {section}{\numberline {9.2}Phase 1}{47}{section.9.2}
-\contentsline {section}{\numberline {9.3}Beam Test}{47}{section.9.3}
-\contentsline {chapter}{References}{48}{section*.47}
+\contentsline {section}{\numberline {3.1}The Standard Model}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}BSM Theories}{11}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Dark Matter}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Super Symmetry}{11}{subsection.3.2.2}
+\contentsline {chapter}{\chapternumberline {4}Event Generation and Reconstruction in CMS}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Event Generation}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Detector Simulation}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Event Reconstruction}{12}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Jet Reconstruction}{12}{subsection.4.3.1}
+\contentsline {chapter}{\chapternumberline {5}Search for Self Interacting Dark Matter a}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Production and Decay Mechanism of SIDM}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}Lepton-jet}{14}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Displaced Standalone Muons}{14}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Identification and Isolation of lepton-jet candidates}{14}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Electrons}{14}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Photons}{14}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}PF Muons}{14}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}DSA Muons}{14}{subsection.5.2.6}
+\contentsline {section}{\numberline {5.3}Event and Object Selection}{14}{section.5.3}
+\contentsline {section}{\numberline {5.4}Background Estimation}{14}{section.5.4}
+\contentsline {section}{\numberline {5.5}Uncertainties}{14}{section.5.5}
+\contentsline {section}{\numberline {5.6}Results}{14}{section.5.6}
+\contentsline {chapter}{\chapternumberline {6}Module Production for the Phase I CMS Pixel Detector Upgrade}{15}{chapter.6}
+\contentsline {section}{\numberline {6.1}The CMS Forward Pixel Detector Phase I Upgrade}{16}{section.6.1}
+\contentsline {section}{\numberline {6.2}Module Production at UNL}{19}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Visual Inspections}{19}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}IV Test}{23}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Gluing}{23}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Wirebonding}{24}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Encapsulation}{26}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Electrical Test of a Fully assembly Module}{27}{subsection.6.2.6}
+\contentsline {subsubsection}{\numberline {6.2.6.1}IV Test}{30}{subsubsection.6.2.6.1}
+\contentsline {subsubsection}{\numberline {6.2.6.2}Pretest}{30}{subsubsection.6.2.6.2}
+\contentsline {subsubsection}{\numberline {6.2.6.3}Pixel Alive}{31}{subsubsection.6.2.6.3}
+\contentsline {subsubsection}{\numberline {6.2.6.4}Trimming Test}{32}{subsubsection.6.2.6.4}
+\contentsline {subsubsection}{\numberline {6.2.6.5}PH Optimization}{34}{subsubsection.6.2.6.5}
+\contentsline {subsubsection}{\numberline {6.2.6.6}Gain Pedestal}{37}{subsubsection.6.2.6.6}
+\contentsline {subsubsection}{\numberline {6.2.6.7}Scurve Test}{37}{subsubsection.6.2.6.7}
+\contentsline {subsubsection}{\numberline {6.2.6.8}Bond Bonding Test}{38}{subsubsection.6.2.6.8}
+\contentsline {subsubsection}{\numberline {6.2.6.9}Summary}{39}{subsubsection.6.2.6.9}
+\contentsline {chapter}{\chapternumberline {7}Beam Test of the RD53 chip for CMS Pixel Detector Upgrade Phase 2}{44}{chapter.7}
+\contentsline {section}{\numberline {7.1}Test Beam Facility}{44}{section.7.1}
+\contentsline {section}{\numberline {7.2}Devices Under Test}{45}{section.7.2}
+\contentsline {section}{\numberline {7.3}Tracking and Alignment}{45}{section.7.3}
+\contentsline {section}{\numberline {7.4}Results}{45}{section.7.4}
+\contentsline {chapter}{\chapternumberline {8}Conclusions}{48}{chapter.8}
+\contentsline {section}{\numberline {8.1}Analysis}{48}{section.8.1}
+\contentsline {section}{\numberline {8.2}Phase 1}{48}{section.8.2}
+\contentsline {section}{\numberline {8.3}Beam Test}{48}{section.8.3}
+\contentsline {chapter}{References}{49}{section*.48}
